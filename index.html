@@ -282,18 +282,25 @@
     }
     
     .right-navbar .navbar-right-group {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
       display: flex;
       align-items: center;
-      gap: 32px;
+      gap: 48px;
+    }
+
+    .right-navbar .navbar-attend {
       margin-left: auto;
-      justify-content: flex-end;
     }
     
     .navbar-link {
       color: var(--if-white);
       text-decoration: none;
       font-weight: 700;
-      font-size: clamp(0.8rem, 1.2vw + 0.6rem, 0.9rem);
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
       position: relative;
       transition: all 0.3s ease;
     }
@@ -628,6 +635,75 @@
     .hero-video video:hover,
     .hero-video iframe:hover {
       transform: scale(1.02);
+    }
+
+    /* Video thumbnail with play button */
+    .video-thumbnail {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .video-thumbnail:hover {
+      transform: scale(1.02);
+    }
+
+    .video-thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+
+    .video-thumbnail .play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid rgba(121, 88, 237, 0.7);
+      background: rgba(7, 12, 112, 0.5);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .video-thumbnail:hover .play-btn {
+      background: rgba(121, 88, 237, 0.45);
+      border-color: var(--royal-purple);
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+
+    .video-thumbnail .play-btn svg {
+      width: 28px;
+      height: 28px;
+      fill: var(--sunrise-orange);
+      margin-left: 4px;
+    }
+
+    .video-slide .video-thumbnail {
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .video-slide .video-thumbnail .play-btn {
+      width: 60px;
+      height: 60px;
+    }
+
+    .video-slide .video-thumbnail .play-btn svg {
+      width: 22px;
+      height: 22px;
     }
     
     .hero-img {
@@ -2615,22 +2691,18 @@
     </div>
     <div class="navbar-right-group">
       <a href="#vision" class="navbar-link">Vision</a>
-      <a href="#format" class="navbar-link">Format</a>
-      <a href="#nashville" class="navbar-link">Why Nashville?</a>
       <a href="#speakers" class="navbar-link">Speakers</a>
-      <a href="#stakes" class="navbar-link">Summit with Stakes</a>
       <a href="schedule.html" class="navbar-link" target="_blank" rel="noopener noreferrer">Schedule</a>
-      <a href="index_2025.html" class="navbar-link" style="opacity: 0.7;">2025</a>
-      <a class="navbar-btn-gradient" href="tickets.html" target="_blank">
-        Attend Imagine IF
-        <span class="arrow-circle">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="12" fill="#fff"/>
-            <path d="M10 8l4 4-4 4" stroke="#E13FA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </span>
-      </a>
     </div>
+    <a class="navbar-btn-gradient navbar-attend" href="tickets.html" target="_blank">
+      Attend Imagine IF
+      <span class="arrow-circle">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="12" fill="#fff"/>
+          <path d="M10 8l4 4-4 4" stroke="#E13FA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+    </a>
   </nav>
   </header>
 
@@ -2639,12 +2711,8 @@
     <div class="mobile-dropdown-content">
       <ul class="mobile-nav-list">
         <li><a href="#vision" class="mobile-nav-link">Vision</a></li>
-        <li><a href="#format" class="mobile-nav-link">Format</a></li>
-        <li><a href="#nashville" class="mobile-nav-link">Why Nashville?</a></li>
         <li><a href="#speakers" class="mobile-nav-link">Speakers</a></li>
-        <li><a href="#stakes" class="mobile-nav-link">Summit with Stakes</a></li>
         <li><a href="schedule.html" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Schedule</a></li>
-        <li><a href="index_2025.html" class="mobile-nav-link">2025</a></li>
       </ul>
     </div>
   </div>
@@ -2680,13 +2748,12 @@
           </div>
           <div class="hero-media">
             <div class="hero-video">
-              <iframe
-                src="https://www.youtube-nocookie.com/embed/L4G6wMgJ3Cc"
-                title="ImagineIF Nashville"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-              </iframe>
+              <div class="video-thumbnail" data-video-id="L4G6wMgJ3Cc">
+                <img src="https://img.youtube.com/vi/L4G6wMgJ3Cc/maxresdefault.jpg" alt="ImagineIF Nashville">
+                <div class="play-btn">
+                  <svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -2796,28 +2863,52 @@
           <div class="video-carousel-track-wrapper">
             <div class="video-carousel-track">
               <div class="video-slide active" data-video-id="6bbtHYft7t8">
-                <iframe src="https://www.youtube-nocookie.com/embed/6bbtHYft7t8" title="Imagine IF Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="video-thumbnail" data-video-id="6bbtHYft7t8">
+                  <img src="https://img.youtube.com/vi/6bbtHYft7t8/maxresdefault.jpg" alt="Imagine IF Video 1">
+                  <div class="play-btn"><svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg></div>
+                </div>
               </div>
               <div class="video-slide" data-video-id="MCU81VGn2Kw">
-                <iframe data-src="https://www.youtube-nocookie.com/embed/MCU81VGn2Kw" title="Imagine IF Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="video-thumbnail" data-video-id="MCU81VGn2Kw">
+                  <img src="https://img.youtube.com/vi/MCU81VGn2Kw/maxresdefault.jpg" alt="Imagine IF Video 2">
+                  <div class="play-btn"><svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg></div>
+                </div>
               </div>
               <div class="video-slide" data-video-id="NPGF-X1qY44">
-                <iframe data-src="https://www.youtube-nocookie.com/embed/NPGF-X1qY44" title="Imagine IF Video 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="video-thumbnail" data-video-id="NPGF-X1qY44">
+                  <img src="https://img.youtube.com/vi/NPGF-X1qY44/maxresdefault.jpg" alt="Imagine IF Video 3">
+                  <div class="play-btn"><svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg></div>
+                </div>
               </div>
               <div class="video-slide" data-video-id="ZkYSy5y39cE">
-                <iframe data-src="https://www.youtube-nocookie.com/embed/ZkYSy5y39cE" title="Imagine IF Video 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="video-thumbnail" data-video-id="ZkYSy5y39cE">
+                  <img src="https://img.youtube.com/vi/ZkYSy5y39cE/maxresdefault.jpg" alt="Imagine IF Video 4">
+                  <div class="play-btn"><svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg></div>
+                </div>
               </div>
               <div class="video-slide" data-video-id="JLcRUS-a4_g">
-                <iframe data-src="https://www.youtube-nocookie.com/embed/JLcRUS-a4_g" title="Imagine IF Video 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="video-thumbnail" data-video-id="JLcRUS-a4_g">
+                  <img src="https://img.youtube.com/vi/JLcRUS-a4_g/maxresdefault.jpg" alt="Imagine IF Video 5">
+                  <div class="play-btn"><svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg></div>
+                </div>
               </div>
               <div class="video-slide" data-video-id="nW_3jppA9nQ">
-                <iframe data-src="https://www.youtube-nocookie.com/embed/nW_3jppA9nQ" title="Imagine IF Video 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="video-thumbnail" data-video-id="nW_3jppA9nQ">
+                  <img src="https://img.youtube.com/vi/nW_3jppA9nQ/maxresdefault.jpg" alt="Imagine IF Video 6">
+                  <div class="play-btn"><svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg></div>
+                </div>
               </div>
               <div class="video-slide" data-video-id="V-f8JFhbW4E">
-                <iframe data-src="https://www.youtube-nocookie.com/embed/V-f8JFhbW4E" title="Imagine IF Video 7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="video-thumbnail" data-video-id="V-f8JFhbW4E">
+                  <img src="https://img.youtube.com/vi/V-f8JFhbW4E/maxresdefault.jpg" alt="Imagine IF Video 7">
+                  <div class="play-btn"><svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg></div>
+                </div>
               </div>
               <div class="video-slide" data-video-id="kbMfJtEHHLQ">
-                <iframe data-src="https://www.youtube-nocookie.com/embed/kbMfJtEHHLQ" title="Imagine IF Video 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="video-thumbnail" data-video-id="kbMfJtEHHLQ">
+                  <img src="https://img.youtube.com/vi/kbMfJtEHHLQ/maxresdefault.jpg" alt="Imagine IF Video 8">
+                  <div class="play-btn"><svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg></div>
+                </div>
               </div>
               <div class="video-slide video-slide-cta">
                 <a href="https://www.youtube.com/playlist?list=PL2L0KLglmktkV95Iv6SAis4DsqoIROzJz" target="_blank" rel="noopener noreferrer" class="cta-slide-content">
@@ -3240,12 +3331,7 @@
         slides.forEach((slide, i) => slide.classList.toggle('active', i === index));
         dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
 
-        // Lazy load iframe when slide becomes active
-        const activeSlide = slides[index];
-        const iframe = activeSlide.querySelector('iframe');
-        if (iframe && iframe.dataset.src && !iframe.src) {
-          iframe.src = iframe.dataset.src;
-        }
+        // No lazy-load needed — thumbnails handle it via click
       }
 
       // Arrow navigation
@@ -3310,6 +3396,24 @@
     });
 
 
+
+    // Click-to-play: replace thumbnail with YouTube iframe
+    document.querySelectorAll('.video-thumbnail').forEach(thumb => {
+      thumb.addEventListener('click', function() {
+        const videoId = this.dataset.videoId;
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://www.youtube-nocookie.com/embed/' + videoId + '?autoplay=1';
+        iframe.title = 'YouTube video';
+        iframe.frameBorder = '0';
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.allowFullscreen = true;
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.display = 'block';
+        iframe.style.border = 'none';
+        this.replaceWith(iframe);
+      });
+    });
 
     // Parallax effect for hero section
     window.addEventListener('scroll', () => {
@@ -3415,19 +3519,7 @@
         }
       });
       
-      // Ensure video maintains responsive dimensions
-      const heroVideo = document.querySelector('.hero-video video');
-      if (heroVideo) {
-        const maintainVideoSize = function() {
-          this.style.width = '100%';
-          this.style.height = '100%';
-          this.style.objectFit = 'cover';
-        };
-        
-        heroVideo.addEventListener('play', maintainVideoSize);
-        heroVideo.addEventListener('loadedmetadata', maintainVideoSize);
-        heroVideo.addEventListener('canplay', maintainVideoSize);
-      }
+      // Video sizing handled by thumbnail/iframe CSS
     });
 
     // Old speaker data removed - using new 2026 speaker data defined earlier
