@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Local server logs
+server.log
+*.log
+
+# Large media — host externally or use Git LFS before deploy
+uploads/trailer.mp4
+
+# Playwright browser snapshots / artifacts (debugging only)
+.playwright-mcp/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
