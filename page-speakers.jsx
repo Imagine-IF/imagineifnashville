@@ -5,8 +5,9 @@ window.IFSpeakers = (() => {
   const { SpeakerArt } = window.IFArt;
 
   // Mosaic size pattern — repeats. Variety in cells creates the editorial feel.
-  // Headshot-friendly: avoids 'wide' (6×3 landscape) which crops portraits awkwardly.
-  const SIZE_PATTERN = ['lg', 'md', 'md', 'sm', 'tall', 'md', 'tall', 'sm', 'md', 'sm', 'md', 'tall'];
+  // Headshot-friendly: only uses 'lg' (4×4), 'md' (3×3), and 'tall' (3×4).
+  // 'wide' (6×3) and 'sm' (3×2) are landscape ratios that crop portraits awkwardly.
+  const SIZE_PATTERN = ['lg', 'md', 'md', 'tall', 'tall', 'md', 'tall', 'md', 'md', 'tall', 'md', 'tall'];
 
   function SpeakerCard({ s, idx, onOpen }) {
     const size = SIZE_PATTERN[idx % SIZE_PATTERN.length];
