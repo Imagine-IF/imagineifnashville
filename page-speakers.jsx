@@ -22,18 +22,10 @@ window.IFSpeakers = (() => {
               onError={() => setPhotoOk(false)}
             />
           )}
-          <div className="sp-card__overlay">
-            <div className="sp-card__tags">
-              {s.tags && s.tags.slice(0, 2).map(t => <span key={t} className="pill pill--solid-ink">{t}</span>)}
-            </div>
-          </div>
         </div>
         <div className="sp-card__meta">
           <h4>{s.name}</h4>
           <span className="sp-card__role">{s.role}{s.org ? ' · ' + s.org : ''}</span>
-          {s.talk && size !== 'sm' && (
-            <p className="sp-card__talk italic-hero">{s.talk}</p>
-          )}
         </div>
       </article>
     );
