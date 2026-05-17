@@ -51,6 +51,10 @@ window.IF_DATA = {
       photo: 'uploads/speakers/joe-liemandt.jpg',
       bio: 'Self-taught founder of one of the largest private software portfolios in the world. Now building AI-native schools at Alpha School.',
       talk: 'Imagine IF… every great idea found its team.' },
+    { id: 'harry-sudock', name: 'Harry Sudock', role: 'Chief Business Officer', org: 'CleanSpark', tags: ['Money', 'Intelligence'],
+      photo: 'uploads/speakers/harry-sudock.jpg',
+      bio: 'Chief Business Officer at CleanSpark. Operating at the intersection of bitcoin mining and AI compute — a decade of behind-the-meter, megawatt-scale infrastructure that the hyperscalers are now scrambling to learn.',
+      talk: 'Imagine IF… miners built the AI cloud.' },
   ],
 
   sponsors: {
