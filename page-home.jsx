@@ -204,16 +204,16 @@ window.IFHome = (() => {
   }
 
   // ---------------- FEATURED SPEAKERS PREVIEW ----------------
-  // Headshots live at uploads/speakers/<id>.jpg. If a file is missing, SpeakerArt is shown as fallback.
-  function FeaturedHeadshot({ speakerId, seed }) {
+  // Headshots come from speaker.photo in data.js. Missing photos fall back to SpeakerArt.
+  function FeaturedHeadshot({ photo, seed }) {
     const [loaded, setLoaded] = useState(false);
     const [errored, setErrored] = useState(false);
     return (
       <div className="fm-card__art">
         <window.IFArt.SpeakerArt seed={seed} className="fm-card__svg" />
-        {!errored && (
+        {photo && !errored && (
           <img
-            src={`uploads/speakers/${speakerId}.jpg`}
+            src={photo}
             alt=""
             className={'fm-card__photo' + (loaded ? ' is-loaded' : '')}
             onLoad={() => setLoaded(true)}
@@ -239,7 +239,7 @@ window.IFHome = (() => {
           <div className="featured-mosaic">
             {featured.map((s, i) =>
             <article key={s.id} className={'fm-card fm-card--' + i} onClick={() => onNav('speakers')}>
-                <FeaturedHeadshot speakerId={s.id} seed={i} />
+                <FeaturedHeadshot photo={s.photo} seed={i} />
                 <div className="fm-card__meta">
                   <h4>{s.name}</h4>
                   <span className="muted" style={{ fontSize: 13 }}>{s.role} · {s.org}</span>

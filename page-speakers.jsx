@@ -9,13 +9,19 @@ window.IFSpeakers = (() => {
 
   function SpeakerCard({ s, idx, onOpen }) {
     const size = SIZE_PATTERN[idx % SIZE_PATTERN.length];
+    const [photoOk, setPhotoOk] = useState(true);
     return (
       <article className={'sp-card sp-card--' + size} onClick={() => onOpen(s)}>
         <div className="sp-card__art">
           <SpeakerArt seed={idx} className="sp-card__svg" />
-          <div className="sp-card__slot">
-            <image-slot id={'speaker-' + s.id} placeholder={s.name + ' headshot'} shape="rect"></image-slot>
-          </div>
+          {s.photo && photoOk && (
+            <img
+              src={s.photo}
+              alt=""
+              className="sp-card__photo"
+              onError={() => setPhotoOk(false)}
+            />
+          )}
           <div className="sp-card__overlay">
             <div className="sp-card__tags">
               {s.tags && s.tags.slice(0, 2).map(t => <span key={t} className="pill pill--solid-ink">{t}</span>)}
@@ -43,6 +49,9 @@ window.IFSpeakers = (() => {
           </button>
           <div className="sp-modal__art">
             <SpeakerArt seed={(speaker.id.length * 7) % 5} className="sp-modal__svg" />
+            {speaker.photo && (
+              <img src={speaker.photo} alt="" className="sp-modal__photo" />
+            )}
           </div>
           <div className="sp-modal__body">
             <div className="row">
