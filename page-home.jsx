@@ -187,9 +187,6 @@ window.IFHome = (() => {
           <div className="reel-head">
             <span className="eyebrow">The format</span>
             <h2>Every talk opens with a prompt.</h2>
-            <p className="muted" style={{ maxWidth: '52ch' }}>
-              <em className="italic-hero" style={{ fontSize: '1.15em', color: 'var(--royal)' }}>Imagine IF…</em> is how we plant the seed. Each talk belongs to one of the three rails — intelligence, humanity, or money. The prompt is the human-scale articulation of what that rail unlocks.
-            </p>
           </div>
           <div className="reel-grid">
             {seeds.map((s, i) =>
@@ -198,7 +195,6 @@ window.IFHome = (() => {
                   <em className="italic-hero">Imagine IF…</em>
                 </span>
                 <p className="reel-card__prompt">{s.prompt}</p>
-                <span className="reel-card__by">— from {s.speaker}'s talk</span>
               </div>
             )}
           </div>
@@ -208,6 +204,26 @@ window.IFHome = (() => {
   }
 
   // ---------------- FEATURED SPEAKERS PREVIEW ----------------
+  // Headshots live at uploads/speakers/<id>.jpg. If a file is missing, SpeakerArt is shown as fallback.
+  function FeaturedHeadshot({ speakerId, seed }) {
+    const [loaded, setLoaded] = useState(false);
+    const [errored, setErrored] = useState(false);
+    return (
+      <div className="fm-card__art">
+        <window.IFArt.SpeakerArt seed={seed} className="fm-card__svg" />
+        {!errored && (
+          <img
+            src={`uploads/speakers/${speakerId}.jpg`}
+            alt=""
+            className={'fm-card__photo' + (loaded ? ' is-loaded' : '')}
+            onLoad={() => setLoaded(true)}
+            onError={() => setErrored(true)}
+          />
+        )}
+      </div>
+    );
+  }
+
   function SpeakerPreview({ onNav }) {
     const featured = window.IF_DATA.speakers.filter((s) => s.featured);
     return (
@@ -223,9 +239,7 @@ window.IFHome = (() => {
           <div className="featured-mosaic">
             {featured.map((s, i) =>
             <article key={s.id} className={'fm-card fm-card--' + i} onClick={() => onNav('speakers')}>
-                <div className="fm-card__art">
-                  <window.IFArt.SpeakerArt seed={i} className="fm-card__svg" />
-                </div>
+                <FeaturedHeadshot speakerId={s.id} seed={i} />
                 <div className="fm-card__meta">
                   <h4>{s.name}</h4>
                   <span className="muted" style={{ fontSize: 13 }}>{s.role} · {s.org}</span>
@@ -235,10 +249,6 @@ window.IFHome = (() => {
             <div className="fm-card fm-card--more" onClick={() => onNav('speakers')}>
               <div className="fm-card__art fm-card__art--more">
                 <span className="italic-hero" style={{ fontSize: 56, color: 'var(--paper)' }}>+ more</span>
-              </div>
-              <div className="fm-card__meta">
-                <h4>75 confirmed by October</h4>
-                <span className="muted" style={{ fontSize: 13 }}>Building the lineup, week by week</span>
               </div>
             </div>
           </div>
@@ -275,17 +285,12 @@ window.IFHome = (() => {
   // ---------------- AGENDA TEASE ----------------
   function AgendaTease({ onNav }) {
     return (
-      <section className="section" style={{ background: 'var(--midnight)', color: 'var(--paper)' }}>
+      <section className="section section--tight" style={{ background: 'var(--midnight)', color: 'var(--paper)' }}>
         <div className="shell">
-          <div className="section-head">
-            <div>
-              <span className="eyebrow" style={{ color: 'var(--coral)' }}>Agenda</span>
-              <h2 style={{ color: 'var(--paper)' }}>Two days, two stages, <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>no filler</em>.</h2>
-            </div>
-          </div>
-          <p style={{ color: 'rgba(251,246,241,0.7)', fontSize: 18, maxWidth: '52ch' }}>
-            Keynotes, firesides, and panels across the three rails — intelligence, humanity, money. <em className="italic-hero" style={{ color: 'var(--coral)' }}>Full agenda drops closer to the event.</em>
-          </p>
+          <span className="eyebrow" style={{ color: 'var(--coral)' }}>Agenda</span>
+          <h2 style={{ color: 'var(--paper)', marginTop: 12 }}>
+            Agenda <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>to be announced</em>.
+          </h2>
         </div>
       </section>);
 
@@ -328,16 +333,16 @@ window.IFHome = (() => {
         <div className="shell">
           <div className="proceeds">
             <div>
-              <span className="eyebrow" style={{ color: '#8a3a32' }}>Where the money goes</span>
-              <h2 style={{ maxWidth: '16ch' }}>
-                100% of proceeds support <em className="italic-hero" style={{ color: 'var(--royal)' }}>Bitcoin Park</em> and <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>AI Freedom Lab</em>.
+              <span className="eyebrow" style={{ color: '#8a3a32' }}>The mission behind the room</span>
+              <h2 style={{ maxWidth: '18ch' }}>
+                <em className="italic-hero" style={{ color: 'var(--royal)' }}>Bitcoin Park</em> and <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>AI Freedom Lab</em>.
               </h2>
-              <p style={{ color: '#5a2a25', maxWidth: '52ch' }}>
-                Your ticket funds the people doing the work the rest of the year — the lab benches, the open-source builds, the policy fights nobody else is fighting.
+              <p style={{ color: '#5a2a25', maxWidth: '58ch' }}>
+                Bitcoin Park and AI Freedom Lab's mission is to support and accelerate the grassroots freedom tech movement. Your participation plays a significant role in doing just that. We create spaces for mission-obsessed Bitcoiners, builders, and freedom fighters to work, learn, collaborate, and build. Imagine IF brings all these folks together to celebrate and push forward.
               </p>
               <div className="hero__cta" style={{ marginTop: 24 }}>
-                <a className="btn btn--dark btn--lg" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">Attend Imagine IF <span className="arr"></span></a>
-                <button className="btn btn--ghost btn--lg" onClick={() => onNav('idea')}>About BP & AFL</button>
+                <a className="btn btn--dark btn--lg" href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer">Bitcoin Park <span className="arr"></span></a>
+                <a className="btn btn--ghost btn--lg" href="https://aifreedomlab.org" target="_blank" rel="noopener noreferrer">AI Freedom Lab <span className="arr"></span></a>
               </div>
             </div>
             <div className="proceeds__art" aria-hidden="true">

@@ -39,7 +39,7 @@ window.IF_DATA = {
     { id: 'obi-nwosu', name: 'Obi Nwosu', role: 'CEO', org: 'Fedi', tags: ['Money', 'Humanity'],
       bio: 'Building federated mints so bitcoin actually works for the seven billion people who are not American institutional investors.',
       talk: 'Imagine IF… bitcoin came home to the village.' },
-    { id: 'joe-liemandt', name: 'Joe Liemandt', role: 'Principal', org: 'Alpha School', tags: ['Intelligence', 'Humanity'],
+    { id: 'joe-liemandt', name: 'Joe Liemandt', role: 'Principal', org: 'Alpha School', tags: ['Intelligence', 'Humanity'], featured: true,
       bio: 'Self-taught founder of one of the largest private software portfolios in the world. Now building AI-native schools at Alpha School.',
       talk: 'Imagine IF… every great idea found its team.' },
   ],
@@ -49,19 +49,18 @@ window.IF_DATA = {
       { name: 'Human Rights Foundation', short: 'HRF' },
     ],
     founding: [
+      { name: 'Unchained' },
       { name: 'Fedi' },
       { name: 'Foundry' },
-      { name: 'Unchained' },
     ],
     pillar: [
+      { name: 'ARK Invest' },
       { name: 'Cholla Inc.' },
-      { name: 'Ten31' },
       { name: 'CleanSpark' },
       { name: 'Proto' },
     ],
     supporting: [
       { name: 'Bitkey' },
-      { name: 'Satoshi Pacioli Accounting', short: 'Satoshi Pacioli' },
     ],
   },
 
