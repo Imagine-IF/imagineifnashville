@@ -52,7 +52,7 @@ window.IF_DATA = {
     { id: 'gideon-powell', name: 'Gideon Powell', role: 'CEO', org: 'Cholla Inc.', tags: ['Humanity', 'Money'],
       photo: 'uploads/speakers/gideon-powell.webp',
       x: 'https://x.com/gideonpowell',
-      linkedin: 'https://www.linkedin.com/in/gideon-o-powell-84615a50/',
+      linkedin: 'https://www.linkedin.com/in/gideon-o-powell-%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F-84615a50/',
       bio: 'West Texas energy entrepreneur turning stranded gas into computation. Where the oil patch meets the bitcoin block.',
       talk: 'Imagine IF… we stopped flaring the future.' },
     { id: 'obi-nwosu', name: 'Obi Nwosu', role: 'CEO', org: 'Fedi', tags: ['Money', 'Humanity'],
