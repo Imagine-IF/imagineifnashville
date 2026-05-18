@@ -34,38 +34,12 @@ window.IFIdea = (() => {
               <div className="idea-card idea-card--accent">
                 <span className="eyebrow" style={{ color: '#fbf6f1' }}>02 · Agency</span>
                 <h3 style={{ color: '#fbf6f1' }}>Bring the tools.</h3>
-                <p style={{ color: 'rgba(251,246,241,0.8)' }}>Imagination without agency is daydreaming. Every session pairs the prompt with the work — across the three rails of freedom tech: intelligence, humanity, money.</p>
+                <p style={{ color: 'rgba(251,246,241,0.8)' }}>Imagination without agency is daydreaming. Every session pairs the prompt with the work — across three rails of freedom tech: intelligence, humanity, money.</p>
               </div>
               <div className="idea-card">
                 <span className="eyebrow">03 · Convergence</span>
                 <h3>Cross the streams.</h3>
                 <p className="muted">The interesting conversations happen in the overlap. An investor next to an engineer. A policymaker next to a builder. AI sitting next to bitcoin sitting next to energy. Hallway energy, on stage.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="section" style={{ background: 'var(--paper-2)' }}>
-          <div className="shell">
-            <span className="eyebrow">What you won't find</span>
-            <h2 style={{ maxWidth: '14ch', marginTop: 16, marginBottom: 28 }}>
-              We cut three things <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>on purpose</em>.
-            </h2>
-            <div className="cuts-grid">
-              <div className="cut">
-                <span className="cut__num">×</span>
-                <h4>Sponsor pitch decks on the main stage.</h4>
-                <p className="muted">If a check buys you a logo, that's it. The stage is for ideas, not invoices.</p>
-              </div>
-              <div className="cut">
-                <span className="cut__num">×</span>
-                <h4>Panels with five strangers.</h4>
-                <p className="muted">No filler panels. Two voices, three at most, with something real to disagree about.</p>
-              </div>
-              <div className="cut">
-                <span className="cut__num">×</span>
-                <h4>"In today's world…"</h4>
-                <p className="muted">Cut every unnecessary word. Real people, real projects, real places. We hold ourselves to it; we hold our speakers to it.</p>
               </div>
             </div>
           </div>
@@ -80,10 +54,10 @@ window.IFIdea = (() => {
               </div>
               <div>
                 <p style={{ fontSize: 18 }}>
-                  We picked the format because the alternative — "trends in [thing] for [year]" — produces the same conference twelve times a year. None of it survives the elevator ride home.
+                  We picked the format because the alternative — "trends in [thing] for [year]" — produces the same conference twelve times a year. None of it survives the ride home.
                 </p>
                 <p style={{ fontSize: 18 }}>
-                  An <em className="italic-hero" style={{ color: 'var(--royal)' }}>Imagine IF…</em> survives. It plants. People walk out repeating it.
+                  An <em className="italic-hero" style={{ color: 'var(--royal)' }}>Imagine IF…</em> survives. It plants. People walk out entertained, informed, and inspired.
                 </p>
                 <button className="btn btn--primary" style={{ marginTop: 12 }} onClick={() => onNav('speakers')}>See the speakers <span className="arr"></span></button>
               </div>
@@ -113,8 +87,11 @@ window.IFIdea = (() => {
                 </div>
                 <span className="eyebrow">Sibling org · since 2022</span>
                 <h3 style={{ marginTop: 8 }}>Bitcoin Park</h3>
-                <p className="muted">A members-only campus in Nashville for Bitcoiners and freedom-tech builders. Co-working, education, events, and the gathering point for the broader community across the South.</p>
-                <a href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--sunrise)', fontWeight: 600 }}>Visit bitcoinpark.com →</a>
+                <p className="muted">A community-supported campus in Nashville, TN and Austin, TX for mission-obsessed Bitcoiners, builders, and freedom fighters to work, learn, collaborate, and build.</p>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 6, marginTop: 4 }}>
+                  <a href="https://www.meetup.com/bitcoinpark/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--sunrise)', fontWeight: 600 }}>Join the Nashville community →</a>
+                  <a href="https://www.meetup.com/bitcoin-park-austin/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--sunrise)', fontWeight: 600 }}>Join the Austin community →</a>
+                </div>
               </div>
               <div className="ab-org">
                 <div className="ab-org__art" style={{ background: 'linear-gradient(135deg, #b683ed, #7958ed)' }}>
@@ -122,7 +99,8 @@ window.IFIdea = (() => {
                 </div>
                 <span className="eyebrow">Sibling org · launched 2025</span>
                 <h3 style={{ marginTop: 8 }}>AI Freedom Lab</h3>
-                <p className="muted">An open-source lab building AI systems that don't require permission, censorship, or surveillance to work. Research, software, and a place for builders to actually ship.</p>
+                <p className="muted">A community-driven lab incubated at Bitcoin Park, building sovereign AI on the same principles as bitcoin — decentralization, self-custody, open-source development, individual sovereignty. Hackathons, workshops, and a place for builders to ship.</p>
+                <a href="https://luma.com/aifreedomlab" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--royal)', fontWeight: 600 }}>Join the community →</a>
               </div>
               <div className="ab-org ab-org--us">
                 <div className="ab-org__art" style={{ background: 'linear-gradient(135deg, var(--sunrise), var(--royal), var(--midnight))' }}>
