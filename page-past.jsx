@@ -1,5 +1,7 @@
-// Past Ignite Talks archive
+// Past Imagine IF Talks archive — grid of YouTube thumbnails linking to the 2025 playlist
 window.IFPast = (() => {
+  const PLAYLIST = 'PL2L0KLglmktkV95Iv6SAis4DsqoIROzJz';
+
   function Page({ onNav }) {
     const talks = window.IF_DATA.pastTalks;
     const byYear = {};
@@ -10,12 +12,12 @@ window.IFPast = (() => {
       <div className="page">
         <section className="section section--tight" style={{ paddingTop: 180 }}>
           <div className="shell">
-            <span className="eyebrow">Archive · Ignite Talks</span>
+            <span className="eyebrow">Archive · Imagine IF Talks</span>
             <h1 style={{ marginTop: 16, maxWidth: '14ch' }}>
-              Twelve minutes.<br/><em className="italic-hero" style={{ color: 'var(--sunrise)' }}>One idea each.</em>
+              Ten minutes.<br/><em className="italic-hero" style={{ color: 'var(--sunrise)' }}>One idea each.</em>
             </h1>
-            <p style={{ fontSize: 19, color: 'var(--ink-soft)', maxWidth: '54ch', marginTop: 16 }}>
-              Before there was an Imagine IF summit, there were Ignite Talks at Bitcoin Park: short, sharp, and built on the same prompt. The full archive lives here. The format inspired the summit.
+            <p style={{ fontSize: 19, color: 'var(--ink-soft)', maxWidth: '58ch', marginTop: 16 }}>
+              The full Imagine IF 2025 archive — {talks.length} talks at Bitcoin Park, each one a ten-minute prompt on bitcoin, AI, energy, and freedom tech. The format that grew into the summit.
             </p>
           </div>
         </section>
@@ -27,36 +29,31 @@ window.IFPast = (() => {
                 <h2 className="pa-year__num">{yr}</h2>
                 <span className="muted">{byYear[yr].length} talks</span>
               </div>
-              <div className="pa-list">
-                {byYear[yr].map((t, i) => (
-                  <article key={i} className="pa-row">
-                    <div className="pa-row__left">
-                      <span className="pa-row__num">0{i + 1}</span>
-                      <div>
-                        <h4>{t.title.replace(/^Ignite Talk: /, '')}</h4>
-                        <span className="muted" style={{ fontSize: 14 }}>{t.speaker}</span>
+              <div className="pa-grid">
+                {byYear[yr].map((t) => {
+                  const watchUrl = `https://www.youtube.com/watch?v=${t.videoId}&list=${PLAYLIST}`;
+                  const thumbUrl = `https://img.youtube.com/vi/${t.videoId}/hqdefault.jpg`;
+                  return (
+                    <a key={t.videoId} className="pa-card" href={watchUrl} target="_blank" rel="noopener noreferrer">
+                      <div className="pa-card__thumb">
+                        <img src={thumbUrl} alt="" loading="lazy" />
+                        <span className="pa-card__play" aria-hidden="true">
+                          <svg viewBox="0 0 24 24" width="22" height="22">
+                            <polygon points="8,5 20,12 8,19" fill="currentColor" />
+                          </svg>
+                        </span>
                       </div>
-                    </div>
-                    <div className="pa-row__right">
-                      <span className="muted tnum" style={{ fontSize: 14, fontFamily: 'var(--f-head)' }}>{t.length}</span>
-                      <span className="pa-row__play">▶</span>
-                    </div>
-                  </article>
-                ))}
+                      <div className="pa-card__meta">
+                        <h4>{t.title}</h4>
+                        {t.speakers && <span className="pa-card__speakers">{t.speakers}</span>}
+                      </div>
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </section>
         ))}
-
-        <section className="section" style={{ background: 'var(--midnight)', color: 'var(--paper)' }}>
-          <div className="shell" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 24 }}>
-            <div>
-              <span className="eyebrow" style={{ color: 'var(--coral)' }}>Newsletter</span>
-              <h3 style={{ color: 'var(--paper)', marginTop: 8 }}>One short essay, one talk, every other Friday.</h3>
-            </div>
-            <button className="btn btn--primary">Subscribe <span className="arr"></span></button>
-          </div>
-        </section>
       </div>
     );
   }

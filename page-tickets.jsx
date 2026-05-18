@@ -42,7 +42,6 @@ window.IFTickets = (() => {
       priceNote: 'Full access ticket to the summit.',
       ctaLabel: 'Join Waitlist',
       ctaHref: LUMA,
-      featured: true,
       color: 'var(--sunrise)',
     },
   ];
@@ -81,8 +80,7 @@ window.IFTickets = (() => {
             </div>
             <div className="tk-tiers">
               {TIERS.map(t => (
-                <div key={t.id} className={'tk-tier' + (t.featured ? ' tk-tier--featured' : '')} style={{ '--tier-color': t.color }}>
-                  {t.featured && <div className="tk-tier__ribbon">Most popular</div>}
+                <div key={t.id} className="tk-tier" style={{ '--tier-color': t.color }}>
                   <div className="tk-tier__head">
                     <span className="eyebrow" style={{ color: t.color }}>{t.tag}</span>
                     <h3 style={{ marginTop: 8 }}>{t.name}</h3>
@@ -100,7 +98,7 @@ window.IFTickets = (() => {
                     ))}
                   </ul>
                   {t.ctaHref ? (
-                    <a className={t.featured ? 'btn btn--primary' : 'btn btn--ghost'}
+                    <a className="btn btn--ghost"
                        href={t.ctaHref} target="_blank" rel="noopener noreferrer">
                       {t.ctaLabel} <span className="arr"></span>
                     </a>

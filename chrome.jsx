@@ -115,7 +115,7 @@ window.IFChrome = (() => {
               </div>
             </div>
             <div>
-              <h5>Event</h5>
+              <h5>Experience</h5>
               <ul>
                 <li><a href="#idea" onClick={(e) => {e.preventDefault();onNav('idea');}}>The idea</a></li>
                 <li><a href="#speakers" onClick={(e) => {e.preventDefault();onNav('speakers');}}>Speakers</a></li>
@@ -135,12 +135,13 @@ window.IFChrome = (() => {
               <h5>Family</h5>
               <ul>
                 <li><a href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer">Bitcoin Park ↗</a></li>
+                <li><a href="https://aifreedomlab.org" target="_blank" rel="noopener noreferrer">AI Freedom Lab ↗</a></li>
                 <li><a href="mailto:community@bitcoinpark.com">Press</a></li>
               </ul>
             </div>
           </div>
           <div className="foot__bottom">
-            <div>© Imagine IF 2026 · Proceeds to Bitcoin Park & AI Freedom Lab</div>
+            <div>© Imagine IF 2026</div>
           </div>
         </div>
       </footer>);
