@@ -275,6 +275,29 @@ a { color: inherit; text-decoration: none; }
   margin-left: 4px;
 }
 
+.topbar__when {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--f-head);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+.topbar__dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--sunrise);
+  display: inline-block;
+}
+.topbar.is-dark .topbar__when { color: rgba(251, 246, 241, 0.75); }
+@media (max-width: 720px) {
+  .topbar__when { display: none; }
+}
+
 .topbar__right { display: flex; align-items: center; gap: var(--s-3); }
 
 .menu-btn {

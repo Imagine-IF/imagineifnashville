@@ -32,12 +32,6 @@ window.IFHome = (() => {
         <div className="hero__veil" />
         <div className="shell hero__inner hero__inner--cycling">
           <div className="hero__col-text">
-            <div className="hero__meta">
-              <span className="pill" style={{ color: 'var(--paper)', borderColor: 'rgba(251,246,241,0.3)' }}>
-                <span className="dot" style={{ background: 'var(--sunrise)' }}></span>
-                Oct 5–6, 2026 · Nashville
-              </span>
-            </div>
             <h1 className="hero__title">
               <span className="italic-hero" style={{ color: 'var(--coral)' }}>Imagine IF</span>…<br />
               <span className="hero__cycle">
