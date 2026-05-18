@@ -57,7 +57,7 @@ window.IFPast = (() => {
               Ten minutes.<br/><em className="italic-hero" style={{ color: 'var(--sunrise)' }}>One idea each.</em>
             </h1>
             <p style={{ fontSize: 19, color: 'var(--ink-soft)', maxWidth: '58ch', marginTop: 16 }}>
-              The full Imagine IF 2025 archive. The format that grew into the summit.
+              The full Imagine IF 2025 archive. The format that grew into the summit of summits.
             </p>
           </div>
         </section>
