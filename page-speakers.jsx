@@ -86,7 +86,7 @@ window.IFSpeakers = (() => {
           <div className="shell">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: 32 }}>
               <div>
-                <span className="eyebrow">Speakers · {speakers.length} confirmed · more announced weekly</span>
+                <span className="eyebrow">Speakers · {speakers.length} confirmed · more announced soon</span>
                 <h1 style={{ marginTop: 16, maxWidth: '14ch' }}>
                   The room you walk into is <em className="italic-hero" style={{ color: 'var(--royal)' }}>the point</em>.
                 </h1>
