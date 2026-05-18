@@ -40,6 +40,7 @@ window.IF_DATA = {
       talk: 'Imagine IF… abundance was the default.' },
     { id: 'alex-gladstein', name: 'Alex Gladstein', role: 'Chief Strategy Officer', org: 'Human Rights Foundation', tags: ['Freedom Tech', 'Money'], featured: true,
       photo: 'uploads/speakers/alex-gladstein.jpg',
+      photoPos: 'center 35%',
       x: 'https://x.com/gladstein',
       linkedin: 'https://www.linkedin.com/in/alexgladstein/',
       bio: 'Champions Bitcoin as a tool for human rights. Documents how authoritarian regimes weaponize money — and how open networks fight back.',
@@ -62,6 +63,7 @@ window.IF_DATA = {
       talk: 'Imagine IF… bitcoin came home to the village.' },
     { id: 'joe-liemandt', name: 'Joe Liemandt', role: 'Principal', org: 'Alpha School', tags: ['Intelligence', 'Humanity'], featured: true,
       photo: 'uploads/speakers/joe-liemandt.jpg',
+      photoPos: 'center 30%',
       bio: 'Self-taught founder of one of the largest private software portfolios in the world. Now building AI-native schools at Alpha School.',
       talk: 'Imagine IF… every great idea found its team.' },
     { id: 'harry-sudock', name: 'Harry Sudock', role: 'Chief Business Officer', org: 'CleanSpark', tags: ['Money', 'Intelligence'],
@@ -80,21 +82,21 @@ window.IF_DATA = {
 
   sponsors: {
     presenting: [
-      { name: 'Human Rights Foundation', short: 'HRF' },
+      { name: 'Human Rights Foundation', short: 'HRF', url: 'https://hrf.org' },
     ],
     founding: [
-      { name: 'Unchained' },
-      { name: 'Fedi' },
-      { name: 'Foundry' },
+      { name: 'Unchained', url: 'https://unchained.com' },
+      { name: 'Fedi', url: 'https://www.fedi.xyz' },
+      { name: 'Foundry', url: 'https://www.foundrydigital.com' },
     ],
     pillar: [
-      { name: 'ARK Invest' },
-      { name: 'Cholla Inc.' },
-      { name: 'CleanSpark' },
-      { name: 'Proto' },
+      { name: 'ARK Invest', url: 'https://www.ark-invest.com' },
+      { name: 'Cholla Inc.', url: 'https://chollainc.com' },
+      { name: 'CleanSpark', url: 'https://www.cleanspark.com' },
+      { name: 'Proto', url: 'https://www.proto.xyz' },
     ],
     supporting: [
-      { name: 'Bitkey' },
+      { name: 'Bitkey', url: 'https://bitkey.world' },
     ],
   },
 

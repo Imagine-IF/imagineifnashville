@@ -53,7 +53,6 @@ window.IFHome = (() => {
             <TrailerSlot />
           </div>
         </div>
-        <HeroScrollHint />
       </section>);
 
   }
@@ -167,13 +166,14 @@ window.IFHome = (() => {
 
   // ---------------- "IMAGINE IF…" PROMPT REEL ----------------
   function PromptReel() {
+    // Prompts mapped to each speaker's actual 2026 talk thesis.
     const seeds = [
     { speaker: 'Cathie Wood', prompt: 'capital flowed toward the future, not the past.' },
-    { speaker: 'Jeff Booth', prompt: 'abundance was the default.' },
+    { speaker: 'Jeff Booth', prompt: 'the price of tomorrow came true.' },
     { speaker: 'Alex Gladstein', prompt: 'every human had a way out.' },
-    { speaker: 'Scott Harrison', prompt: 'every dollar reached the person it was meant for.' },
+    { speaker: 'Scott Harrison', prompt: 'stories moved more than money.' },
     { speaker: 'Casey Handmer', prompt: 'energy was free.' },
-    { speaker: 'Obi Nwosu', prompt: 'bitcoin came home to the village.' }];
+    { speaker: 'Obi Nwosu', prompt: 'bitcoin reached the next billion wallets.' }];
 
     return (
       <section className="section">
@@ -199,7 +199,7 @@ window.IFHome = (() => {
 
   // ---------------- FEATURED SPEAKERS PREVIEW ----------------
   // Headshots come from speaker.photo in data.js. Missing photos fall back to SpeakerArt.
-  function FeaturedHeadshot({ photo, seed }) {
+  function FeaturedHeadshot({ photo, photoPos, seed }) {
     const [loaded, setLoaded] = useState(false);
     const [errored, setErrored] = useState(false);
     return (
@@ -209,6 +209,7 @@ window.IFHome = (() => {
           <img
             src={photo}
             alt=""
+            style={photoPos ? { objectPosition: photoPos } : undefined}
             className={'fm-card__photo' + (loaded ? ' is-loaded' : '')}
             onLoad={() => setLoaded(true)}
             onError={() => setErrored(true)}
@@ -233,7 +234,7 @@ window.IFHome = (() => {
           <div className="featured-mosaic">
             {featured.map((s, i) =>
             <article key={s.id} className={'fm-card fm-card--' + i} onClick={() => onNav('speakers')}>
-                <FeaturedHeadshot photo={s.photo} seed={i} />
+                <FeaturedHeadshot photo={s.photo} photoPos={s.photoPos} seed={i} />
                 <div className="fm-card__meta">
                   <h4>{s.name}</h4>
                   <span className="muted" style={{ fontSize: 13 }}>{s.role} · {s.org}</span>
@@ -257,7 +258,7 @@ window.IFHome = (() => {
     { v: '2', l: 'days', sub: 'Oct 5 & 6' },
     { v: '2', l: 'stages', sub: 'Main Theatre + Second Stage' },
     { v: '3', l: 'rails', sub: 'Intelligence · Humanity · Money' },
-    { v: '40+', l: 'sessions', sub: 'Keynotes, firesides, panels' }];
+    { v: '30+', l: 'sessions', sub: 'Keynotes, firesides, panels' }];
 
     return (
       <section className="section section--tight">
@@ -296,22 +297,17 @@ window.IFHome = (() => {
     return (
       <section className="section" style={{ background: 'var(--coral)' }}>
         <div className="shell">
-          <div className="proceeds">
-            <div>
-              <span className="eyebrow" style={{ color: '#8a3a32' }}>The mission behind the room</span>
-              <h2 style={{ maxWidth: '18ch' }}>
-                <em className="italic-hero" style={{ color: 'var(--royal)' }}>Bitcoin Park</em> and <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>AI Freedom Lab</em>.
-              </h2>
-              <p style={{ color: '#5a2a25', maxWidth: '58ch' }}>
-                Bitcoin Park and AI Freedom Lab's mission is to support and accelerate the grassroots freedom tech movement. Your participation plays a significant role in doing just that. We create spaces for mission-obsessed Bitcoiners, builders, and freedom fighters to work, learn, collaborate, and build. Imagine IF brings all these folks together to celebrate and push forward.
-              </p>
-              <div className="hero__cta" style={{ marginTop: 24 }}>
-                <a className="btn btn--dark btn--lg" href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer">Bitcoin Park <span className="arr"></span></a>
-                <a className="btn btn--ghost btn--lg" href="https://aifreedomlab.org" target="_blank" rel="noopener noreferrer">AI Freedom Lab <span className="arr"></span></a>
-              </div>
-            </div>
-            <div className="proceeds__art" aria-hidden="true">
-              <Convergence className="proceeds__svg" />
+          <div className="proceeds proceeds--full">
+            <span className="eyebrow" style={{ color: '#8a3a32' }}>The mission behind the room</span>
+            <h2 style={{ maxWidth: '24ch', marginTop: 14 }}>
+              <em className="italic-hero" style={{ color: 'var(--royal)' }}>Bitcoin Park</em> and <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>AI Freedom Lab</em>.
+            </h2>
+            <p style={{ color: '#5a2a25', maxWidth: '72ch', fontSize: 19, lineHeight: 1.6, marginTop: 20 }}>
+              Bitcoin Park and AI Freedom Lab's mission is to support and accelerate the grassroots freedom tech movement. Your participation plays a significant role in doing just that. We create spaces for mission-obsessed Bitcoiners, builders, and freedom fighters to work, learn, collaborate, and build. Imagine IF brings all these folks together to celebrate and push forward.
+            </p>
+            <div className="hero__cta" style={{ marginTop: 28 }}>
+              <a className="btn btn--dark btn--lg" href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer">Bitcoin Park <span className="arr"></span></a>
+              <a className="btn btn--ghost btn--lg" href="https://aifreedomlab.org" target="_blank" rel="noopener noreferrer">AI Freedom Lab <span className="arr"></span></a>
             </div>
           </div>
         </div>

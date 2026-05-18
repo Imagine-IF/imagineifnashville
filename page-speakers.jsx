@@ -20,6 +20,7 @@ window.IFSpeakers = (() => {
             <img
               src={s.photo}
               alt=""
+              style={s.photoPos ? { objectPosition: s.photoPos } : undefined}
               className="sp-card__photo"
               onError={() => setPhotoOk(false)}
             />
@@ -44,7 +45,7 @@ window.IFSpeakers = (() => {
           <div className="sp-modal__art">
             <SpeakerArt seed={(speaker.id.length * 7) % 5} className="sp-modal__svg" />
             {speaker.photo && (
-              <img src={speaker.photo} alt="" className="sp-modal__photo" />
+              <img src={speaker.photo} alt="" style={speaker.photoPos ? { objectPosition: speaker.photoPos } : undefined} className="sp-modal__photo" />
             )}
           </div>
           <div className="sp-modal__body">

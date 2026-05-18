@@ -524,3 +524,5 @@
 .proceeds h2 { color: #5a2a25; }
 .proceeds__art { display: grid; place-items: center; }
 .proceeds__svg { width: 100%; max-width: 500px; }
+/* Single-column variant — copy stretches across, no side art */
+.proceeds--full { display: block; max-width: 80ch; }
