@@ -78,6 +78,12 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/parker-lewis-ab904669/',
       bio: 'One of the most consistent intellectual voices on bitcoin as monetary infrastructure. Author of the "Gradually, Then Suddenly" essay series — the book the rest of bitcoin keeps catching up to. Head of Business Development at Zaprite.',
       talk: 'Imagine IF… every saver became a builder.' },
+    { id: 'andre-neves', name: 'Andre Neves', role: 'CTO & Co-Founder', org: 'ZBD', tags: ['Money'],
+      photo: 'uploads/speakers/andre-neves.jpg',
+      x: 'https://x.com/andreneves',
+      linkedin: 'https://www.linkedin.com/in/andrerfneves',
+      bio: 'CTO and co-founder of ZBD. Co-author of the Lightning Address protocol — the email-style identifier that lets anyone send and receive bitcoin without a wallet address. Building the rails that make bitcoin payments feel like the internet.',
+      talk: 'Imagine IF… bitcoin felt as easy as email.' },
   ],
 
   sponsors: {
