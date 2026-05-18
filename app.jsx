@@ -1,7 +1,7 @@
 // Main app — router, mounting
 
 const { useState, useEffect, useCallback } = React;
-const { TopBar, Drawer, Footer } = window.IFChrome;
+const { TopBar, Drawer, Footer, Newsletter } = window.IFChrome;
 
 const PAGES = {
   home: { Comp: () => null, label: 'Home' },
@@ -79,6 +79,7 @@ function App() {
       <main key={page}>
         {renderPage()}
       </main>
+      <Newsletter />
       <Footer onNav={navTo} />
     </div>
   );

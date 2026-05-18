@@ -95,6 +95,28 @@ window.IFChrome = (() => {
 
   }
 
+  function Newsletter() {
+    return (
+      <section className="newsletter">
+        <div className="shell newsletter__inner">
+          <div className="newsletter__copy">
+            <span className="eyebrow" style={{ color: 'var(--coral)' }}>Three Rails Newsletter</span>
+            <h3 className="newsletter__h">
+              Intelligence, humanity, and money — <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>every other Friday.</em>
+            </h3>
+            <p className="newsletter__sub">
+              One short essay, one talk worth your time, and what's actually changing across AI, energy, and bitcoin.
+            </p>
+          </div>
+          <form className="newsletter__form" action="mailto:community@bitcoinpark.com" method="post" encType="text/plain">
+            <input type="email" name="email" placeholder="you@somewhere.com" required className="newsletter__input" aria-label="Email address" />
+            <button className="btn btn--primary newsletter__btn" type="submit">Subscribe <span className="arr"></span></button>
+          </form>
+        </div>
+      </section>
+    );
+  }
+
   function Footer({ onNav }) {
     return (
       <footer className="foot">
@@ -148,5 +170,5 @@ window.IFChrome = (() => {
 
   }
 
-  return { TopBar, Drawer, Footer, NAV, Wordmark };
+  return { TopBar, Drawer, Footer, Newsletter, NAV, Wordmark };
 })();

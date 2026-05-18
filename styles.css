@@ -413,6 +413,65 @@ a { color: inherit; text-decoration: none; }
 .drawer__foot .meta { font-family: var(--f-italic); font-style: italic; font-size: 18px; color: var(--coral); }
 
 /* =========================================================
+   Three Rails Newsletter (above the footer on every page)
+   ========================================================= */
+.newsletter {
+  background: var(--midnight);
+  color: var(--paper);
+  padding: var(--s-8) 0;
+  border-top: 1px solid rgba(251, 246, 241, 0.08);
+}
+.newsletter__inner {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: var(--s-7);
+  align-items: center;
+}
+@media (max-width: 880px) {
+  .newsletter__inner { grid-template-columns: 1fr; gap: var(--s-5); }
+}
+.newsletter__copy { max-width: 52ch; }
+.newsletter__h {
+  font-family: var(--f-head);
+  color: var(--paper);
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 10px 0 12px;
+}
+.newsletter__sub {
+  color: rgba(251, 246, 241, 0.7);
+  font-size: 15px;
+  margin: 0;
+  max-width: 52ch;
+}
+.newsletter__form {
+  display: flex;
+  gap: var(--s-3);
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.newsletter__input {
+  flex: 1;
+  min-width: 220px;
+  padding: 14px 18px;
+  border: 1.5px solid rgba(251, 246, 241, 0.25);
+  background: rgba(251, 246, 241, 0.05);
+  border-radius: var(--r-pill);
+  font-family: var(--f-body);
+  font-size: 15px;
+  color: var(--paper);
+  transition: border-color 0.2s, background 0.2s;
+}
+.newsletter__input::placeholder { color: rgba(251, 246, 241, 0.4); }
+.newsletter__input:focus {
+  outline: none;
+  border-color: var(--sunrise);
+  background: rgba(251, 246, 241, 0.08);
+}
+.newsletter__btn { flex-shrink: 0; }
+
+/* =========================================================
    Footer
    ========================================================= */
 .foot {
