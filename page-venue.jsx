@@ -37,9 +37,9 @@ window.IFVenue = (() => {
 
             <div className="vn-cards">
               {[
-                { tag: 'Stay', title: 'The Hutton, The Hermitage, The Russell', body: 'Three different price points within a 5-minute Lyft of the venue. Booking codes go out with your ticket.' },
+                { tag: 'Stay', title: 'The Moxy, The Kimpton, One Hotel', body: 'Three different price points within a 5-minute Lyft of the venue.' },
                 { tag: 'Eat', title: 'Folk, Henrietta Red, Bastion', body: 'The team\u2019s short list. Reservations open 60 days out — book the second your ticket clears.' },
-                { tag: 'Drop in', title: 'Bitcoin Park · 1033 Russell St', body: 'Coffee, co-working, and most evenings a meetup. Open to attendees the whole week.' },
+                { tag: 'Drop in', title: 'Bitcoin Park · 1910 21st Ave S', body: 'Coffee, co-working, and most evenings a meetup. Open to attendees the whole week.' },
                 { tag: 'Day off', title: 'Centennial Park · Cheekwood · Radnor Lake', body: 'October in Nashville is the right answer. Take half a day.' },
               ].map(c => (
                 <div key={c.title} className="vn-card">
