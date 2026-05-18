@@ -5,8 +5,8 @@
 server.log
 *.log
 
-# Large media — host externally or use Git LFS before deploy
-uploads/trailer.mp4
+# trailer.mp4 is committed (compressed to ~26MB for web)
+# uploads/trailer.mp4
 
 # Playwright browser snapshots / artifacts (debugging only)
 .playwright-mcp/

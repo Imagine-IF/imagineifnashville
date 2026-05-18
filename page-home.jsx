@@ -72,6 +72,7 @@ window.IFHome = (() => {
           <video
             ref={videoRef}
             src="uploads/trailer.mp4"
+            poster="uploads/trailer-poster.jpg"
             className="trailer__video"
             preload="metadata"
             playsInline
