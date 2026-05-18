@@ -4,13 +4,10 @@ window.IFChrome = (() => {
   const { useEffect, useState, useRef } = React;
 
   const NAV = [
-  { id: 'home', label: 'Home', num: '01' },
-  { id: 'idea', label: 'The Imagine IF Idea', num: '02' },
-  { id: 'speakers', label: 'Speakers', num: '03' },
-  { id: 'agenda', label: 'Agenda', num: '04' },
-  { id: 'tickets', label: 'Tickets', num: '05' },
-  { id: 'venue', label: 'Venue & Nashville', num: '06' },
-  { id: 'past', label: 'Past Imagine IF Talks', num: '07' }];
+  { id: 'idea', label: 'The Idea', num: '01' },
+  { id: 'speakers', label: 'Speakers', num: '02' },
+  { id: 'agenda', label: 'Agenda', num: '03' },
+  { id: 'tickets', label: 'Tickets', num: '04' }];
 
   // Smooth-scroll to the sponsor strip (which is rendered globally on every page).
   function scrollToSponsors(e) {
