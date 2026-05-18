@@ -34,13 +34,10 @@ window.IFChrome = (() => {
       <div className={'topbar' + (dark ? ' is-dark' : '')}>
         <div className="topbar__brand">
           <Wordmark onClick={(e) => {e.preventDefault();onNav('home');}} dark={dark} />
+          {ev && (
+            <span className="topbar__when">{ev.datesShort} · {ev.venueCity}</span>
+          )}
         </div>
-        {ev && (
-          <div className="topbar__when">
-            <span className="topbar__dot" aria-hidden="true"></span>
-            <span>{ev.datesShort} · {ev.venueCity}</span>
-          </div>
-        )}
         <div className="topbar__right">
           <button className="menu-btn" onClick={onMenu} aria-label="Open menu">
             <span className="lines"><i></i><i></i></span>
