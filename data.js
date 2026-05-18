@@ -71,6 +71,7 @@ window.IF_DATA = {
       bio: 'Chief Business Officer at CleanSpark. Operating at the intersection of bitcoin mining and AI compute — a decade of behind-the-meter, megawatt-scale infrastructure that the hyperscalers are now scrambling to learn.',
       talk: 'Imagine IF… miners built the AI cloud.' },
     { id: 'parker-lewis', name: 'Parker Lewis', role: 'Author, Gradually Then Suddenly', org: 'Zaprite', tags: ['Money'],
+      photo: 'uploads/speakers/parker-lewis.jpg',
       x: 'https://x.com/parkeralewis',
       linkedin: 'https://www.linkedin.com/in/parker-lewis-ab904669/',
       bio: 'One of the most consistent intellectual voices on bitcoin as monetary infrastructure. Author of the "Gradually, Then Suddenly" essay series — the book the rest of bitcoin keeps catching up to. Head of Business Development at Zaprite.',
@@ -102,23 +103,30 @@ window.IF_DATA = {
 
   // Imagine IF 2025 archive — full YouTube playlist (PL2L0KLglmktkV95Iv6SAis4DsqoIROzJz)
   // Each talk: ten minutes, one idea. Thumbnails from img.youtube.com.
+  // Order: Master-to-Student fireside (Cathie + Laffer) → all "Imagine IF" titled talks → rest.
   pastTalks: [
-    { year: '2025', videoId: '6bbtHYft7t8', title: 'Bitcoin Brainstorm', speakers: 'Cathie Wood, Sen. Bill Hagerty, Dr. Laffer, Rod Roudi, Odell, & Harry Sudock' },
-    { year: '2025', videoId: '0PtYdjSXMFI', title: 'The Sovereign Yield Curve: Bitcoin, Bonds, and a New Credit Paradigm', speakers: '' },
+    // Master to Student first
+    { year: '2025', videoId: 'JLcRUS-a4_g', title: 'Master to Student, the Supply Side Economy', speakers: 'Cathie Wood & Dr. Art Laffer' },
+
+    // "Imagine IF…" titled talks
     { year: '2025', videoId: 'MCU81VGn2Kw', title: "Imagine IF We Didn't Fear Innovation", speakers: 'Troy Cross' },
     { year: '2025', videoId: 'YE6Ck4eKgp4', title: 'Imagine IF America Leads', speakers: 'Rod Roudi & Tennessee AG Jonathan Skrmetti' },
+    { year: '2025', videoId: '3QpPva8ygAU', title: "Imagine IF the American Nuclear Renaissance Isn't Just a Talking Point", speakers: '' },
+    { year: '2025', videoId: 'ksXNu8tKm1A', title: 'ImagineIF: The Summit of Summits', speakers: '' },
+
+    // Rest of the archive
+    { year: '2025', videoId: '6bbtHYft7t8', title: 'Bitcoin Brainstorm', speakers: 'Cathie Wood, Sen. Bill Hagerty, Dr. Laffer, Rod Roudi, Odell, & Harry Sudock' },
+    { year: '2025', videoId: '0PtYdjSXMFI', title: 'The Sovereign Yield Curve: Bitcoin, Bonds, and a New Credit Paradigm', speakers: '' },
     { year: '2025', videoId: 'xfqFS-IVOog', title: 'Super Collateral for a Compute Based World: Bitcoin, AI, and Energy', speakers: 'Grant Gilliam & Sean Bill' },
     { year: '2025', videoId: 'apvU3H4IUMs', title: 'What Proof of Work Proves', speakers: 'Parker Lewis & Rapha Zagury' },
     { year: '2025', videoId: '9b-H7FFzayE', title: 'Heat as Freedom Technology: Decentralizing Mining Through Energy Use', speakers: 'Tyler Stevens' },
     { year: '2025', videoId: 'T7IbOJQ-kes', title: 'Does Cypherpunk Scale? (Does It Have To?)', speakers: 'Ryan Gentry, Jay Beddict, D++, & Uncle Rockstar Dev' },
-    { year: '2025', videoId: '3QpPva8ygAU', title: "Imagine IF the American Nuclear Renaissance Isn't Just a Talking Point", speakers: '' },
     { year: '2025', videoId: 'uv_lWfRE-wo', title: 'How Do You Hold the Revolution?', speakers: 'Stephan Livera & Joe Kelly' },
     { year: '2025', videoId: 'LMypUHKirTI', title: 'Winning the Race for Freedom: Geopolitics in the Age of Digital Disruption', speakers: 'Matt Pines' },
     { year: '2025', videoId: 'NPGF-X1qY44', title: '2140: What Changes? What Stays the Same?', speakers: 'Michael Goldstein & Adam Back' },
     { year: '2025', videoId: 'hByt68km8C4', title: 'No Innovation is an Island', speakers: 'Robert Warren, Skot9000, Brady Cuddy, & Philip Walton' },
     { year: '2025', videoId: 'ZkYSy5y39cE', title: 'Why First Principles Still Matter in the Digital World', speakers: 'Matt Schulz & Sen. Marsha Blackburn' },
     { year: '2025', videoId: 'LyBrvnwARlk', title: 'Freedom of Thought in the Age of AI', speakers: 'Mark Suman' },
-    { year: '2025', videoId: 'JLcRUS-a4_g', title: 'Master to Student, the Supply Side Economy', speakers: 'Cathie Wood & Dr. Art Laffer' },
     { year: '2025', videoId: 'nW_3jppA9nQ', title: "The Emergent Grid: Lessons From Africa for America's Energy Future", speakers: 'Erik Hersman' },
     { year: '2025', videoId: 'qvTx84brNt0', title: 'Closing Panel', speakers: 'Rod Roudi, Robert Warren, D++, & Anna Checkhovich' },
     { year: '2025', videoId: 'rFV8CfFF5kg', title: 'Trust Nobody, Ever Again — Building a Modular Future', speakers: 'John Arnold, Max Kei, & Rory Murray' },
@@ -131,6 +139,5 @@ window.IF_DATA = {
     { year: '2025', videoId: 'B90AG3sHJ2E', title: 'Speed to Scale and the New Era of Compute', speakers: 'Harry Sudock, Adam Sullivan, & Kara Sutton' },
     { year: '2025', videoId: 'hfXUwuH2OPU', title: 'Freedom Tech is Fundamental to a Free Society', speakers: 'Econoalchemist' },
     { year: '2025', videoId: 'kbMfJtEHHLQ', title: 'Open Communities in the Age of Control', speakers: 'Matt Odell, Derek Ross, & Shawn Yeager' },
-    { year: '2025', videoId: 'ksXNu8tKm1A', title: 'ImagineIF: The Summit of Summits', speakers: '' },
   ],
 };
