@@ -21,7 +21,7 @@ window.IFVenue = (() => {
                 </div>
               </div>
               <div className="vn-map">
-                <image-slot id="venue-map" src="uploads/fisher-center.jpg" placeholder="Venue exterior or map graphic" shape="rounded" radius="20"></image-slot>
+                <image-slot id="venue-map" src="uploads/fisher-center.jpg?v=2" placeholder="Venue exterior or map graphic" shape="rounded" radius="20"></image-slot>
               </div>
             </div>
           </div>
