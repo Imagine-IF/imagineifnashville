@@ -308,8 +308,7 @@ window.IFHome = (() => {
       <section className="section section--snug">
         <div className="shell">
           <div className="sp-strip-head">
-            <span className="eyebrow">Made possible by</span>
-            <a href="#sponsors" onClick={(e) => {e.preventDefault();onNav('sponsors');}} style={{ color: 'var(--royal)', fontWeight: 600 }}>Become a sponsor →</a>
+            <span className="eyebrow">Supported by</span>
           </div>
         </div>
         <div className="marquee">
