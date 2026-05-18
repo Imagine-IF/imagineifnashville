@@ -295,18 +295,29 @@ window.IFHome = (() => {
 
   // ---------------- PROCEEDS / CTA ----------------
   function ProceedsCTA({ onNav }) {
+    const bodyParas = [
+      "Bitcoin Park and AI Freedom Lab's mission is to support and accelerate the grassroots freedom tech movement.",
+      "Your participation plays a significant role in doing just that.",
+      "We create spaces for mission-obsessed Bitcoiners, builders, and freedom fighters to work, learn, collaborate, and build.",
+      "Imagine IF brings all these folks together to celebrate and push forward.",
+    ];
     return (
       <section className="section" style={{ background: 'var(--coral)' }}>
         <div className="shell">
-          <div className="proceeds proceeds--full">
-            <span className="eyebrow" style={{ color: '#8a3a32' }}>The mission behind the room</span>
-            <h2 style={{ maxWidth: '24ch', marginTop: 14 }}>
-              <em className="italic-hero" style={{ color: 'var(--royal)' }}>Bitcoin Park</em> and <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>AI Freedom Lab</em>.
-            </h2>
-            <p style={{ color: '#5a2a25', maxWidth: '72ch', fontSize: 19, lineHeight: 1.6, marginTop: 20 }}>
-              Bitcoin Park and AI Freedom Lab's mission is to support and accelerate the grassroots freedom tech movement. Your participation plays a significant role in doing just that. We create spaces for mission-obsessed Bitcoiners, builders, and freedom fighters to work, learn, collaborate, and build. Imagine IF brings all these folks together to celebrate and push forward.
-            </p>
-            <div className="hero__cta" style={{ marginTop: 28 }}>
+          <div className="proceeds">
+            <div className="proceeds__copy">
+              <span className="eyebrow" style={{ color: '#8a3a32' }}>The mission behind the room</span>
+              <h2 className="proceeds__h">
+                <em className="italic-hero" style={{ color: 'var(--royal)' }}>Bitcoin Park</em>
+                <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>AI Freedom Lab</em>
+              </h2>
+              <div className="proceeds__body">
+                {bodyParas.map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
+            </div>
+            <div className="proceeds__cta">
               <a className="btn btn--dark btn--lg" href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer">Bitcoin Park <span className="arr"></span></a>
               <a className="btn btn--ghost btn--lg" href="https://aifreedomlab.org" target="_blank" rel="noopener noreferrer">AI Freedom Lab <span className="arr"></span></a>
             </div>

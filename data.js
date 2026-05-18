@@ -82,7 +82,8 @@ window.IF_DATA = {
 
   sponsors: {
     presenting: [
-      { name: 'Human Rights Foundation', short: 'HRF', url: 'https://hrf.org' },
+      // HRF temporarily hidden — keep entry handy for when it returns:
+      // { name: 'Human Rights Foundation', short: 'HRF', url: 'https://hrf.org' },
     ],
     founding: [
       { name: 'Unchained', url: 'https://unchained.com' },
@@ -93,7 +94,7 @@ window.IF_DATA = {
       { name: 'ARK Invest', url: 'https://www.ark-invest.com' },
       { name: 'Cholla Inc.', url: 'https://chollainc.com' },
       { name: 'CleanSpark', url: 'https://www.cleanspark.com' },
-      { name: 'Proto', url: 'https://www.proto.xyz' },
+      { name: 'Proto', url: 'https://proto.xyz/' },
     ],
     supporting: [
       { name: 'Bitkey', url: 'https://bitkey.world' },
