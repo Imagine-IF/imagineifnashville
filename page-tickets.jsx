@@ -30,8 +30,8 @@ window.IFTickets = (() => {
       tag: 'Students',
       price: 'Discounted',
       priceNote: 'Discounted pass for students.',
-      ctaLabel: 'Join Waitlist',
-      ctaHref: LUMA,
+      ctaLabel: 'Request Student Pass',
+      ctaHref: 'mailto:community@bitcoinpark.com?subject=Student%20Ticket%20Request%20-%20Imagine%20IF',
       color: 'var(--coral)',
     },
     {
