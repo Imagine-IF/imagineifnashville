@@ -102,7 +102,7 @@ window.IFChrome = (() => {
           <div className="newsletter__copy">
             <span className="eyebrow" style={{ color: 'var(--coral)' }}>Three Rails Newsletter</span>
             <h3 className="newsletter__h">
-              Six bites across AI, energy, and bitcoin — <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>and the rails you can touch: intelligence, humanity, and money.</em>
+              Six bytes across AI, energy, and bitcoin — <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>and the rails you can touch: intelligence, humanity, and money.</em>
             </h3>
           </div>
           <a className="btn btn--primary newsletter__btn" href="https://bitcoinpark.substack.com" target="_blank" rel="noopener noreferrer">
@@ -135,7 +135,7 @@ window.IFChrome = (() => {
             <div>
               <h5>Experience</h5>
               <ul>
-                <li><a href="#idea" onClick={(e) => {e.preventDefault();onNav('idea');}}>The idea</a></li>
+                <li><a href="#idea" onClick={(e) => {e.preventDefault();onNav('idea');}}>The Idea</a></li>
                 <li><a href="#speakers" onClick={(e) => {e.preventDefault();onNav('speakers');}}>Speakers</a></li>
                 <li><a href="#agenda" onClick={(e) => {e.preventDefault();onNav('agenda');}}>Agenda</a></li>
                 <li><a href="#sponsors" onClick={(e) => {e.preventDefault();onNav('sponsors');}}>Sponsors</a></li>
