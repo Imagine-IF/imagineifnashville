@@ -48,18 +48,27 @@ window.IFSpeakers = (() => {
             )}
           </div>
           <div className="sp-modal__body">
-            <div className="row">
-              {speaker.tags && speaker.tags.map(t => <span key={t} className="pill pill--purple">{t}</span>)}
-            </div>
-            <h2 style={{ marginTop: 16 }}>{speaker.name}</h2>
+            <h2 style={{ marginTop: 0 }}>{speaker.name}</h2>
             <div className="muted" style={{ fontSize: 16, marginBottom: 24 }}>{speaker.role} · {speaker.org}</div>
             <p style={{ fontSize: 18, lineHeight: 1.55, maxWidth: 'none' }}>{speaker.bio}</p>
-            {speaker.talk && (
-              <div className="sp-modal__talk">
-                <span className="eyebrow">Their prompt</span>
-                <div className="italic-hero" style={{ fontSize: 36, color: 'var(--royal)', lineHeight: 1.15, marginTop: 8 }}>
-                  {speaker.talk}
-                </div>
+            {(speaker.x || speaker.linkedin) && (
+              <div className="sp-modal__social">
+                {speaker.x && (
+                  <a href={speaker.x} target="_blank" rel="noopener noreferrer" className="sp-social" aria-label={`${speaker.name} on X`}>
+                    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                      <path fill="currentColor" d="M18.244 2H21.5l-7.5 8.572L23 22h-6.834l-5.348-6.99L4.7 22H1.44l8.02-9.166L1 2h6.99l4.84 6.404L18.244 2Zm-1.197 18h1.83L7.04 4H5.07L17.047 20Z"/>
+                    </svg>
+                    <span>X</span>
+                  </a>
+                )}
+                {speaker.linkedin && (
+                  <a href={speaker.linkedin} target="_blank" rel="noopener noreferrer" className="sp-social" aria-label={`${speaker.name} on LinkedIn`}>
+                    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                      <path fill="currentColor" d="M19 3A2 2 0 0 1 21 5v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14ZM8.34 18.34V9.67H5.67v8.67h2.67Zm-1.34-9.84a1.55 1.55 0 1 0 0-3.1 1.55 1.55 0 0 0 0 3.1Zm11.34 9.84V13.6c0-2.5-1.34-3.66-3.12-3.66a2.7 2.7 0 0 0-2.45 1.34h-.04V9.67h-2.67c.04.76 0 8.67 0 8.67h2.67v-4.84c0-.24.02-.48.09-.65.19-.48.63-.97 1.36-.97.96 0 1.34.73 1.34 1.8v4.66h2.67Z"/>
+                    </svg>
+                    <span>LinkedIn</span>
+                  </a>
+                )}
               </div>
             )}
           </div>

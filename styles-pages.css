@@ -163,6 +163,32 @@
 .sp-modal__svg { position: absolute; inset: 0; width: 100%; height: 100%; }
 .sp-modal__photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .sp-modal__body { padding: var(--s-7); }
+.sp-modal__social {
+  display: flex;
+  gap: var(--s-3);
+  margin-top: var(--s-6);
+  padding-top: var(--s-5);
+  border-top: 1px solid var(--line);
+}
+.sp-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: var(--r-pill);
+  border: 1.5px solid var(--line-strong);
+  color: var(--midnight);
+  font-family: var(--f-head);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.3s var(--ease-out), color 0.3s var(--ease-out), border-color 0.3s var(--ease-out);
+}
+.sp-social:hover {
+  background: var(--midnight);
+  color: var(--paper);
+  border-color: var(--midnight);
+}
 .sp-modal__talk { padding: var(--s-5) 0; margin-top: var(--s-5); border-top: 1px solid var(--line); }
 
 /* ---------- AGENDA ---------- */
