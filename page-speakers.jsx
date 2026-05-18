@@ -1,7 +1,7 @@
 // Speakers page — asymmetric mosaic + filterable + detail modal
 
 window.IFSpeakers = (() => {
-  const { useState, useMemo } = React;
+  const { useState } = React;
   const { SpeakerArt } = window.IFArt;
 
   // Mosaic size pattern — repeats. Variety in cells creates the editorial feel.
@@ -70,15 +70,7 @@ window.IFSpeakers = (() => {
 
   function Page({ onNav }) {
     const speakers = window.IF_DATA.speakers;
-    const allTags = useMemo(() => {
-      const set = new Set();
-      speakers.forEach(s => (s.tags || []).forEach(t => set.add(t)));
-      return ['All', ...Array.from(set)];
-    }, [speakers]);
-    const [filter, setFilter] = useState('All');
     const [open, setOpen] = useState(null);
-
-    const filtered = filter === 'All' ? speakers : speakers.filter(s => (s.tags || []).includes(filter));
 
     return (
       <div className="page">
@@ -95,26 +87,16 @@ window.IFSpeakers = (() => {
                 Investors, engineers, policymakers, founders. We bring people who've already done the hard parts — and people about to.
               </p>
             </div>
-
-            <div className="sp-filters">
-              {allTags.map(t => (
-                <button key={t}
-                  className={'sp-filter' + (filter === t ? ' is-on' : '')}
-                  onClick={() => setFilter(t)}>
-                  {t}
-                </button>
-              ))}
-            </div>
           </div>
         </section>
 
         <section style={{ paddingBottom: 'var(--s-10)' }}>
           <div className="shell">
             <div className="sp-mosaic">
-              {filtered.map((s, i) => <SpeakerCard key={s.id} s={s} idx={i} onOpen={setOpen} />)}
+              {speakers.map((s, i) => <SpeakerCard key={s.id} s={s} idx={i} onOpen={setOpen} />)}
               {/* TBA placeholder cards to show the system scales */}
-              {filter === 'All' && [0, 1, 2, 3, 4, 5].map((i) => (
-                <article key={'tba-' + i} className={'sp-card sp-card--sm sp-card--tba sp-card--' + SIZE_PATTERN[(filtered.length + i) % SIZE_PATTERN.length]}>
+              {[0, 1, 2, 3, 4, 5].map((i) => (
+                <article key={'tba-' + i} className={'sp-card sp-card--sm sp-card--tba sp-card--' + SIZE_PATTERN[(speakers.length + i) % SIZE_PATTERN.length]}>
                   <div className="sp-card__tba">
                     <span className="italic-hero">to be announced</span>
                     <span className="muted" style={{ fontSize: 12, letterSpacing: '0.16em', textTransform: 'uppercase', fontFamily: 'var(--f-head)' }}>more soon</span>
