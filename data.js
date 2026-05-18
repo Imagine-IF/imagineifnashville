@@ -92,6 +92,12 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/stephanie-coleman-1956775/',
       bio: 'President and CEO of the Nashville Area Chamber of Commerce. Leading Partnership 2030 — the region\'s five-year economic strategy for community vitality, mobility, and character. Vanderbilt economist by training, Nashville builder by choice.',
       talk: 'Imagine IF… every city built itself on purpose.' },
+    { id: 'rapha-zagury', name: 'Rapha Zagury', role: 'Founder & CEO', org: 'Elektron Energy', tags: ['Money', 'Humanity'],
+      photo: 'uploads/speakers/rapha-zagury.jpg',
+      x: 'https://x.com/alphaazeta',
+      linkedin: 'https://www.linkedin.com/in/rzagury/',
+      bio: 'Founder and CEO of Elektron Energy — one of the largest bitcoin mining operators in the world. Previously CIO at Swan Bitcoin, MD at Deutsche Bank and Merrill Lynch, VP at Goldman Sachs. Built career-spanning expertise in capital markets and now applies it to the watt-as-product economy.',
+      talk: 'Imagine IF… every watt knew its highest use.' },
   ],
 
   sponsors: {
