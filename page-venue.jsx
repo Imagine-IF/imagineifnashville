@@ -58,7 +58,6 @@ window.IFVenue = (() => {
               <span className="eyebrow" style={{ color: 'var(--coral)' }}>Travel</span>
               <h3 style={{ color: 'var(--paper)', marginTop: 8 }}>BNA → venue, 15 minutes.</h3>
             </div>
-            <button className="btn btn--ghost-light">Travel & lodging guide <span className="arr"></span></button>
           </div>
         </section>
       </div>
