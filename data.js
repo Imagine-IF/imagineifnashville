@@ -23,6 +23,7 @@ window.IF_DATA = {
       talk: 'Imagine IF… capital flowed toward the future, not the past.' },
     { id: 'art-laffer', name: 'Dr. Art Laffer', role: 'Founder and Chairman', org: 'Laffer Associates', tags: ['Money'], featured: true,
       photo: 'uploads/speakers/art-laffer.png',
+      x: 'https://x.com/realartlaffer',
       bio: 'Architect of supply-side economics. Curious about what the next century of money looks like.',
       talk: 'Imagine IF… we taxed nothing we wanted more of.' },
     { id: 'scott-harrison', name: 'Scott Harrison', role: 'Founder and CEO', org: 'charity: water', tags: ['Humanity', 'Money'], featured: true,
@@ -69,6 +70,11 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/harrysudock/',
       bio: 'Chief Business Officer at CleanSpark. Operating at the intersection of bitcoin mining and AI compute — a decade of behind-the-meter, megawatt-scale infrastructure that the hyperscalers are now scrambling to learn.',
       talk: 'Imagine IF… miners built the AI cloud.' },
+    { id: 'parker-lewis', name: 'Parker Lewis', role: 'Author, Gradually Then Suddenly', org: 'Zaprite', tags: ['Money'],
+      x: 'https://x.com/parkeralewis',
+      linkedin: 'https://www.linkedin.com/in/parker-lewis-ab904669/',
+      bio: 'One of the most consistent intellectual voices on bitcoin as monetary infrastructure. Author of the "Gradually, Then Suddenly" essay series — the book the rest of bitcoin keeps catching up to. Head of Business Development at Zaprite.',
+      talk: 'Imagine IF… every saver became a builder.' },
   ],
 
   sponsors: {
