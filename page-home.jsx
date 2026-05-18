@@ -189,7 +189,6 @@ window.IFHome = (() => {
                   <em className="italic-hero">Imagine IF…</em>
                 </span>
                 <p className="reel-card__prompt">{s.prompt}</p>
-                <span className="reel-card__rail">{s.rail}</span>
               </div>
             )}
           </div>
@@ -305,17 +304,11 @@ window.IFHome = (() => {
       <section className="section" style={{ background: 'var(--coral)' }}>
         <div className="shell">
           <div className="proceeds">
-            <div className="proceeds__copy">
-              <span className="eyebrow" style={{ color: '#8a3a32' }}>The mission behind the room</span>
-              <h2 className="proceeds__h">
-                <em className="italic-hero" style={{ color: 'var(--royal)' }}>Bitcoin Park</em>
-                <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>AI Freedom Lab</em>
-              </h2>
-              <div className="proceeds__body">
-                {bodyParas.map((p, i) => (
-                  <p key={i}>{p}</p>
-                ))}
-              </div>
+            <span className="eyebrow" style={{ color: '#8a3a32' }}>The mission behind the room</span>
+            <div className="proceeds__body">
+              {bodyParas.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
             </div>
             <div className="proceeds__cta">
               <a className="btn btn--dark btn--lg" href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer">Bitcoin Park <span className="arr"></span></a>

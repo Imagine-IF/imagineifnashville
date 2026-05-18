@@ -527,43 +527,24 @@
 
 /* ---------- Proceeds ---------- */
 .proceeds {
-  display: grid;
-  grid-template-columns: 1.6fr 1fr;
-  gap: var(--s-8);
-  align-items: start;
-}
-@media (max-width: 880px) {
-  .proceeds { grid-template-columns: 1fr; gap: var(--s-6); }
-}
-.proceeds__copy { max-width: 64ch; }
-.proceeds__h {
-  margin-top: 14px;
-  line-height: 1.05;
-  color: #5a2a25;
-}
-.proceeds__h em {
-  display: block;
+  max-width: 72ch;
 }
 .proceeds__body {
-  margin-top: 24px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 .proceeds__body p {
   color: #5a2a25;
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.55;
   margin: 0;
-  max-width: 60ch;
+  max-width: 64ch;
 }
 .proceeds__cta {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-wrap: wrap;
   gap: 12px;
-  padding-top: var(--s-7);
-}
-@media (max-width: 880px) {
-  .proceeds__cta { align-items: flex-start; padding-top: 0; }
+  margin-top: var(--s-6);
 }
