@@ -367,6 +367,18 @@
   font-weight: 500;
   transition: color 0.3s;
 }
+.reel-card__rail {
+  font-family: var(--f-head);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-top: auto;
+  transition: color 0.3s;
+}
+.reel-card:hover .reel-card__rail { color: rgba(251,246,241,0.6); }
+.reel-card--1 .reel-card__rail { color: #b3463e; }
 
 /* ---------- Featured speaker mosaic on home ---------- */
 .featured-mosaic {

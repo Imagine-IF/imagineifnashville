@@ -166,14 +166,14 @@ window.IFHome = (() => {
 
   // ---------------- "IMAGINE IF…" PROMPT REEL ----------------
   function PromptReel() {
-    // Prompts mapped to each speaker's actual 2026 talk thesis.
+    // Two prompts from each rail — pulled from the hero cycling set.
     const seeds = [
-    { speaker: 'Cathie Wood', prompt: 'capital flowed toward the future, not the past.' },
-    { speaker: 'Jeff Booth', prompt: 'the price of tomorrow came true.' },
-    { speaker: 'Alex Gladstein', prompt: 'every human had a way out.' },
-    { speaker: 'Scott Harrison', prompt: 'stories moved more than money.' },
-    { speaker: 'Casey Handmer', prompt: 'energy was free.' },
-    { speaker: 'Obi Nwosu', prompt: 'bitcoin reached the next billion wallets.' }];
+    { rail: 'AI', prompt: 'intelligence became electricity — and you owned the meter.' },
+    { rail: 'AI', prompt: 'AI worked for you, not on you.' },
+    { rail: 'Energy', prompt: 'energy stopped being the binding constraint.' },
+    { rail: 'Energy', prompt: 'atoms came back to the grid edge.' },
+    { rail: 'Bitcoin', prompt: 'bitcoin worked for the next eight billion.' },
+    { rail: 'Bitcoin', prompt: 'technology outlived the quantum decade.' }];
 
     return (
       <section className="section">
@@ -189,6 +189,7 @@ window.IFHome = (() => {
                   <em className="italic-hero">Imagine IF…</em>
                 </span>
                 <p className="reel-card__prompt">{s.prompt}</p>
+                <span className="reel-card__rail">{s.rail}</span>
               </div>
             )}
           </div>
