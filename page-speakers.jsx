@@ -92,7 +92,7 @@ window.IFSpeakers = (() => {
                 </h1>
               </div>
               <p style={{ maxWidth: '38ch', color: 'var(--ink-soft)', fontSize: 17 }}>
-                Investors, engineers, policymakers, founders. We bring people who've already done the hard parts — and people about to. Lineup updates weekly.
+                Investors, engineers, policymakers, founders. We bring people who've already done the hard parts — and people about to.
               </p>
             </div>
 
