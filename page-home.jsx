@@ -296,34 +296,6 @@ window.IFHome = (() => {
 
   }
 
-  // ---------------- SPONSORS STRIP ----------------
-  function SponsorStrip({ onNav }) {
-    const all = [
-    ...window.IF_DATA.sponsors.presenting,
-    ...window.IF_DATA.sponsors.founding,
-    ...window.IF_DATA.sponsors.pillar,
-    ...window.IF_DATA.sponsors.supporting];
-
-    return (
-      <section className="section section--snug">
-        <div className="shell">
-          <div className="sp-strip-head">
-            <span className="eyebrow">Supported by</span>
-          </div>
-        </div>
-        <div className="marquee">
-          <div className="marquee__track">
-            {[...all, ...all].map((s, i) =>
-            <span key={i} style={{ fontFamily: 'var(--f-head)', fontWeight: 600, fontSize: 22, color: 'var(--ink-soft)', letterSpacing: '-0.01em' }}>
-                {s.short || s.name}
-                <span style={{ display: 'inline-block', margin: '0 36px', color: 'var(--sunrise)' }}>✦</span>
-              </span>
-            )}
-          </div>
-        </div>
-      </section>);
-
-  }
 
   // ---------------- PROCEEDS / CTA ----------------
   function ProceedsCTA({ onNav }) {
@@ -362,7 +334,6 @@ window.IFHome = (() => {
         <SpeakerPreview onNav={onNav} />
         <AtAGlance />
         <AgendaTease onNav={onNav} />
-        <SponsorStrip onNav={onNav} />
         <ProceedsCTA onNav={onNav} />
       </div>);
 

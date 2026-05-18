@@ -8,10 +8,15 @@ window.IFChrome = (() => {
   { id: 'idea', label: 'The Imagine IF Idea', num: '02' },
   { id: 'speakers', label: 'Speakers', num: '03' },
   { id: 'agenda', label: 'Agenda', num: '04' },
-  { id: 'sponsors', label: 'Sponsors', num: '05' },
-  { id: 'tickets', label: 'Tickets', num: '06' },
-  { id: 'venue', label: 'Venue & Nashville', num: '07' },
-  { id: 'past', label: 'Past Ignite Talks', num: '08' }];
+  { id: 'tickets', label: 'Tickets', num: '05' },
+  { id: 'venue', label: 'Venue & Nashville', num: '06' },
+  { id: 'past', label: 'Past Imagine IF Talks', num: '07' }];
+
+  // Smooth-scroll to the sponsor strip (which is rendered globally on every page).
+  function scrollToSponsors(e) {
+    e.preventDefault();
+    document.getElementById('sponsors-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 
 
   function Wordmark({ as = 'a', href = '#home', onClick, dark = false }) {
@@ -95,6 +100,30 @@ window.IFChrome = (() => {
 
   }
 
+  function SponsorStrip() {
+    const sp = window.IF_DATA.sponsors;
+    const all = [...sp.presenting, ...sp.founding, ...sp.pillar, ...sp.supporting];
+    return (
+      <section id="sponsors-section" className="section section--snug">
+        <div className="shell">
+          <div className="sp-strip-head">
+            <span className="eyebrow">Supported by</span>
+          </div>
+        </div>
+        <div className="marquee">
+          <div className="marquee__track">
+            {[...all, ...all].map((s, i) =>
+              <span key={i} style={{ fontFamily: 'var(--f-head)', fontWeight: 600, fontSize: 22, color: 'var(--ink-soft)', letterSpacing: '-0.01em' }}>
+                {s.short || s.name}
+                <span style={{ display: 'inline-block', margin: '0 36px', color: 'var(--sunrise)' }}>✦</span>
+              </span>
+            )}
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   function Newsletter() {
     return (
       <section className="newsletter">
@@ -138,7 +167,7 @@ window.IFChrome = (() => {
                 <li><a href="#idea" onClick={(e) => {e.preventDefault();onNav('idea');}}>The Idea</a></li>
                 <li><a href="#speakers" onClick={(e) => {e.preventDefault();onNav('speakers');}}>Speakers</a></li>
                 <li><a href="#agenda" onClick={(e) => {e.preventDefault();onNav('agenda');}}>Agenda</a></li>
-                <li><a href="#sponsors" onClick={(e) => {e.preventDefault();onNav('sponsors');}}>Sponsors</a></li>
+                <li><a href="#sponsors-section" onClick={scrollToSponsors}>Sponsors</a></li>
               </ul>
             </div>
             <div>
@@ -166,5 +195,5 @@ window.IFChrome = (() => {
 
   }
 
-  return { TopBar, Drawer, Footer, Newsletter, NAV, Wordmark };
+  return { TopBar, Drawer, Footer, Newsletter, SponsorStrip, NAV, Wordmark };
 })();

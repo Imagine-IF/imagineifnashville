@@ -1,17 +1,16 @@
 // Main app — router, mounting
 
 const { useState, useEffect, useCallback } = React;
-const { TopBar, Drawer, Footer, Newsletter } = window.IFChrome;
+const { TopBar, Drawer, Footer, Newsletter, SponsorStrip } = window.IFChrome;
 
 const PAGES = {
   home: { Comp: () => null, label: 'Home' },
   idea: { Comp: () => null, label: 'The Imagine IF Idea' },
   speakers: { Comp: () => null, label: 'Speakers' },
   agenda: { Comp: () => null, label: 'Agenda' },
-  sponsors: { Comp: () => null, label: 'Sponsors' },
   tickets: { Comp: () => null, label: 'Tickets' },
   venue: { Comp: () => null, label: 'Venue & Nashville' },
-  past: { Comp: () => null, label: 'Past Ignite Talks' },
+  past: { Comp: () => null, label: 'Past Imagine IF Talks' },
 };
 
 function App() {
@@ -64,7 +63,6 @@ function App() {
       case 'idea': return <window.IFIdea.Page onNav={navTo} />;
       case 'speakers': return <window.IFSpeakers.Page onNav={navTo} />;
       case 'agenda': return <window.IFAgenda.Page onNav={navTo} />;
-      case 'sponsors': return <window.IFSponsors.Page onNav={navTo} />;
       case 'tickets': return <window.IFTickets.Page onNav={navTo} />;
       case 'venue': return <window.IFVenue.Page onNav={navTo} />;
       case 'past': return <window.IFPast.Page onNav={navTo} />;
@@ -79,6 +77,7 @@ function App() {
       <main key={page}>
         {renderPage()}
       </main>
+      <SponsorStrip />
       <Newsletter />
       <Footer onNav={navTo} />
     </div>
