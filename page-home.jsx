@@ -126,7 +126,7 @@ window.IFHome = (() => {
               Three rails, <span className="italic-hero" style={{ color: 'var(--sunrise)' }}>one room.</span>
             </h2>
             <p style={{ color: 'rgba(251,246,241,0.7)', maxWidth: '52ch', margin: '0 auto', textAlign: 'center' }}>
-              Imagine IF is built around the conversations that only happen when intelligence, humanity, and money meet on the same stage. We bring the people. You bring the questions.
+              Imagine IF is built around the conversations that happen when intelligence, humanity, and money meet on the same stage.
             </p>
           </div>
           <div className="conv-rails">
