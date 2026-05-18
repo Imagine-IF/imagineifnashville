@@ -64,6 +64,8 @@ window.IF_DATA = {
     { id: 'joe-liemandt', name: 'Joe Liemandt', role: 'Principal', org: 'Alpha School', tags: ['Intelligence', 'Humanity'], featured: true,
       photo: 'uploads/speakers/joe-liemandt.jpg',
       photoPos: 'center 30%',
+      x: 'https://x.com/jliemandt',
+      linkedin: 'https://www.linkedin.com/in/liemandt/',
       bio: 'Self-taught founder of one of the largest private software portfolios in the world. Now building AI-native schools at Alpha School.',
       talk: 'Imagine IF… every great idea found its team.' },
     { id: 'harry-sudock', name: 'Harry Sudock', role: 'Chief Business Officer', org: 'CleanSpark', tags: ['Money', 'Intelligence'],
@@ -84,6 +86,12 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/andrerfneves',
       bio: 'CTO and co-founder of ZBD. Co-author of the Lightning Address protocol — the email-style identifier that lets anyone send and receive bitcoin without a wallet address. Building the rails that make bitcoin payments feel like the internet.',
       talk: 'Imagine IF… bitcoin felt as easy as email.' },
+    { id: 'stephanie-coleman', name: 'Stephanie Coleman', role: 'President & CEO', org: 'Nashville Area Chamber of Commerce', tags: ['Humanity'],
+      photo: 'uploads/speakers/stephanie-coleman.jpg',
+      x: 'https://x.com/fe3',
+      linkedin: 'https://www.linkedin.com/in/stephanie-coleman-1956775/',
+      bio: 'President and CEO of the Nashville Area Chamber of Commerce. Leading Partnership 2030 — the region\'s five-year economic strategy for community vitality, mobility, and character. Vanderbilt economist by training, Nashville builder by choice.',
+      talk: 'Imagine IF… every city built itself on purpose.' },
   ],
 
   sponsors: {
