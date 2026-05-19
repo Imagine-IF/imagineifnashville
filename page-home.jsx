@@ -124,7 +124,7 @@ window.IFHome = (() => {
           <div className="conv-lead">
             <span className="eyebrow" style={{ color: 'var(--coral)' }}>The convergence</span>
             <h2 style={{ color: 'var(--paper)', maxWidth: '20ch', margin: '16px auto 16px', textAlign: 'center' }}>
-              Three rails, <span className="italic-hero" style={{ color: 'var(--sunrise)' }}>one room.</span>
+              Three rails, <span className="italic-hero" style={{ color: 'var(--sunrise)' }}>one station.</span>
             </h2>
             <p style={{ color: 'rgba(251,246,241,0.7)', maxWidth: '52ch', margin: '0 auto', textAlign: 'center' }}>
               Imagine IF is built around the conversations that happen when intelligence, humanity, and money meet on the same stage.
