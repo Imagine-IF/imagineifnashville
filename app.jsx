@@ -79,7 +79,7 @@ function App() {
       </main>
       <SponsorStrip />
       <Newsletter />
-      <Footer onNav={navTo} />
+      <Footer onNav={navTo} page={page} />
     </div>
   );
 }
