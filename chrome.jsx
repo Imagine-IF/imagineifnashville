@@ -144,7 +144,18 @@ window.IFChrome = (() => {
     );
   }
 
-  function Footer({ onNav }) {
+  function Footer({ onNav, page }) {
+    const goToAccommodations = (e) => {
+      e.preventDefault();
+      if (page === 'venue') {
+        document.getElementById('accommodations')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        window.location.hash = '#venue';
+        setTimeout(() => {
+          document.getElementById('accommodations')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 200);
+      }
+    };
     return (
       <footer className="foot">
         <div className="shell">
@@ -177,6 +188,7 @@ window.IFChrome = (() => {
               <ul>
                 <li><a href="#tickets" onClick={(e) => {e.preventDefault();onNav('tickets');}}>Tickets</a></li>
                 <li><a href="#venue" onClick={(e) => {e.preventDefault();onNav('venue');}}>Venue</a></li>
+                <li><a href="#accommodations" onClick={goToAccommodations}>Accommodations</a></li>
                 <li><a href="#past" onClick={(e) => {e.preventDefault();onNav('past');}}>Past Imagine IF Talks</a></li>
               </ul>
             </div>
