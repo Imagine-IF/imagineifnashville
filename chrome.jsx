@@ -131,7 +131,7 @@ window.IFChrome = (() => {
       <section className="newsletter">
         <div className="shell newsletter__inner">
           <div className="newsletter__copy">
-            <span className="eyebrow" style={{ color: 'var(--coral)' }}>Three Rails Newsletter</span>
+            <span className="eyebrow" style={{ color: 'var(--coral)' }}>Three Rails (formerly OP_Daily) Newsletter</span>
             <h3 className="newsletter__h">
               Six bytes across AI, energy, and bitcoin — <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>and the rails you can touch: intelligence, humanity, and money.</em>
             </h3>
