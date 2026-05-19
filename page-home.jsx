@@ -46,7 +46,7 @@ window.IFHome = (() => {
             </div>
             <div className="hero__cta">
               <button className="btn btn--ghost-light btn--lg" onClick={() => onNav('idea')}>What is Imagine IF?</button>
-              <a className="btn btn--primary btn--lg" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">Attend Imagine IF <span className="arr"></span></a>
+              <a className="btn btn--primary btn--lg" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">Join the waitlist <span className="arr"></span></a>
             </div>
           </div>
           <div className="hero__col-video">

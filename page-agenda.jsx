@@ -36,14 +36,14 @@ window.IFAgenda = (() => {
                 The lineup is <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>coming together</em>.
               </h1>
               <p className="muted" style={{ fontSize: 19, maxWidth: '52ch', marginTop: 20 }}>
-                Two days, two stages, three rails — AI, energy, and bitcoin. Keynotes, firesides, and panels with the people building at the frontier. The full agenda drops closer to the event.
+                Two days, two stages, three rails — AI, energy, and bitcoin. Keynotes, firesides, and panels with the people building at the frontier. The full agenda drops closer to the experience.
               </p>
               <p className="muted" style={{ fontSize: 17, maxWidth: '52ch', marginTop: 12 }}>
                 Want to be the first to know? Get on the list.
               </p>
               <div style={{ marginTop: 28 }}>
                 <a className="btn btn--primary btn--lg" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">
-                  Attend Imagine IF <span className="arr"></span>
+                  Join the waitlist <span className="arr"></span>
                 </a>
               </div>
             </div>
@@ -128,7 +128,7 @@ window.IFAgenda = (() => {
               <span className="eyebrow">Be in the room</span>
               <h3 style={{ marginTop: 8 }}>Two days. <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Two stages.</em> One door.</h3>
             </div>
-            <a className="btn btn--primary" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">Attend Imagine IF <span className="arr"></span></a>
+            <a className="btn btn--primary" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">Join the waitlist <span className="arr"></span></a>
           </div>
         </section>
       </div>
