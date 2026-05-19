@@ -99,6 +99,7 @@ window.IF_DATA = {
       bio: 'Founder and CEO of Elektron Energy — one of the largest bitcoin mining operators in the world. Previously CIO at Swan Bitcoin, MD at Deutsche Bank and Merrill Lynch, VP at Goldman Sachs. Built career-spanning expertise in capital markets and now applies it to the watt-as-product economy.',
       talk: 'Imagine IF… every watt knew its highest use.' },
     { id: 'alex-brammer', name: 'Alex Brammer', role: 'Co-Founder', org: 'Keel Infrastructure', tags: ['Money'],
+      photo: 'uploads/speakers/alex-brammer.jpg',
       linkedin: 'https://www.linkedin.com/in/alex-brammer/',
       bio: '',
       talk: '' },
