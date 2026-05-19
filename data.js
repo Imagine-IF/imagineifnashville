@@ -98,11 +98,11 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/rzagury/',
       bio: 'Founder and CEO of Elektron Energy — one of the largest bitcoin mining operators in the world. Previously CIO at Swan Bitcoin, MD at Deutsche Bank and Merrill Lynch, VP at Goldman Sachs. Built career-spanning expertise in capital markets and now applies it to the watt-as-product economy.',
       talk: 'Imagine IF… every watt knew its highest use.' },
-    { id: 'alex-brammer', name: 'Alex Brammer', role: 'Co-Founder', org: 'Keel Infrastructure', tags: ['Money'],
+    { id: 'alex-brammer', name: 'Alex Brammer', role: 'EVP of Operations', org: 'Keel Infrastructure', tags: ['Money'],
       photo: 'uploads/speakers/alex-brammer.jpg',
       x: 'https://x.com/AB_Brammer',
       linkedin: 'https://www.linkedin.com/in/alex-brammer/',
-      bio: 'Co-founder of Keel Infrastructure, scaling the megawatt-scale compute campuses where bitcoin mining and AI share the meter. Previously stood up the world\'s first nuclear-powered bitcoin mining datacenter at Talen Energy. Sixteen-year Army officer turned infrastructure operator — the rare builder with a doctrine for every megawatt.',
+      bio: 'Leads global operations at Keel Infrastructure (NASDAQ: KEEL), scaling the megawatt-scale compute campuses where bitcoin mining and AI share the meter. Previously stood up the world\'s first nuclear-powered bitcoin mining datacenter at Talen Energy. Sixteen-year Army officer turned infrastructure operator.',
       talk: 'Imagine IF… every megawatt had a mission.' },
   ],
 
