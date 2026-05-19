@@ -39,7 +39,7 @@ window.IFVenue = (() => {
               {[
                 { tag: 'Vanderbilt', title: 'The Moxy', url: 'https://www.marriott.com/en-us/hotels/bnaov-moxy-nashville-vanderbilt-area/overview/', body: 'Design-forward and walkable to the venue.' },
                 { tag: 'Midtown', title: 'The Kimpton Aertson', url: 'https://www.aertsonhotel.com/', body: 'Upscale modern, a short Lyft from Belmont.' },
-                { tag: 'The Gulch', title: '1 Hotel Nashville', url: 'https://www.1hotels.com/nashville', body: 'Sustainability-led luxury in The Gulch.' },
+                { tag: 'Downtown', title: '1 Hotel Nashville', url: 'https://www.1hotels.com/nashville', body: 'Sustainability-led luxury downtown.' },
                 { tag: 'Hillsboro', title: 'The Chloe', url: 'https://www.chloenashville.com/', body: 'New boutique landmark in Hillsboro Village.' },
               ].map(c => (
                 <a key={c.title} href={c.url} target="_blank" rel="noopener noreferrer" className="vn-card" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
