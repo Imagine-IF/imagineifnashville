@@ -104,6 +104,9 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/alex-brammer/',
       bio: 'Leads global operations at Keel Infrastructure (NASDAQ: KEEL), scaling the megawatt-scale compute campuses where bitcoin mining and AI share the meter. Previously stood up the world\'s first nuclear-powered bitcoin mining datacenter at Talen Energy. Sixteen-year Army officer turned infrastructure operator.',
       talk: 'Imagine IF… every megawatt had a mission.' },
+    { id: 'bill-hagerty', name: 'Bill Hagerty', role: 'U.S. Senator', org: 'Tennessee', tags: ['Money', 'Freedom Tech'],
+      photo: 'uploads/speakers/bill-hagerty.png',
+      bio: 'Senator Bill Hagerty represents Tennessee in the United States Senate, where he advocates for pro-growth economic policies, technological innovation, and constitutional principles. As a former businessman and U.S. Ambassador to Japan, Senator Hagerty brings unique insights into international trade, economic development, and the intersection of policy and technology. His perspective on regulatory frameworks, economic freedom, and technological advancement provides valuable insights for discussions about Bitcoin, AI, and emerging technologies.' },
   ],
 
   sponsors: {
