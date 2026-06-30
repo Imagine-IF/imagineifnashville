@@ -106,6 +106,8 @@ window.IF_DATA = {
       talk: 'Imagine IF… every megawatt had a mission.' },
     { id: 'bill-hagerty', name: 'Bill Hagerty', role: 'U.S. Senator', org: 'Tennessee', tags: ['Money', 'Freedom Tech'],
       photo: 'uploads/speakers/bill-hagerty.png',
+      x: 'https://x.com/SenatorHagerty',
+      linkedin: 'https://www.linkedin.com/in/bill-hagerty-363876b4/',
       bio: 'Senator Bill Hagerty represents Tennessee in the United States Senate, where he advocates for pro-growth economic policies, technological innovation, and constitutional principles. As a former businessman and U.S. Ambassador to Japan, Senator Hagerty brings unique insights into international trade, economic development, and the intersection of policy and technology. His perspective on regulatory frameworks, economic freedom, and technological advancement provides valuable insights for discussions about Bitcoin, AI, and emerging technologies.' },
   ],
 
