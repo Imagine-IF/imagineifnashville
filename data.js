@@ -114,6 +114,11 @@ window.IF_DATA = {
       x: 'https://x.com/SenatorHagerty',
       linkedin: 'https://www.linkedin.com/in/bill-hagerty-363876b4/',
       bio: 'Senator Bill Hagerty represents Tennessee in the United States Senate, where he advocates for pro-growth economic policies, technological innovation, and constitutional principles. As a former businessman and U.S. Ambassador to Japan, Senator Hagerty brings unique insights into international trade, economic development, and the intersection of policy and technology. His perspective on regulatory frameworks, economic freedom, and technological advancement provides valuable insights for discussions about Bitcoin, AI, and emerging technologies.' },
+    { id: 'paul-itoi', name: 'Paul Itoi', role: 'Founder & CEO', org: 'Stakwork', tags: ['Intelligence', 'Money'],
+      photo: 'uploads/speakers/paul-itoi.png',
+      x: 'https://x.com/paulitoi',
+      bio: 'Founder and CEO of Stakwork — workflows where AI and humans split the work and get paid in bitcoin over Lightning. A driving force behind Sphinx, the open-source Lightning-powered communications platform. Tech entrepreneur since the mid-nineties, now building at the Bitcoin × AI frontier.',
+      talk: 'Imagine IF… anyone, anywhere could earn in seconds.' },
   ],
 
   sponsors: {
