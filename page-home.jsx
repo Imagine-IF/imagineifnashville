@@ -71,8 +71,8 @@ window.IFHome = (() => {
         <div className="trailer__frame">
           <video
             ref={videoRef}
-            src="uploads/trailer.mp4"
-            poster="uploads/trailer-poster.jpg"
+            src="uploads/trailer-90day.mp4"
+            poster="uploads/trailer-90day-poster.jpg"
             className="trailer__video"
             preload="metadata"
             playsInline
@@ -95,8 +95,10 @@ window.IFHome = (() => {
           <div className="trailer__corner trailer__corner--br"></div>
         </div>
         <figcaption className="trailer__cap">
-          <span className="eyebrow" style={{ color: 'var(--coral)' }}>Trailer · 1:09</span>
-          <span style={{ color: 'rgba(251,246,241,0.7)', fontSize: 13 }}>Imagine IF · Nashville</span>
+          <span className="eyebrow" style={{ color: 'var(--coral)' }}>Trailer · 1:38</span>
+          <span style={{ color: 'rgba(251,246,241,0.7)', fontSize: 13 }}>
+            Imagine IF · Nashville · <a href="uploads/trailer.mp4" target="_blank" rel="noopener" style={{ color: 'rgba(251,246,241,0.7)' }}>Watch the first trailer</a>
+          </span>
         </figcaption>
       </figure>
     );
