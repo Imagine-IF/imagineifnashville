@@ -97,7 +97,7 @@ window.IFHome = (() => {
         <figcaption className="trailer__cap">
           <span className="eyebrow" style={{ color: 'var(--coral)' }}>Trailer · 1:38</span>
           <span style={{ color: 'rgba(251,246,241,0.7)', fontSize: 13 }}>
-            Imagine IF · Nashville · <a href="uploads/trailer.mp4" target="_blank" rel="noopener" style={{ color: 'rgba(251,246,241,0.7)' }}>Watch the first trailer</a>
+            Imagine IF · Nashville · <a href="https://youtu.be/7Vc6TplLaB4" target="_blank" rel="noopener" style={{ color: 'rgba(251,246,241,0.7)' }}>Watch the first trailer</a>
           </span>
         </figcaption>
       </figure>
