@@ -58,7 +58,7 @@ window.IFPast = (() => {
           <div className="shell">
             <span className="eyebrow">History · Imagine IF 2025</span>
             <h1 style={{ marginTop: 16, maxWidth: '14ch' }}>
-              Ten minutes.<br/><em className="italic-hero" style={{ color: 'var(--sunrise)' }}>One idea each.</em>
+              Where it all<br/><em className="italic-hero" style={{ color: 'var(--sunrise)' }}>started.</em>
             </h1>
             <p style={{ fontSize: 19, color: 'var(--ink-soft)', maxWidth: '58ch', marginTop: 16 }}>
               Imagine IF started in 2025 as the summit of summits — bitcoin, energy,
