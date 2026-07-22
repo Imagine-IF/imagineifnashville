@@ -4,6 +4,8 @@ window.IFPast = (() => {
   const { useState } = React;
   const PLAYLIST = 'PL2L0KLglmktkV95Iv6SAis4DsqoIROzJz';
   const PLAYLIST_URL = 'https://youtube.com/playlist?list=' + PLAYLIST;
+  // Last year's site, preserved as-is on bitcoinpark.com (redirects to index_imagineif.html).
+  const SITE_2025_URL = 'https://bitcoinpark.com/imagineif/';
 
   function VideoCard({ t }) {
     const [playing, setPlaying] = useState(false);
@@ -62,7 +64,10 @@ window.IFPast = (() => {
               and AI in one room in Nashville. Every session from last year is below.
               Watch a few and you'll know exactly what to expect in October.
             </p>
-            <div style={{ marginTop: 24 }}>
+            <div style={{ marginTop: 24, display: 'flex', flexWrap: 'wrap', gap: 12 }}>
+              <a className="btn btn--primary" href={SITE_2025_URL} target="_blank" rel="noopener noreferrer">
+                Visit the 2025 website <span className="arr"></span>
+              </a>
               <a className="btn btn--ghost" href={PLAYLIST_URL} target="_blank" rel="noopener noreferrer">
                 Watch the full playlist on YouTube <span className="arr"></span>
               </a>
