@@ -4,8 +4,9 @@ window.IFPast = (() => {
   const { useState } = React;
   const PLAYLIST = 'PL2L0KLglmktkV95Iv6SAis4DsqoIROzJz';
   const PLAYLIST_URL = 'https://youtube.com/playlist?list=' + PLAYLIST;
-  // Last year's site, preserved as-is on bitcoinpark.com (redirects to index_imagineif.html).
-  const SITE_2025_URL = 'https://bitcoinpark.com/imagineif/';
+  // Last year's site, mirrored from bitcoinpark.com/imagineif into /2025/
+  // (index.html there redirects to index_imagineif.html).
+  const SITE_2025_URL = '/2025/';
 
   function VideoCard({ t }) {
     const [playing, setPlaying] = useState(false);

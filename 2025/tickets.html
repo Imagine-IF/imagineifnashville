@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Tickets – Imagine IF</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="ImagineIf-brandmark-blue@2x.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="ImagineIf-brandmark-blue@2x.png">
+  <link rel="shortcut icon" href="ImagineIf-brandmark-blue@2x.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="ImagineIf-brandmark-blue@2x.png">
+  
+  <!-- Theme colors -->
+  <meta name="theme-color" content="#070c70">
+  <meta name="msapplication-TileColor" content="#070c70">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* Imagine IF Brand Colors - Exact from Brand Sheet */
+      --midnight-blue: #070c70;
+      --royal-purple: #7958ed;
+      --sunrise-orange: #e68158;
+      --light-purple: #b683ed;
+      --coral: #ffc6c2;
+      --if-white: #fff;
+      --if-light: #F5F5F5;
+      --dark-bg: #070c70;
+      --section-bg: #0a0f3a;
+    }
+    
+    body {
+      background: var(--midnight-blue);
+      color: var(--if-white);
+      font-family: 'Rethink Sans', Arial, sans-serif;
+      font-weight: 400;
+      font-size: 1.2rem;
+      margin: 0;
+      min-height: 100vh;
+      line-height: 1.6;
+      padding-top: 80px; /* Add padding to prevent navbar from covering content */
+    }
+    .tickets-container {
+      max-width: 1200px;
+      margin: 48px auto;
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      align-items: stretch;
+      padding: 0 24px;
+    }
+    .ticket-card {
+      background: rgba(7, 12, 112, 0.85);
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      flex: 1 1 0;
+      padding: 40px 32px 36px 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      min-width: 300px;
+      max-width: none;
+      border: 1px solid rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+    
+    .card-body {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    
+    .ticket-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+    }
+    .ticket-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--if-white);
+      letter-spacing: 0.01em;
+      font-family: 'Rethink Sans', Arial, sans-serif;
+    }
+    
+    .ticket-price {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 18px;
+      color: var(--sunrise-orange);
+      font-family: 'Rethink Sans', Arial, sans-serif;
+    }
+    
+    .ticket-desc {
+      font-size: 1.1rem;
+      margin-bottom: 18px;
+      color: var(--if-white);
+      font-family: 'Rethink Sans', Arial, sans-serif;
+      font-weight: 400;
+    }
+    
+    /* ImagineIF Navigation Bar */
+    .imagineif-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(7, 12, 112, 0.95);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      height: 80px;
+      display: flex;
+      align-items: center;
+      padding: 0 36px;
+    }
+    
+    .imagineif-navbar .navbar-left {
+      flex: 0 0 auto;
+    }
+    
+    .imagineif-navbar .navbar-left a {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--if-white);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .imagineif-navbar .navbar-left a:hover {
+      opacity: 0.9;
+    }
+    .ticket-benefits {
+      margin: 0 0 24px 0;
+      padding: 0;
+      list-style: none;
+      width: 100%;
+    }
+    
+    .ticket-benefits li {
+      margin-bottom: 12px;
+      padding-left: 28px;
+      position: relative;
+      color: var(--if-white);
+      font-size: 1.1rem;
+      font-family: 'Rethink Sans', Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1.6;
+    }
+    
+    .ticket-benefits li:before {
+      content: '\2713';
+      color: var(--light-purple);
+      font-size: 1.1em;
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-weight: 700;
+    }
+    .ticket-btn {
+      background: linear-gradient(90deg, var(--royal-purple) 0%, var(--sunrise-orange) 100%);
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 16px 32px;
+      border-radius: 32px;
+      font-size: 1.1rem;
+      display: inline-block;
+      margin-top: 24px;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(121, 88, 237, 0.3);
+      font-family: 'Rethink Sans', Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      align-self: center;
+    }
+    
+    .ticket-btn:hover {
+      background: linear-gradient(90deg, #6a4fd8 0%, #d6734a 100%);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(121, 88, 237, 0.4);
+    }
+    @media (max-width: 900px) {
+      .tickets-container {
+        flex-direction: column;
+        gap: 32px;
+        align-items: stretch;
+        margin: 32px auto;
+      }
+      .ticket-card {
+        max-width: 100%;
+      }
+      .ticket-title {
+        font-size: 1.3rem;
+      }
+      .ticket-price {
+        font-size: 2rem;
+      }
+      .ticket-desc {
+        font-size: 1.1rem;
+      }
+      .ticket-benefits li {
+        font-size: 1.1rem;
+      }
+      .ticket-btn {
+        font-size: 1rem;
+        padding: 14px 28px;
+      }
+    }
+    
+    @media (max-width: 600px) {
+      .tickets-container {
+        margin: 24px auto;
+        padding: 0 12px;
+      }
+      .ticket-card {
+        padding: 32px 24px 28px 24px;
+      }
+      .ticket-title {
+        font-size: 1.2rem;
+      }
+      .ticket-price {
+        font-size: 1.8rem;
+      }
+      .ticket-desc {
+        font-size: 1rem;
+      }
+      .ticket-benefits li {
+        font-size: 1rem;
+      }
+      .ticket-btn {
+        font-size: 0.95rem;
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- ImagineIF Navigation Bar -->
+  <nav class="imagineif-navbar">
+    <div class="navbar-left">
+      <a href="index_imagineif.html">Imagine IF</a>
+    </div>
+  </nav>
+  
+  <div class="tickets-container">
+    <div class="ticket-card">
+      <div class="card-body">
+        <div class="ticket-title">I am a Bitcoin Park Member</div>
+        <div class="ticket-price">Free</div>
+        <div class="ticket-desc">Complimentary for Park members.</div>
+        <ul class="ticket-benefits">
+          <li>All-Access to Two Day Summit</li>
+          <li>Main Theatre Stage Presentations & Panels</li>
+          <li>Ten31/OpenSats Stage Presentations & Panels</li>
+          <li>Connect: Natural Collisions With Investors, Engineers, Policymakers, and Entrepreneurs</li>
+          <li>Full Hospitality: Breakfast, Lunch, Coffee & Drinks While Onsite</li>
+        </ul>
+        <div style="text-align:center; margin: 12px 0 16px 0; color: var(--if-white); font-size: 1rem; font-weight: 400; font-style: italic;">
+          &nbsp;
+        </div>
+      </div>
+      <a href="https://bitcoinpark.typeform.com/invitation" class="ticket-btn">CLAIM MEMBER PASS</a>
+    </div>
+    <div class="ticket-card">
+      <div class="card-body">
+        <div class="ticket-title">Student Pass</div>
+        <div class="ticket-price">Discounted</div>
+        <div class="ticket-desc">Discounted pass for students.</div>
+        <ul class="ticket-benefits">
+          <li>All-Access to Two Day Summit</li>
+          <li>Main Theatre Stage Presentations & Panels</li>
+          <li>Ten31/OpenSats Stage Presentations & Panels</li>
+          <li>Connect: Natural Collisions With Investors, Engineers, Policymakers, and Entrepreneurs</li>
+          <li>Full Hospitality: Breakfast, Lunch, Coffee & Drinks While Onsite</li>
+        </ul>
+        <div style="text-align:center; margin: 12px 0 16px 0; color: var(--if-white); font-size: 1rem; font-weight: 400; font-style: italic;">
+          &nbsp;
+        </div>
+      </div>
+      <a href="https://bitcoinpark.typeform.com/invitation" class="ticket-btn">Apply here</a>
+    </div>
+    <div class="ticket-card">
+      <div class="card-body">
+              <div class="ticket-title">Summit Pass</div>
+      <div class="ticket-price">$2,499</div>
+      <div class="ticket-desc">Full access ticket to the summit.</div>
+        <ul class="ticket-benefits">
+          <li>All-Access to Two Day Summit</li>
+          <li>Main Theatre Stage Presentations & Panels</li>
+          <li>Ten31/OpenSats Stage Presentations & Panels</li>
+          <li>Connect: Natural Collisions With Investors, Engineers, Policymakers, and Entrepreneurs</li>
+          <li>Full Hospitality: Breakfast, Lunch, Coffee & Drinks While Onsite</li>
+        </ul>
+        <div style="text-align:center; margin: 12px 0 16px 0; color: var(--if-white); font-size: 1rem; font-weight: 400; font-style: italic;">
+          100% of Proceeds Support Bitcoin Park
+        </div>
+      </div>
+      <a href="https://bitcoinpark.typeform.com/invitation" class="ticket-btn">Request an Invitation</a>
+    </div>
+  </div>
+  <div style="text-align:center; margin: 48px 0 0 0;">
+    <img src="Imagine IF Poster_cursor.png" alt="Imagine IF Poster" style="max-width: 800px; width: 100%; border-radius: 18px; box-shadow: 0 8px 32px rgba(0,0,0,0.18); background: #232323;" />
+  </div>
+
+  <div style="text-align:center; margin: 48px 0 32px 0; color: var(--if-white); font-size: 1rem; font-weight: 400; opacity: 0.8;">
+    © 2025 Bitcoin Park. Imagine IF. All rights reserved.
+  </div>
+</body>
+</html> 
