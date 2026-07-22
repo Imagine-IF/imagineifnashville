@@ -1,8 +1,9 @@
-// Past Imagine IF Talks archive — grid of YouTube thumbnails that swap to
-// in-page iframe embeds on click (no leaving the site).
+// History — past editions of Imagine IF. Talks grouped by year as a grid of
+// YouTube thumbnails that swap to in-page iframe embeds on click (no leaving the site).
 window.IFPast = (() => {
   const { useState } = React;
   const PLAYLIST = 'PL2L0KLglmktkV95Iv6SAis4DsqoIROzJz';
+  const PLAYLIST_URL = 'https://youtube.com/playlist?list=' + PLAYLIST;
 
   function VideoCard({ t }) {
     const [playing, setPlaying] = useState(false);
@@ -52,13 +53,20 @@ window.IFPast = (() => {
       <div className="page">
         <section className="section section--tight" style={{ paddingTop: 180 }}>
           <div className="shell">
-            <span className="eyebrow">Archive · Imagine IF Talks</span>
+            <span className="eyebrow">History · Imagine IF 2025</span>
             <h1 style={{ marginTop: 16, maxWidth: '14ch' }}>
               Ten minutes.<br/><em className="italic-hero" style={{ color: 'var(--sunrise)' }}>One idea each.</em>
             </h1>
             <p style={{ fontSize: 19, color: 'var(--ink-soft)', maxWidth: '58ch', marginTop: 16 }}>
-              The full Imagine IF 2025 archive. The format that grew into the summit of summits.
+              Imagine IF started in 2025 as the summit of summits — bitcoin, energy,
+              and AI in one room in Nashville. Every session from last year is below.
+              Watch a few and you'll know exactly what to expect in October.
             </p>
+            <div style={{ marginTop: 24 }}>
+              <a className="btn btn--ghost" href={PLAYLIST_URL} target="_blank" rel="noopener noreferrer">
+                Watch the full playlist on YouTube <span className="arr"></span>
+              </a>
+            </div>
           </div>
         </section>
 

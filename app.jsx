@@ -10,7 +10,7 @@ const PAGES = {
   agenda: { Comp: () => null, label: 'Agenda' },
   tickets: { Comp: () => null, label: 'Tickets' },
   venue: { Comp: () => null, label: 'Venue & Nashville' },
-  past: { Comp: () => null, label: 'Past Imagine IF Talks' },
+  past: { Comp: () => null, label: 'History' },
 };
 
 function App() {

@@ -7,7 +7,8 @@ window.IFChrome = (() => {
   { id: 'idea', label: 'The Idea', num: '01' },
   { id: 'speakers', label: 'Speakers', num: '02' },
   { id: 'agenda', label: 'Agenda', num: '03' },
-  { id: 'tickets', label: 'Tickets', num: '04' }];
+  { id: 'tickets', label: 'Tickets', num: '04' },
+  { id: 'past', label: 'History', num: '05' }];
 
   // Smooth-scroll to the sponsor strip (which is rendered globally on every page).
   function scrollToSponsors(e) {
@@ -189,7 +190,7 @@ window.IFChrome = (() => {
                 <li><a href="#tickets" onClick={(e) => {e.preventDefault();onNav('tickets');}}>Tickets</a></li>
                 <li><a href="#venue" onClick={(e) => {e.preventDefault();onNav('venue');}}>Venue</a></li>
                 <li><a href="#accommodations" onClick={goToAccommodations}>Accommodations</a></li>
-                <li><a href="#past" onClick={(e) => {e.preventDefault();onNav('past');}}>Past Imagine IF Talks</a></li>
+                <li><a href="#past" onClick={(e) => {e.preventDefault();onNav('past');}}>History — Imagine IF 2025</a></li>
               </ul>
             </div>
             <div>
