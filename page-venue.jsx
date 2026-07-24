@@ -32,7 +32,7 @@ window.IFVenue = (() => {
             <span className="eyebrow">Accommodations</span>
             <h2 style={{ maxWidth: '14ch', marginTop: 12 }}>Where to stay. <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Close to the room.</em></h2>
             <p className="muted" style={{ maxWidth: '54ch', fontSize: 17, marginTop: 16 }}>
-              Four hotels within easy reach of the Fisher Center.
+              Five hotels within easy reach of the Fisher Center.
             </p>
 
             <div className="vn-cards">
@@ -41,6 +41,7 @@ window.IFVenue = (() => {
                 { tag: 'Midtown', title: 'The Kimpton Aertson', url: 'https://www.aertsonhotel.com/', body: 'Upscale modern, a short Lyft from Belmont.' },
                 { tag: 'Downtown', title: '1 Hotel Nashville', url: 'https://www.1hotels.com/nashville', body: 'Sustainability-led luxury downtown.' },
                 { tag: 'Hillsboro', title: 'The Chloe', url: 'https://www.chloenashville.com/', body: 'New boutique landmark in Hillsboro Village.' },
+                { tag: 'Music Row', title: 'Virgin Hotels Nashville', url: 'https://virginhotels.com/nashville/', body: 'Playful luxury at the top of Music Row.' },
               ].map(c => (
                 <a key={c.title} href={c.url} target="_blank" rel="noopener noreferrer" className="vn-card" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
                   <span className="pill pill--orange">{c.tag}</span>
