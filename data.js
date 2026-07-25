@@ -139,6 +139,7 @@ window.IF_DATA = {
     ],
     supporting: [
       { name: 'Bitkey', url: 'https://bitkey.world' },
+      { name: 'Institute for Humane Studies', short: 'IHS', url: 'https://theihs.org/' },
     ],
   },
 
