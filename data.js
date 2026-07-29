@@ -99,7 +99,7 @@ window.IF_DATA = {
       talk: 'Imagine IF… every city built itself on purpose.' },
     { id: 'rapha-zagury', name: 'Rapha Zagury', role: 'CEO', org: 'Twenty One Capital', tags: ['Money'],
       photo: 'uploads/speakers/rapha-zagury.jpg?v=2',
-      x: 'https://x.com/alphazeta',
+      x: 'https://x.com/RaphaZagury',
       linkedin: 'https://www.linkedin.com/in/rzagury/',
       bio: 'Zagury is a builder and coder with a deep financial background. Before becoming CEO of Twenty One Capital, he founded Elektron and held senior roles at Goldman Sachs, Merrill Lynch, and Deutsche Bank. He is a longtime Bitcoiner and sound-money advocate and has become one of the more thoughtful voices in the institutional Bitcoin conversation.\n\nHe earned his MBA from Yale. He grew up in Rio de Janeiro, began his career in New York, and now splits his time between Rio and Miami. He lives with his wife and two children and is an avid triathlete and endurance sports enthusiast.',
       talk: 'Imagine IF… every balance sheet was denominated in bitcoin.' },
