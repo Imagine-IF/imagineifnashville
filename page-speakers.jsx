@@ -51,7 +51,9 @@ window.IFSpeakers = (() => {
           <div className="sp-modal__body">
             <h2 style={{ marginTop: 0 }}>{speaker.name}</h2>
             <div className="muted" style={{ fontSize: 16, marginBottom: 24 }}>{speaker.role} · {speaker.org}</div>
-            <p style={{ fontSize: 18, lineHeight: 1.55, maxWidth: 'none' }}>{speaker.bio}</p>
+            {String(speaker.bio || '').split(/\n\s*\n/).map((para, i) => (
+              <p key={i} style={{ fontSize: 18, lineHeight: 1.55, maxWidth: 'none' }}>{para}</p>
+            ))}
             {(speaker.x || speaker.linkedin) && (
               <div className="sp-modal__social">
                 {speaker.x && (
