@@ -90,7 +90,7 @@ window.IFChrome = (() => {
             <div className="row" style={{ justifyContent: 'flex-start', gap: 12, marginTop: 8 }}>
               <a href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, color: 'var(--sunrise)', fontWeight: 600, fontSize: 14 }}>
-                Join the waitlist
+                Request an Invitation
                 <span style={{ display: 'inline-block', width: 14, height: 14 }}>
                   <svg viewBox="0 0 14 14" width="14" height="14"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" /></svg>
                 </span>
@@ -171,7 +171,7 @@ window.IFChrome = (() => {
               </div>
               <div style={{ marginTop: 28 }}>
                 <a className="btn btn--primary" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">
-                  Join the waitlist <span className="arr"></span>
+                  Request an Invitation <span className="arr"></span>
                 </a>
               </div>
             </div>
