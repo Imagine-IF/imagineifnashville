@@ -68,7 +68,6 @@ window.IF_DATA = {
       talk: 'Imagine IF… bitcoin came home to the village.' },
     { id: 'joe-liemandt', name: 'Joe Liemandt', role: 'Principal', org: 'Alpha School', tags: ['Intelligence', 'Humanity'], featured: true,
       photo: 'uploads/speakers/joe-liemandt.jpg',
-      photoPos: 'center 30%',
       x: 'https://x.com/jliemandt',
       linkedin: 'https://www.linkedin.com/in/liemandt/',
       bio: 'Self-taught founder of one of the largest private software portfolios in the world. Now building AI-native schools at Alpha School.',

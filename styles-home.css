@@ -428,12 +428,12 @@
 .fm-card--1 { grid-column: span 3; grid-row: span 2; }
 .fm-card--2 { grid-column: span 3; grid-row: span 2; }
 .fm-card--3 { grid-column: span 2; grid-row: span 3; }
-.fm-card--4 { grid-column: span 4; grid-row: span 2; }
-.fm-card--5 { grid-column: span 4; grid-row: span 2; }
-.fm-card--more { grid-column: span 4; grid-row: span 2; }
+.fm-card--4 { grid-column: span 4; grid-row: span 3; }
+.fm-card--5 { grid-column: span 4; grid-row: span 3; }
+.fm-card--more { grid-column: span 4; grid-row: span 3; }
 
 @media (max-width: 880px) {
-  .fm-card--5 { grid-column: span 3; grid-row: span 2; }
+  .fm-card--5 { grid-column: span 3; grid-row: span 3; }
 }
 
 @media (max-width: 880px) {
@@ -442,8 +442,8 @@
   .fm-card--1 { grid-column: span 2; grid-row: span 2; }
   .fm-card--2 { grid-column: span 3; grid-row: span 2; }
   .fm-card--3 { grid-column: span 3; grid-row: span 2; }
-  .fm-card--4 { grid-column: span 6; grid-row: span 2; }
-  .fm-card--more { grid-column: span 6; grid-row: span 2; }
+  .fm-card--4 { grid-column: span 6; grid-row: span 3; }
+  .fm-card--more { grid-column: span 6; grid-row: span 3; }
 }
 @media (max-width: 540px) {
   .featured-mosaic { grid-template-columns: 1fr 1fr; grid-auto-rows: 180px; }
