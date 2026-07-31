@@ -119,6 +119,9 @@ window.IF_DATA = {
       x: 'https://x.com/paulitoi',
       bio: 'Founder and CEO of Stakwork — workflows where AI and humans split the work and get paid in bitcoin over Lightning. A driving force behind Sphinx, the open-source Lightning-powered communications platform. Tech entrepreneur since the mid-nineties, now building at the Bitcoin × AI frontier.',
       talk: 'Imagine IF… anyone, anywhere could earn in seconds.' },
+    { id: 'sean-james', name: 'Sean James', role: 'Distinguished Engineer, Energy Systems', org: 'NVIDIA', tags: ['Humanity', 'Intelligence'],
+      bio: 'At NVIDIA, Sean focuses on power, grid integration, and energy architecture for large-scale AI infrastructure and AI factories.\n\nSean works at the intersection of compute, power, and land, helping define how next-generation AI data centers secure energy, scale rapidly, and integrate with constrained electrical grids. His work spans high-density power architecture, grid-forming and behind-the-meter energy systems, battery energy storage, fuel cells, and strategies to accelerate time-to-power for AI deployments worldwide.\n\nBefore joining NVIDIA, Sean spent nearly two decades at Microsoft, where he held senior leadership roles in data center operations, construction, and technology commercialization. He led and scaled multiple next-generation data center programs, bridging early-stage R&D with production deployment across Microsoft\'s global cloud footprint.\n\nSean began his career in hands-on data center operations and previously served in the U.S. Navy Submarine Fleet as an electrician. He holds multiple patents related to data center and energy systems and a degree in Information Technology. He is a father of three sons.',
+      talk: 'Imagine IF… data centers disappeared.' },
   ],
 
   sponsors: {
