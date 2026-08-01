@@ -34,7 +34,7 @@ window.IFIdea = (() => {
               <div className="idea-card idea-card--accent">
                 <span className="eyebrow" style={{ color: '#fbf6f1' }}>02 · Agency</span>
                 <h3 style={{ color: '#fbf6f1' }}>Bring the tools.</h3>
-                <p style={{ color: 'rgba(251,246,241,0.8)' }}>Imagination without agency is daydreaming. Every session pairs the prompt with the work: intelligence, humanity, and money, and the exact points where they touch.</p>
+                <p style={{ color: 'rgba(251,246,241,0.8)' }}>Imagination without agency is daydreaming. Every session pairs the prompt with the work: intelligence, power, and money, and the exact points where they touch.</p>
               </div>
               <div className="idea-card">
                 <span className="eyebrow">03 · Convergence</span>

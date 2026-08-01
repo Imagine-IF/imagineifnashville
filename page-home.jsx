@@ -117,7 +117,7 @@ window.IFHome = (() => {
   function ConvergenceStrip() {
     const rails = [
     { name: 'Intelligence', rail: 'AI', body: 'The substrate every consequential decision now runs on.' },
-    { name: 'Humanity', rail: 'Energy', body: 'The work of being alive — and the cost of doing it.' },
+    { name: 'Power', rail: 'Energy', body: 'The binding constraint, until it isn’t.' },
     { name: 'Money', rail: 'Bitcoin', body: 'Sound money for sovereign capital.' }];
 
     return (
@@ -129,7 +129,7 @@ window.IFHome = (() => {
               Three systems, <span className="italic-hero" style={{ color: 'var(--sunrise)' }}>one point of contact.</span>
             </h2>
             <p style={{ color: 'rgba(251,246,241,0.7)', maxWidth: '52ch', margin: '0 auto', textAlign: 'center' }}>
-              Imagine IF is built around the conversations that happen when intelligence, humanity, and money meet on the same stage.
+              Imagine IF is built around the conversations that happen when intelligence, power, and money meet on the same stage.
             </p>
           </div>
           <div className="conv-rails">
@@ -260,7 +260,7 @@ window.IFHome = (() => {
     const stats = [
     { v: '2', l: 'days', sub: 'Oct 5 & 6' },
     { v: '2', l: 'stages', sub: 'Main Theatre + Second Stage' },
-    { v: '3', l: 'systems', sub: 'Intelligence · Humanity · Money' },
+    { v: '3', l: 'systems', sub: 'Intelligence · Power · Money' },
     { v: '30+', l: 'sessions', sub: 'Keynotes, firesides, panels' }];
 
     return (

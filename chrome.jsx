@@ -137,7 +137,9 @@ window.IFChrome = (() => {
               Six bytes a day across AI, energy, and bitcoin. <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Daily signals. Weekly synthesis.</em>
             </h3>
             <p style={{ color: 'rgba(251,246,241,0.7)', marginTop: 12, fontSize: 15, maxWidth: '52ch' }}>
-              Imagine IF is two days a year. Tangents runs all 365. The weekly show premieres this August.
+              Imagine IF is two days a year.<br />
+              Tangents runs all 365.<br />
+              The weekly show premieres this August.
             </p>
           </div>
           <a className="btn btn--primary newsletter__btn" href="https://bitcoinpark.substack.com" target="_blank" rel="noopener noreferrer">
