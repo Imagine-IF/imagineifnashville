@@ -132,10 +132,13 @@ window.IFChrome = (() => {
       <section className="newsletter">
         <div className="shell newsletter__inner">
           <div className="newsletter__copy">
-            <span className="eyebrow" style={{ color: 'var(--coral)' }}>Three Rails (formerly OP_Daily) Newsletter</span>
+            <span className="eyebrow" style={{ color: 'var(--coral)' }}>Tangents Daily (formerly OP_Daily)</span>
             <h3 className="newsletter__h">
-              Six bytes across AI, energy, and bitcoin — <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>and the rails you can touch: intelligence, humanity, and money.</em>
+              Six bytes a day across AI, energy, and bitcoin. <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Daily signals. Weekly synthesis.</em>
             </h3>
+            <p style={{ color: 'rgba(251,246,241,0.7)', marginTop: 12, fontSize: 15, maxWidth: '52ch' }}>
+              Imagine IF is two days a year. Tangents runs all 365. The weekly show premieres this August.
+            </p>
           </div>
           <a className="btn btn--primary newsletter__btn" href="https://bitcoinpark.substack.com" target="_blank" rel="noopener noreferrer">
             Subscribe <span className="arr"></span>
@@ -198,6 +201,7 @@ window.IFChrome = (() => {
               <ul>
                 <li><a href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer">Bitcoin Park ↗</a></li>
                 <li><a href="https://aifreedomlab.org" target="_blank" rel="noopener noreferrer">AI Freedom Lab ↗</a></li>
+                <li><a href="https://bitcoinpark.substack.com" target="_blank" rel="noopener noreferrer">Tangents ↗</a></li>
                 <li><a href="mailto:community@bitcoinpark.com?subject=Press%20Inquiry%20-%20Imagine%20IF">Press</a></li>
               </ul>
             </div>
