@@ -136,7 +136,7 @@ window.IFChrome = (() => {
             <p className="newsletter__h" style={{ margin: '10px 0 0' }}>
               <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Six bytes a day across AI, energy, and bitcoin.</em>
             </p>
-            <h3 className="newsletter__h">
+            <h3 className="newsletter__h" style={{ fontSize: 'clamp(18px, 1.4vw, 22px)', lineHeight: 1.4, marginTop: 14 }}>
               Imagine IF is two days a year.<br />
               Tangents runs all 365.<br />
               The weekly show premieres this August.
