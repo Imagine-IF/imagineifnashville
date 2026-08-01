@@ -133,14 +133,14 @@ window.IFChrome = (() => {
         <div className="shell newsletter__inner">
           <div className="newsletter__copy">
             <span className="eyebrow" style={{ color: 'var(--coral)' }}>Tangents Daily (formerly OP_Daily)</span>
+            <p className="newsletter__h" style={{ margin: '10px 0 0' }}>
+              <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Six bytes a day across AI, energy, and bitcoin.</em>
+            </p>
             <h3 className="newsletter__h">
-              Six bytes a day across AI, energy, and bitcoin. <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Daily signals. Weekly synthesis.</em>
-            </h3>
-            <p style={{ color: 'rgba(251,246,241,0.7)', marginTop: 12, fontSize: 15, maxWidth: '52ch' }}>
               Imagine IF is two days a year.<br />
               Tangents runs all 365.<br />
               The weekly show premieres this August.
-            </p>
+            </h3>
           </div>
           <a className="btn btn--primary newsletter__btn" href="https://bitcoinpark.substack.com" target="_blank" rel="noopener noreferrer">
             Subscribe <span className="arr"></span>
