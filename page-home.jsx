@@ -41,7 +41,7 @@ window.IFHome = (() => {
               </span>
             </h1>
             <div className="hero__sub">
-              <p>Three rails of freedom tech — <strong>AI, energy, and bitcoin</strong> — converging in one room.</p>
+              <p><strong>AI, energy, and bitcoin</strong> in one room. Where frontier systems touch, new trajectories begin.</p>
               <p>Keynotes, firesides, and real conversations with the people building at the frontier.</p>
             </div>
             <div className="hero__cta">
@@ -118,7 +118,7 @@ window.IFHome = (() => {
     const rails = [
     { name: 'Intelligence', rail: 'AI', body: 'The substrate every consequential decision now runs on.' },
     { name: 'Humanity', rail: 'Energy', body: 'The work of being alive — and the cost of doing it.' },
-    { name: 'Money', rail: 'Bitcoin', body: 'Sound rails for sovereign capital.' }];
+    { name: 'Money', rail: 'Bitcoin', body: 'Sound money for sovereign capital.' }];
 
     return (
       <section className="section section--tight" style={{ background: 'var(--midnight)', color: 'var(--paper)' }}>
@@ -126,7 +126,7 @@ window.IFHome = (() => {
           <div className="conv-lead">
             <span className="eyebrow" style={{ color: 'var(--coral)' }}>The convergence</span>
             <h2 style={{ color: 'var(--paper)', maxWidth: '20ch', margin: '16px auto 16px', textAlign: 'center' }}>
-              Three rails, <span className="italic-hero" style={{ color: 'var(--sunrise)' }}>one station.</span>
+              Three systems, <span className="italic-hero" style={{ color: 'var(--sunrise)' }}>one point of contact.</span>
             </h2>
             <p style={{ color: 'rgba(251,246,241,0.7)', maxWidth: '52ch', margin: '0 auto', textAlign: 'center' }}>
               Imagine IF is built around the conversations that happen when intelligence, humanity, and money meet on the same stage.
@@ -159,7 +159,7 @@ window.IFHome = (() => {
               <span className="italic-hero" style={{ color: 'var(--sunrise)', fontSize: '1.1em' }}>Freedom Tech.</span>
             </h3>
             <p style={{ color: 'rgba(251,246,241,0.7)', maxWidth: '40ch', margin: '8px auto 0', textAlign: 'center' }}>
-              What you get when all three rails are open.
+              What you get when all three systems are open.
             </p>
           </div>
         </div>
@@ -260,7 +260,7 @@ window.IFHome = (() => {
     const stats = [
     { v: '2', l: 'days', sub: 'Oct 5 & 6' },
     { v: '2', l: 'stages', sub: 'Main Theatre + Second Stage' },
-    { v: '3', l: 'rails', sub: 'Intelligence · Humanity · Money' },
+    { v: '3', l: 'systems', sub: 'Intelligence · Humanity · Money' },
     { v: '30+', l: 'sessions', sub: 'Keynotes, firesides, panels' }];
 
     return (

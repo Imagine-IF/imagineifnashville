@@ -36,7 +36,7 @@ window.IFAgenda = (() => {
                 The lineup is <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>coming together</em>.
               </h1>
               <p className="muted" style={{ fontSize: 19, maxWidth: '52ch', marginTop: 20 }}>
-                Two days, two stages, three rails — AI, energy, and bitcoin. Keynotes, firesides, and panels with the people building at the frontier. The full agenda drops closer to the experience.
+                Two days, two stages. AI, energy, and bitcoin, and everything they touch. Keynotes, firesides, and panels with the people building at the frontier. The full agenda drops closer to the experience.
               </p>
               <p className="muted" style={{ fontSize: 17, maxWidth: '52ch', marginTop: 12 }}>
                 Want to be in the room? Attendance is by invitation.

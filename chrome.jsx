@@ -170,7 +170,7 @@ window.IFChrome = (() => {
                 we built it.
               </div>
               <div style={{ marginTop: 28, color: 'rgba(251,246,241,0.7)', fontSize: 14, maxWidth: '32ch' }}>
-                Three rails of freedom tech — AI, energy, and bitcoin — converging in one room.
+                AI, energy, and bitcoin in one room. Where frontier systems touch, new trajectories begin.
               </div>
               <div style={{ marginTop: 28 }}>
                 <a className="btn btn--primary" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">

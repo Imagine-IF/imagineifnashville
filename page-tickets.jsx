@@ -58,7 +58,7 @@ window.IFTickets = (() => {
                 Pick a seat. <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Be in the room.</em>
               </h1>
               <p style={{ color: 'rgba(251,246,241,0.85)', fontSize: 18, maxWidth: '52ch', marginTop: 16 }}>
-                Three rails of freedom tech — AI, energy, and bitcoin — converging in one room at the Fisher Center for two days.
+                AI, energy, and bitcoin in one room at the Fisher Center for two days. Where frontier systems touch, new trajectories begin.
               </p>
               <div style={{ display: 'flex', gap: 12, marginTop: 28, flexWrap: 'wrap' }}>
                 <button className="btn btn--primary btn--lg" onClick={() => document.getElementById('tk-tiers').scrollIntoView({ behavior: 'smooth', block: 'start' })}>

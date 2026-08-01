@@ -34,7 +34,7 @@ window.IFIdea = (() => {
               <div className="idea-card idea-card--accent">
                 <span className="eyebrow" style={{ color: '#fbf6f1' }}>02 · Agency</span>
                 <h3 style={{ color: '#fbf6f1' }}>Bring the tools.</h3>
-                <p style={{ color: 'rgba(251,246,241,0.8)' }}>Imagination without agency is daydreaming. Every session pairs the prompt with the work — across three rails of freedom tech: intelligence, humanity, money.</p>
+                <p style={{ color: 'rgba(251,246,241,0.8)' }}>Imagination without agency is daydreaming. Every session pairs the prompt with the work: intelligence, humanity, and money, and the exact points where they touch.</p>
               </div>
               <div className="idea-card">
                 <span className="eyebrow">03 · Convergence</span>
@@ -108,7 +108,7 @@ window.IFIdea = (() => {
                 </div>
                 <span className="eyebrow">This summit</span>
                 <h3 style={{ marginTop: 8 }}>Imagine IF</h3>
-                <p style={{ color: 'var(--paper)', opacity: 0.85 }}>The annual gathering of both communities — and the people they want in the room. Two days, two stages, three rails of freedom tech, one door opening.</p>
+                <p style={{ color: 'var(--paper)', opacity: 0.85 }}>The annual gathering of both communities — and the people they want in the room. Two days, two stages, one point of contact, one door opening.</p>
               </div>
             </div>
           </div>
