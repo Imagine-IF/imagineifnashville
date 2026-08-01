@@ -10,7 +10,7 @@ window.IFHome = (() => {
   // Three rails of freedom tech: intelligence (AI), humanity (energy), money (bitcoin)
   function HeroCycling({ onNav }) {
     const prompts = [
-    'intelligence, humanity, and money became one rail.',
+    'intelligence, power, and money belonged to anyone.',
     'intelligence became electricity — and you owned the meter.',
     'the cheapest energy in history rewrote the dollar.',
     'bitcoin worked for the next eight billion.',
