@@ -134,6 +134,10 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/jesseposner/',
       bio: 'Cryptography engineer behind the first BIP-340-compatible implementation of FROST — threshold signatures that let a group hold bitcoin keys with no single point of failure. Built key management and cold storage at Coinbase and Block; now co-founder of Vora, working on self-custody for your money, your data, and your AI.',
       talk: 'Imagine IF… you held the keys to everything.' },
+    { id: 'rene-angel', name: 'René Ángel', role: 'Head of AI', org: 'The Reynolds Foundation', tags: ['Intelligence', 'Freedom Tech'],
+      photo: 'uploads/speakers/rene-angel.jpg',
+      bio: 'Head of AI at The Reynolds Foundation, a private foundation funding freedom and democracy work in more than 45 countries. He built the AI systems behind the foundation\'s grantmaking, and judged AI Hack for Freedom II at Bitcoin Park in Nashville.',
+      talk: 'Imagine IF… AI worked for freedom.' },
     // Sean James temporarily hidden at Rod's request 2026-07-31 — pending his confirmation,
     // expected back ~week of Aug 3. Photo stays at uploads/speakers/sean-james.jpg.
     // { id: 'sean-james', name: 'Sean James', role: 'Distinguished Engineer, Energy Systems', org: 'NVIDIA', tags: ['Humanity', 'Intelligence'], featured: true,
