@@ -170,6 +170,7 @@ window.IF_DATA = {
       { name: 'Proto', url: 'https://proto.xyz/' },
     ],
     supporting: [
+      { name: 'Athena', url: 'https://www.athena.com/' },
       { name: 'Bitkey', url: 'https://bitkey.world' },
       { name: 'Institute for Humane Studies', short: 'IHS', url: 'https://theihs.org/' },
     ],
