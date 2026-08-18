@@ -172,7 +172,10 @@ window.IF_DATA = {
     supporting: [
       { name: 'Athena', url: 'https://www.athena.com/' },
       { name: 'Bitkey', url: 'https://bitkey.world' },
+      { name: 'BLISS Makers', url: 'https://www.blissmakers.org/' },
+      { name: 'Demo Lab', url: 'https://www.demolabcr.org/' },
       { name: 'Institute for Humane Studies', short: 'IHS', url: 'https://theihs.org/' },
+      { name: 'The Reynolds Foundation', url: 'https://www.reynoldsfoundation.com/' },
     ],
   },
 
