@@ -155,8 +155,7 @@ window.IF_DATA = {
 
   sponsors: {
     presenting: [
-      // HRF temporarily hidden — keep entry handy for when it returns:
-      // { name: 'Human Rights Foundation', short: 'HRF', url: 'https://hrf.org' },
+      { name: 'Human Rights Foundation', short: 'HRF', url: 'https://hrf.org' },
     ],
     founding: [
       { name: 'Unchained', url: 'https://unchained.com' },
