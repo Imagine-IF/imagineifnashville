@@ -4069,8 +4069,7 @@
         company: 'Ten31',
         image: 'Jonathan-Kirkwood.jpg',
         socialLink: 'https://www.linkedin.com/in/jonathan-kirkwood-md-mba-863497253/',
-        bio: "Jonathan Kirkwood, MD MBA, is co-founder and managing partner of Ten31, where he leads capital formation and fund management. Since 2020, Ten31 has invested at the convergence of finite money and abundant intelligence: bitcoin, which is enforced by energy, and AI, which is enabled by energy. Both compound demand for the same physical infrastructure, and value gravitates to whatever stays finite. Ten31 financed bitcoin's plumbing and the energy-intensive compute buildout years before the trade was fashionable. In 2023, he told Forbes rackspace demand would rise a thousandfold over the decade. He is lead director at Fold Holdings (NASDAQ: FLD) and sits on the boards of Start9 Labs and Battery Finance.\n\nWhen everyone rents the same intelligence, everyone arrives at the same answer, so the durable asset is not capability but judgment, held privately and compounded over time. At personaldatacenter.xyz he documented what owning that stack actually takes: a Start9 server running StartOS, two NVIDIA DGX Sparks, open-source models fine-tuned for his needs, agents on schedule, and services reachable from the open internet without exposing personal identification. He covers how he uses the different tiers of AI, and why inference, storage, and identity are moving back inside the walls.",
-        bioHtml: 'Jonathan Kirkwood, MD MBA, is co-founder and managing partner of Ten31, where he leads capital formation and fund management. Since 2020, Ten31 has invested at the convergence of finite money and abundant intelligence: bitcoin, which is enforced by energy, and AI, which is enabled by energy. Both compound demand for the same physical infrastructure, and value gravitates to whatever stays finite. Ten31 financed bitcoin\'s plumbing and the energy-intensive compute buildout years before the trade was fashionable. In 2023, he told Forbes rackspace demand would rise a thousandfold over the decade. He is lead director at Fold Holdings (NASDAQ: FLD) and sits on the boards of Start9 Labs and Battery Finance.\n\nWhen everyone rents the same intelligence, everyone arrives at the same answer, so the durable asset is not capability but judgment, held privately and compounded over time. At <a href="http://personaldatacenter.xyz" target="_blank" rel="noopener noreferrer">personaldatacenter.xyz</a> he documented what owning that stack actually takes: a Start9 server running StartOS, two NVIDIA DGX Sparks, open-source models fine-tuned for his needs, agents on schedule, and services reachable from the open internet without exposing personal identification. He covers how he uses the different tiers of AI, and why inference, storage, and identity are moving back inside the walls.',
+        bio: 'Jonathan Kirkwood is Co-founder and Managing Partner at Ten31, a Bitcoin-focused venture capital firm. With his MD and MBA background, Jonathan brings unique expertise in both medical and business strategy to Bitcoin investing. He leads Ten31\'s mission to identify and support the most promising Bitcoin companies and entrepreneurs building the future of digital finance.',
         achievements: [
           'Co-founder and Managing Partner at Ten31',
           'MD and MBA with expertise in medical and business strategy',
@@ -4106,11 +4105,7 @@
       
       title.textContent = speaker.title;
       company.textContent = speaker.company;
-      if (speaker.bioHtml) {
-        bio.innerHTML = speaker.bioHtml;
-      } else {
-        bio.textContent = speaker.bio;
-      }
+      bio.textContent = speaker.bio;
 
       // Populate achievements
       achievements.innerHTML = '';

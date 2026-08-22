@@ -34,6 +34,17 @@ window.IFSpeakers = (() => {
     );
   }
 
+  function renderBioParagraph(para) {
+    const parts = String(para).split(/(https?:\/\/[^\s]+|personaldatacenter\.xyz)/g);
+    return parts.map((part, i) => {
+      if (/^https?:\/\//.test(part) || part === 'personaldatacenter.xyz') {
+        const href = /^https?:\/\//.test(part) ? part : 'http://' + part;
+        return <a key={i} href={href} target="_blank" rel="noopener noreferrer">{part.replace(/^https?:\/\//, '')}</a>;
+      }
+      return part;
+    });
+  }
+
   function SpeakerModal({ speaker, onClose }) {
     if (!speaker) return null;
     return (
@@ -52,7 +63,7 @@ window.IFSpeakers = (() => {
             <h2 style={{ marginTop: 0 }}>{speaker.name}</h2>
             <div className="muted" style={{ fontSize: 16, marginBottom: 24 }}>{speaker.role} · {speaker.org}</div>
             {String(speaker.bio || '').split(/\n\s*\n/).map((para, i) => (
-              <p key={i} style={{ fontSize: 18, lineHeight: 1.55, maxWidth: 'none' }}>{para}</p>
+              <p key={i} style={{ fontSize: 18, lineHeight: 1.55, maxWidth: 'none' }}>{renderBioParagraph(para)}</p>
             ))}
             {(speaker.x || speaker.linkedin) && (
               <div className="sp-modal__social">
