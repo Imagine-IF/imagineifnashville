@@ -12,7 +12,7 @@ window.IF_DATA = {
     days: ['Monday Oct 5', 'Tuesday Oct 6'],
   },
 
-  // 9 confirmed today (synced with imagineifnashville.com); + TBA placeholder.
+  // Confirmed speaker slate; + TBA placeholder.
   // tags use three-rails framing: Intelligence / Humanity / Money / Freedom Tech.
   speakers: [
     { id: 'cathie-wood', name: 'Cathie Wood', role: 'Founder, CEO, and CIO', org: 'ARK Invest', tags: ['Money', 'Intelligence'], featured: true,
@@ -96,6 +96,10 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/stephanie-coleman-1956775/',
       bio: 'President and CEO of the Nashville Area Chamber of Commerce. Leading Partnership 2030 — the region\'s five-year economic strategy for community vitality, mobility, and character. Vanderbilt economist by training, Nashville builder by choice.',
       talk: 'Imagine IF… every city built itself on purpose.' },
+    { id: 'candice-mcqueen', name: 'Dr. Candice McQueen', role: 'President', org: 'Lipscomb University', tags: ['Humanity', 'Intelligence'],
+      photo: 'uploads/speakers/candice-mcqueen.jpg',
+      bio: 'President of Lipscomb University and former Tennessee Commissioner of Education. She has led from classrooms to higher education, state government, and national nonprofit work — building institutions around teaching excellence and the next generation of leaders.',
+      talk: 'Imagine IF… education formed builders.' },
     { id: 'rapha-zagury', name: 'Rapha Zagury', role: 'CEO', org: 'Twenty One Capital', tags: ['Money'],
       photo: 'uploads/speakers/rapha-zagury.jpg?v=2',
       x: 'https://x.com/RaphaZagury',
