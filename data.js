@@ -184,6 +184,14 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/carlos-javier-el-hage-guaristi/',
       bio: 'Chief Legal and Policy Officer at the Human Rights Foundation, where he co-leads the organization\'s impact litigation and research programs. A Bolivian-born New York attorney, he works across corporate, financial, and international human rights law. His academic work includes research at the intersection of finance, technology, and international human rights, including writing on ESG disclosure and misleading ratings.',
       talk: 'Imagine IF… law defended financial freedom.' },
+    { id: 'farida-nabourema', name: 'Farida Nabourema', role: 'Founder', org: 'Africa Bitcoin Conference', tags: ['Money', 'Freedom Tech'],
+      photo: 'uploads/speakers/farida-nabourema.png',
+      bio: 'Togolese human rights advocate and writer who has fought for democracy in Togo since she was a teenager. Founder of the Faure Must Go movement and the Africa Bitcoin Conference, she connects civil resistance, financial freedom, and bitcoin adoption across the continent.',
+      talk: 'Imagine IF… money gave dissidents a way to keep moving.' },
+    { id: 'felix-maradiaga', name: 'Félix Maradiaga', role: 'Pro-democracy Advocate', org: 'Nicaragua', tags: ['Freedom Tech', 'Money'],
+      photo: 'uploads/speakers/felix-maradiaga.png',
+      bio: 'Nicaraguan academic, pro-democracy advocate, and former prisoner of conscience. A former presidential pre-candidate and secretary general of Nicaragua\'s Ministry of Defense, Félix has spent decades building civil-society institutions and exposing how authoritarian regimes use law, finance, and technology to silence dissent.',
+      talk: 'Imagine IF… financial rails could not be turned against conscience.' },
   ],
 
   sponsors: {
