@@ -205,6 +205,12 @@ window.IF_DATA = {
     { id: 'nick-elliot', name: 'Nick Elliot', role: 'Director of Government Affairs', org: 'Innovation Council Action', tags: ['Freedom Tech', 'Money'],
       bio: 'Government affairs and digital-assets policy professional working at the intersection of innovation, public policy, and the institutions shaping America\'s technology future.',
       talk: 'Imagine IF… policy kept pace with permissionless innovation.' },
+    { id: 'lorenzo-valente', name: 'Lorenzo Valente', role: 'Director of Research, Digital Assets', org: 'ARK Invest', tags: ['Money', 'Intelligence'],
+      photo: 'uploads/speakers/lorenzo-valente.jpg',
+      x: 'https://x.com/LorenzoARK',
+      linkedin: 'https://www.linkedin.com/in/lorenzo-valente-71308512a/',
+      bio: 'Director of Research for digital assets at ARK Invest, focused on bitcoin, public markets, and the investment implications of open monetary networks.',
+      talk: 'Imagine IF… capital markets understood digital assets at first principles.' },
   ],
 
   sponsors: {
