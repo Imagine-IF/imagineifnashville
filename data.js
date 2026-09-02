@@ -208,6 +208,7 @@ window.IF_DATA = {
       { name: 'Bitkey', url: 'https://bitkey.world' },
       { name: 'BLISS', url: 'https://www.blissmakers.org/' },
       { name: 'Demo Lab', url: 'https://www.demolabcr.org/' },
+      { name: 'Howden', url: 'https://www.howdengroupholdings.com/' },
       { name: 'Institute for Humane Studies', short: 'IHS', url: 'https://theihs.org/' },
       { name: 'The Reynolds Foundation', url: 'https://www.reynoldsfoundation.com/' },
     ],
