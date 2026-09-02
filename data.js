@@ -203,6 +203,7 @@ window.IF_DATA = {
       bio: 'Director of Partnerships at Oak Ridge National Laboratory, responsible for technology transfer, commercialization, economic development, industry partnerships, and research security. He brings decades of R&D leadership across computing, national security, cyber resilience, machine learning, and science-to-market strategy.',
       talk: 'Imagine IF… national labs moved at startup speed.' },
     { id: 'nick-elliot', name: 'Nick Elliot', role: 'Director of Government Affairs', org: 'Innovation Council Action', tags: ['Freedom Tech', 'Money'],
+      photo: 'uploads/speakers/nick-elliot.png',
       bio: 'Government affairs and digital-assets policy professional working at the intersection of innovation, public policy, and the institutions shaping America\'s technology future.',
       talk: 'Imagine IF… policy kept pace with permissionless innovation.' },
     { id: 'lorenzo-valente', name: 'Lorenzo Valente', role: 'Director of Research, Digital Assets', org: 'ARK Invest', tags: ['Money', 'Intelligence'],
