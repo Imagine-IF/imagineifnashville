@@ -32,16 +32,14 @@ window.IFVenue = (() => {
             <span className="eyebrow">Accommodations</span>
             <h2 style={{ maxWidth: '14ch', marginTop: 12 }}>Where to stay. <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Close to the room.</em></h2>
             <p className="muted" style={{ maxWidth: '54ch', fontSize: 17, marginTop: 16 }}>
-              Five hotels within easy reach of the Fisher Center.
+              Three hotels within easy reach of the Fisher Center, two with discounted rates for Imagine IF guests.
             </p>
 
             <div className="vn-cards">
               {[
-                { tag: 'Vanderbilt', title: 'The Moxy', url: 'https://www.marriott.com/en-us/hotels/bnaov-moxy-nashville-vanderbilt-area/overview/', body: 'Design-forward and walkable to the venue.' },
-                { tag: 'Midtown', title: 'The Kimpton Aertson', url: 'https://www.aertsonhotel.com/', body: 'Upscale modern, a short Lyft from Belmont.' },
-                { tag: 'Downtown', title: '1 Hotel Nashville', url: 'https://www.1hotels.com/nashville', body: 'Sustainability-led luxury downtown.' },
+                { tag: 'Vanderbilt', title: 'The Moxy', url: 'https://app.marriott.com/resview2?id=1788291154601&key=GRP&app=resvlink', body: 'Design-forward and walkable to the venue. Imagine IF group rate ($174/night), book by Sept 18.' },
+                { tag: 'Midtown', title: 'The Kimpton Aertson', url: 'https://www.ihg.com/kimptonhotels/hotels/us/en/aertson-hotel-nashville-tn/bnaae/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99502056&icdv=99502056&qSlH=BNAAE&qCpid=787245467&qAAR=APJKQ&qRtP=APJKQ&setPMCookies=true&qSHBrC=KI&qDest=2021%20Broadway%2C%20Nashville%2C%20TN%2C%20US&showApp=true&adjustMonth=false&srb_u=1', body: 'Upscale modern, a short Lyft from Belmont. Bitcoin Park discounted rate.' },
                 { tag: 'Hillsboro', title: 'The Chloe', url: 'https://www.chloenashville.com/', body: 'New boutique landmark in Hillsboro Village.' },
-                { tag: 'Music Row', title: 'Virgin Hotels Nashville', url: 'https://virginhotels.com/nashville/', body: 'Playful luxury at the top of Music Row.' },
               ].map(c => (
                 <a key={c.title} href={c.url} target="_blank" rel="noopener noreferrer" className="vn-card" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
                   <span className="pill pill--orange">{c.tag}</span>
