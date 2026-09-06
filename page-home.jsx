@@ -169,14 +169,13 @@ window.IFHome = (() => {
 
   // ---------------- "IMAGINE IF…" PROMPT REEL ----------------
   function PromptReel() {
-    // Two prompts from each rail — pulled from the hero cycling set.
     const seeds = [
-    { rail: 'AI', prompt: 'intelligence became electricity — and you owned the meter.' },
-    { rail: 'AI', prompt: 'AI worked for you, not on you.' },
-    { rail: 'Energy', prompt: 'energy stopped being the binding constraint.' },
-    { rail: 'Energy', prompt: 'atoms came back to the grid edge.' },
-    { rail: 'Bitcoin', prompt: 'bitcoin worked for the next eight billion.' },
-    { rail: 'Bitcoin', prompt: 'technology outlived the quantum decade.' }];
+    { rail: 'Energy', prompt: 'Nuclear Were Young Again' },
+    { rail: 'Intelligence', prompt: 'Data Centers Disappeared' },
+    { rail: 'Humanity', prompt: 'Kids Were Limitless' },
+    { rail: 'Intelligence', prompt: 'Every Home Ran a Data Center' },
+    { rail: 'Freedom Tech', prompt: 'All Activists Had AI Superpowers' },
+    { rail: 'Intelligence', prompt: 'We Built the Quantum Internet' }];
 
     return (
       <section className="section">
