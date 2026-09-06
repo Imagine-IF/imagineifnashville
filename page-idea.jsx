@@ -50,12 +50,8 @@ window.IFIdea = (() => {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.3fr', gap: 'var(--s-7)', alignItems: 'center' }} className="idea-quote-block">
               <div className="quote">
                 "Imagination plus agency, never one without the other."
-                <cite>— The Imagine IF brief</cite>
               </div>
               <div>
-                <p style={{ fontSize: 18 }}>
-                  We picked the format because the alternative — "trends in [thing] for [year]" — produces the same conference twelve times a year. None of it survives the ride home.
-                </p>
                 <p style={{ fontSize: 18 }}>
                   An <em className="italic-hero" style={{ color: 'var(--royal)' }}>Imagine IF…</em> survives. It plants. People walk out entertained, informed, and inspired.
                 </p>
@@ -119,9 +115,9 @@ window.IFIdea = (() => {
             <div>
               <span className="eyebrow" style={{ color: 'var(--coral)' }}>Press & media</span>
               <h3 style={{ color: 'var(--paper)', marginTop: 8 }}>Reach the team.</h3>
-              <p style={{ color: 'rgba(251,246,241,0.7)', marginTop: 8, maxWidth: '40ch' }}>For credentials, interviews, or anything else, email community@bitcoinpark.com.</p>
+              <p style={{ color: 'rgba(251,246,241,0.7)', marginTop: 8, maxWidth: '40ch' }}>For credentials, interviews, or anything else, email rod@bitcoinpark.com.</p>
             </div>
-            <a className="btn btn--ghost-light btn--lg" href="mailto:community@bitcoinpark.com">community@bitcoinpark.com <span className="arr"></span></a>
+            <a className="btn btn--ghost-light btn--lg" href="mailto:rod@bitcoinpark.com">rod@bitcoinpark.com <span className="arr"></span></a>
           </div>
         </section>
       </div>
