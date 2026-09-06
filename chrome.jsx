@@ -132,19 +132,24 @@ window.IFChrome = (() => {
       <section className="newsletter">
         <div className="shell newsletter__inner">
           <div className="newsletter__copy">
-            <span className="eyebrow" style={{ color: 'var(--coral)' }}>Tangents Daily (formerly OP_Daily)</span>
+            <span className="eyebrow" style={{ color: 'var(--coral)' }}>Tangents &middot; A frontier media project built across Bitcoin Park, AI Freedom Lab, and Imagine IF</span>
             <p className="newsletter__h" style={{ margin: '10px 0 0' }}>
-              <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Six bytes a day across AI, energy, and bitcoin.</em>
+              <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Nothing great happens in a straight line.</em>
             </p>
             <h3 className="newsletter__h" style={{ fontSize: 'clamp(18px, 1.4vw, 22px)', lineHeight: 1.4, marginTop: 14 }}>
               Imagine IF is two days a year.<br />
               Tangents runs all 365.<br />
-              The weekly show premieres this August.
+              Daily signals in your inbox. Weekly show live from Bitcoin Park, Wednesdays at 1pm CT.
             </h3>
           </div>
-          <a className="btn btn--primary newsletter__btn" href="https://tangentsdaily.substack.com" target="_blank" rel="noopener noreferrer">
-            Subscribe <span className="arr"></span>
-          </a>
+          <div className="newsletter__actions">
+            <a className="btn btn--primary" href="https://tangentsdaily.substack.com" target="_blank" rel="noopener noreferrer">
+              Subscribe <span className="arr"></span>
+            </a>
+            <a className="btn btn--ghost-light" href="https://www.youtube.com/@tangents_d" target="_blank" rel="noopener noreferrer">
+              Watch the show <span className="arr"></span>
+            </a>
+          </div>
         </div>
       </section>
     );
