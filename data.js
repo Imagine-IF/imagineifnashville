@@ -53,6 +53,7 @@ window.IF_DATA = {
       talk: 'Imagine IF… every human had a way out.' },
     { id: 'farida-nabourema', name: 'Farida Nabourema', role: 'Pan-African activist', org: 'Africa Bitcoin Conference', tags: ['Money', 'Freedom Tech'],
       photo: 'uploads/speakers/farida-nabourema.png',
+      x: 'https://x.com/Farida_N',
       bio: 'Togolese human rights advocate and writer who has fought for democracy in Togo since she was a teenager. Founder of the Faure Must Go movement and the Africa Bitcoin Conference, she connects civil resistance, financial freedom, and bitcoin adoption across the continent.',
       talk: 'Imagine IF… money gave dissidents a way to keep moving.' },
     { id: 'bill-hagerty', name: 'Bill Hagerty', role: 'U.S. Senator', org: 'Tennessee', tags: ['Money', 'Freedom Tech'], featured: true,
