@@ -202,7 +202,7 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/nacho-pauls-67501b115/',
       bio: 'Chief Commercial Officer at OCEAN, the decentralized Bitcoin mining pool building tools for more transparent, permissionless mining. An Argentine-born bitcoin advocate and former athlete, Nacho works with miners to expand adoption of DATUM and strengthen the infrastructure layer that keeps Bitcoin open.',
       talk: 'Imagine IF… mining became permissionless again.' },
-    { id: 'marsha-blackburn', name: 'Marsha Blackburn', role: 'U.S. Senator', org: 'Tennessee', tags: ['Freedom Tech', 'Intelligence'], featured: true,
+    { id: 'marsha-blackburn', name: 'Marsha Blackburn', role: 'U.S. Senator', org: 'Tennessee', tags: ['Freedom Tech', 'Intelligence'],
       photo: 'uploads/speakers/marsha-blackburn.jpg?v=2',
       x: 'https://x.com/marshablackburn',
       bio: 'Senator Marsha Blackburn represents Tennessee in the United States Senate. She serves on the Finance, Commerce, Science & Transportation, Veterans\' Affairs, and Judiciary Committees, and chairs subcommittees focused on consumer protection, technology, data privacy, and privacy law. Her work spans technology policy, internet freedom, national security, and the rules that shape how open societies adopt powerful new tools.',
