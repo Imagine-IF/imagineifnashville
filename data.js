@@ -71,7 +71,7 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/melissa-mahtani/',
       bio: 'International journalist, anchor, and moderator focused on emerging technology, human rights, and equality. Journalist-in-residence at AI Lab and host of the AI Lab Podcast; previously executive producer of CBS News Confirmed and senior producer/reporter at CNN.',
       talk: 'Imagine IF… truth kept pace with technology.' },
-    { id: 'hash-hashemian', name: 'Hash Hashemian', role: 'President', org: 'American Nuclear Society', tags: ['Humanity'],
+    { id: 'hash-hashemian', name: 'Hash Hashemian', role: 'Past President', org: 'American Nuclear Society', tags: ['Humanity'],
       photo: 'uploads/speakers/hash-hashemian.jpg',
       bio: 'Senior nuclear authority and AMS Corporation president. Working at the intersection of grid infrastructure, nuclear power, and the next-decade energy buildout.',
       talk: 'Imagine IF… atoms came back to the grid edge.' },
