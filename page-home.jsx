@@ -57,22 +57,46 @@ window.IFHome = (() => {
 
   }
 
+  // Trailer carousel — newest cut first. Each entry is a self-hosted, web-compressed mp4 + poster frame.
+  const TRAILERS = [
+    { id: '30day', title: '30 days out', src: 'uploads/trailer-30day.mp4', poster: 'uploads/trailer-30day-poster.jpg', dur: '1:51' },
+    { id: '90day', title: '90 days out', src: 'uploads/trailer-90day.mp4', poster: 'uploads/trailer-90day-poster.jpg', dur: '1:38' },
+    { id: 'first', title: 'First look', src: 'uploads/trailer.mp4', poster: 'uploads/trailer-poster.jpg', dur: '1:09' }];
+
   function TrailerSlot() {
     const videoRef = useRef(null);
+    const [idx, setIdx] = useState(0);
     const [playing, setPlaying] = useState(false);
+    const t = TRAILERS[idx];
+    const n = TRAILERS.length;
+
     const togglePlay = () => {
       const v = videoRef.current;
       if (!v) return;
       if (v.paused) { v.play(); setPlaying(true); }
       else { v.pause(); setPlaying(false); }
     };
+    // Switching trailers: stop whatever is playing, then swap. The <video> is keyed on src so it
+    // remounts with the new poster instead of showing a stale frame.
+    const go = (next) => {
+      const v = videoRef.current;
+      if (v && !v.paused) v.pause();
+      setPlaying(false);
+      setIdx((next + n) % n);
+    };
+    const onKey = (e) => {
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(idx + 1); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); go(idx - 1); }
+    };
+
     return (
-      <figure className="trailer">
+      <figure className="trailer" onKeyDown={onKey}>
         <div className="trailer__frame">
           <video
+            key={t.src}
             ref={videoRef}
-            src="uploads/trailer-90day.mp4"
-            poster="uploads/trailer-90day-poster.jpg"
+            src={t.src}
+            poster={t.poster}
             className="trailer__video"
             preload="metadata"
             playsInline
@@ -82,12 +106,22 @@ window.IFHome = (() => {
             onEnded={() => setPlaying(false)}
           />
           {!playing && (
-            <button className="trailer__play" type="button" aria-label="Play trailer" onClick={togglePlay}>
+            <button className="trailer__play" type="button" aria-label={'Play trailer: ' + t.title} onClick={togglePlay}>
               <span className="trailer__play-bg"></span>
               <svg viewBox="0 0 28 28" width="28" height="28" aria-hidden="true">
                 <path d="M9 6 L23 14 L9 22 Z" fill="currentColor" />
               </svg>
             </button>
+          )}
+          {n > 1 && (
+            <>
+              <button className="trailer__arrow trailer__arrow--prev" type="button" aria-label="Previous trailer" onClick={() => go(idx - 1)}>
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 5 L8 12 L15 19" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
+              </button>
+              <button className="trailer__arrow trailer__arrow--next" type="button" aria-label="Next trailer" onClick={() => go(idx + 1)}>
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5 L16 12 L9 19" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
+              </button>
+            </>
           )}
           <div className="trailer__corner trailer__corner--tl"></div>
           <div className="trailer__corner trailer__corner--tr"></div>
@@ -95,9 +129,22 @@ window.IFHome = (() => {
           <div className="trailer__corner trailer__corner--br"></div>
         </div>
         <figcaption className="trailer__cap">
-          <span className="eyebrow" style={{ color: 'var(--coral)' }}>Trailer · 1:38</span>
-          <span style={{ color: 'rgba(251,246,241,0.7)', fontSize: 13 }}>
-            Imagine IF · Nashville · <a href="https://youtu.be/7Vc6TplLaB4" target="_blank" rel="noopener" style={{ color: 'rgba(251,246,241,0.7)' }}>Watch the first trailer</a>
+          <span className="eyebrow" style={{ color: 'var(--coral)' }}>
+            Trailer · {t.title} · {t.dur}
+          </span>
+          <span className="trailer__nav" role="tablist" aria-label="Choose a trailer">
+            <span className="trailer__count" aria-hidden="true">{idx + 1} / {n}</span>
+            {TRAILERS.map((tr, i) =>
+            <button
+              key={tr.id}
+              type="button"
+              role="tab"
+              aria-selected={i === idx}
+              aria-label={tr.title}
+              title={tr.title}
+              className={'trailer__dot' + (i === idx ? ' is-active' : '')}
+              onClick={() => go(i)} />
+            )}
           </span>
         </figcaption>
       </figure>

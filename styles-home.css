@@ -157,12 +157,76 @@
 .trailer__cap {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: var(--s-4);
   flex-wrap: wrap;
 }
+
+/* Trailer carousel: edge arrows on the frame, dots + counter in the caption */
+.trailer__video { animation: trailerSwap 0.5s var(--ease-out) both; }
+@keyframes trailerSwap {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.trailer__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px; height: 40px;
+  border-radius: 999px;
+  border: 1px solid rgba(251,246,241,0.35);
+  background: rgba(7,12,112,0.45);
+  color: var(--paper);
+  display: grid; place-items: center;
+  cursor: pointer;
+  z-index: 4;
+  opacity: 0.75;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: opacity 0.3s var(--ease-out), background 0.3s var(--ease-out), transform 0.3s var(--ease-out);
+}
+.trailer__arrow--prev { left: 14px; }
+.trailer__arrow--next { right: 14px; }
+.trailer__arrow:hover {
+  opacity: 1;
+  background: var(--paper);
+  color: var(--midnight);
+}
+.trailer__arrow:focus-visible { outline: 2px solid var(--coral); outline-offset: 2px; opacity: 1; }
+.trailer__frame:hover .trailer__arrow { opacity: 1; }
+
+.trailer__nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.trailer__count {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: rgba(251,246,241,0.55);
+  margin-right: 4px;
+  font-variant-numeric: tabular-nums;
+}
+.trailer__dot {
+  width: 22px; height: 6px;
+  border-radius: 999px;
+  border: none;
+  padding: 0;
+  background: rgba(251,246,241,0.28);
+  cursor: pointer;
+  transition: background 0.3s var(--ease-out), width 0.3s var(--ease-out);
+}
+.trailer__dot:hover { background: rgba(251,246,241,0.6); }
+.trailer__dot.is-active { background: var(--coral); width: 34px; }
+.trailer__dot:focus-visible { outline: 2px solid var(--coral); outline-offset: 3px; }
+@media (max-width: 560px) {
+  .trailer__arrow { width: 34px; height: 34px; }
+  .trailer__arrow--prev { left: 8px; }
+  .trailer__arrow--next { right: 8px; }
+}
 @media (prefers-reduced-motion: reduce) {
   .trailer__play-bg::before, .trailer__play-bg::after { animation: none; }
+  .trailer__video { animation: none; }
 }
 
 @keyframes heroIn {
