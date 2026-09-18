@@ -42,9 +42,7 @@ window.IFAgenda = (() => {
                 Want to be in the room? Attendance is by invitation.
               </p>
               <div style={{ marginTop: 28 }}>
-                <a className="btn btn--primary btn--lg" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">
-                  Request an Invitation <span className="arr"></span>
-                </a>
+                <span className="btn btn--primary btn--lg" role="status">SOLD OUT</span>
               </div>
             </div>
           </section>
@@ -128,7 +126,7 @@ window.IFAgenda = (() => {
               <span className="eyebrow">Be in the room</span>
               <h3 style={{ marginTop: 8 }}>Two days. <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Two stages.</em> One door.</h3>
             </div>
-            <a className="btn btn--primary" href="https://luma.com/uanee3xb?tk=yqFBKj" target="_blank" rel="noopener noreferrer">Request an Invitation <span className="arr"></span></a>
+            <span className="btn btn--primary" role="status">SOLD OUT</span>
           </div>
         </section>
       </div>
