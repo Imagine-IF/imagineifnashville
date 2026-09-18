@@ -231,6 +231,11 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/lorenzo-valente-71308512a/',
       bio: 'Director of Research for digital assets at ARK Invest, focused on bitcoin, public markets, and the investment implications of open monetary networks.',
       talk: 'Imagine IF… capital markets understood digital assets at first principles.' },
+    { id: 'russ-greene', name: 'Russ Greene', role: 'Executive Director', org: 'Prime Mover Institute', tags: ['Freedom Tech', 'Humanity'],
+      photo: 'uploads/speakers/russ-greene.webp',
+      photoPos: 'center 25%',
+      bio: 'Executive Director of the Prime Mover Institute and Senior Advisor for Public Affairs and Defense Policy at Apex Path. Previously held roles at Stand Together Trust and, before that, CrossFit Inc.',
+      talk: 'Imagine IF… freedom were built from the bottom up.' },
   ],
 
   sponsors: {
