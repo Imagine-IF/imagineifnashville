@@ -46,7 +46,9 @@ window.IFHome = (() => {
             </div>
             <div className="hero__cta">
               <button className="btn btn--ghost-light btn--lg" onClick={() => onNav('idea')}>What is Imagine IF?</button>
-              <span className="btn btn--primary btn--lg" role="status">Imagine IF is SOLD OUT</span>
+              <button className="btn btn--primary btn--lg" onClick={() => onNav('tickets')}>
+                Imagine IF is SOLD OUT <span className="arr"></span>
+              </button>
             </div>
           </div>
           <div className="hero__col-video">
