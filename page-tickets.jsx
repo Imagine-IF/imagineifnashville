@@ -1,9 +1,7 @@
-// Tickets — mirrors imagineifnashville.com/tickets.html
-// 3 tiers, shared bullets, single Luma funnel + DM Rod exception.
+// Tickets — mirrors imagineifnashville.com/tickets.html.
+// Registration is closed for Imagine IF 2026.
 
 window.IFTickets = (() => {
-
-  const LUMA = 'https://luma.com/uanee3xb?tk=yqFBKj';
 
   const SHARED_INCLUDES = [
     'All-Access to Two Day Summit',
@@ -19,9 +17,9 @@ window.IFTickets = (() => {
       name: 'I am a Bitcoin Park Member',
       tag: 'Members only',
       price: 'Free',
-      priceNote: 'Complimentary for Park members.',
-      ctaLabel: 'DM Rod',
-      ctaHref: null, // styled button, no destination
+      priceNote: 'Sold out.',
+      ctaLabel: 'SOLD OUT',
+      ctaHref: null,
       color: 'var(--royal)',
     },
     {
@@ -29,9 +27,9 @@ window.IFTickets = (() => {
       name: 'Student Pass',
       tag: 'Students',
       price: 'Discounted',
-      priceNote: 'Discounted pass for students.',
-      ctaLabel: 'Request Student Pass',
-      ctaHref: 'mailto:community@bitcoinpark.com?subject=Student%20Ticket%20Request%20-%20Imagine%20IF',
+      priceNote: 'Sold out.',
+      ctaLabel: 'SOLD OUT',
+      ctaHref: null,
       color: 'var(--coral)',
     },
     {
@@ -39,9 +37,9 @@ window.IFTickets = (() => {
       name: 'Summit Pass',
       tag: 'Full access',
       price: 'By Invitation',
-      priceNote: 'Full access ticket to the summit.',
-      ctaLabel: 'Request an Invitation',
-      ctaHref: LUMA,
+      priceNote: 'Sold out.',
+      ctaLabel: 'SOLD OUT',
+      ctaHref: null,
       color: 'var(--sunrise)',
     },
   ];
@@ -103,7 +101,7 @@ window.IFTickets = (() => {
                       {t.ctaLabel} <span className="arr"></span>
                     </a>
                   ) : (
-                    <button className="btn btn--ghost" type="button" aria-label="DM Rod" style={{ cursor: 'default' }}>
+                    <button className="btn btn--ghost" type="button" aria-label="SOLD OUT" style={{ cursor: 'default' }}>
                       {t.ctaLabel}
                     </button>
                   )}
