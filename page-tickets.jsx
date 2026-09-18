@@ -17,9 +17,9 @@ window.IFTickets = (() => {
       name: 'I am a Bitcoin Park Member',
       tag: 'Members only',
       price: 'Free',
-      priceNote: 'For a member seat—or a membership or ticket question—email Rod.',
-      ctaLabel: 'rod@bitcoinpark.com',
-      ctaHref: 'mailto:rod@bitcoinpark.com?subject=Imagine%20IF%202026%20Member%20Ticket',
+      priceNote: 'Message Rod or apply for membership.',
+      ctaLabel: 'Message Rod or Apply for Membership',
+      ctaHref: 'https://docs.google.com/forms/d/e/1FAIpQLScTSNdo55W1P6EFpOogtinl5gJnGkCDhDB097GVQkLwJeMa7A/viewform',
       color: 'var(--royal)',
     },
     {
