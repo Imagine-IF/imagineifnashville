@@ -39,7 +39,7 @@ window.IFTickets = (() => {
       price: 'By Invitation',
       priceNote: 'Sold out.',
       ctaLabel: 'SOLD OUT',
-      ctaHref: null,
+      ctaHref: LUMA,
       color: 'var(--sunrise)',
     },
   ];
