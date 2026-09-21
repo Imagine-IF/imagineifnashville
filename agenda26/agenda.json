@@ -1,0 +1,934 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "day": 1,
+      "time": "8:00–10:00 AM",
+      "title": "Doors open, breakfast served",
+      "speakers": [],
+      "abstract": "",
+      "description": "Arrive and enjoy breakfast before the opening welcome.",
+      "room": "Fisher Center foyer",
+      "production": false,
+      "hold": false,
+      "kind": "meal",
+      "reviewOverride": true,
+      "addedInReview": true
+    },
+    {
+      "id": 2,
+      "day": 1,
+      "time": "10:00 - 10:02a",
+      "title": "Opener Video (mash up)",
+      "speakers": [],
+      "abstract": "60-second opening reel — the IF26 thesis in motion: AI, Bitcoin, Energy converging in the hands of builders.",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 3,
+      "day": 1,
+      "time": "10:00–10:05 AM",
+      "title": "Welcome to Imagine IF 2026",
+      "speakers": [
+        "Rod Roudi (Bitcoin Park)"
+      ],
+      "abstract": "Live welcome from Imagine IF's founder, framing the two days and the convergence thesis underneath them — why AI, Bitcoin, and Energy belong on one stage, and what to listen for across the agenda.",
+      "room": "Theater",
+      "production": false,
+      "hold": false,
+      "reviewOverride": true
+    },
+    {
+      "id": 4,
+      "day": 1,
+      "time": "10:05 - 10:06a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 5,
+      "day": 1,
+      "time": "10:06 - 10:16a",
+      "title": "Imagine IF Stories Moved Money",
+      "speakers": [
+        "Scott Harrison (charity: water)"
+      ],
+      "abstract": "One of the most-beloved nonprofits of the 21st century was built one story at a time — over $1 billion raised and 19 million people brought clean water across 29 countries, almost none of it through technology breakthroughs. The keynote argues that storytelling is the actual infrastructure of philanthropy and the missing skill in technical movements. How to make the work of freedom and abundance legible to the people who would fund it, vote for it, and share it. A storytelling masterclass from one of the most accomplished practitioners on earth.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 6,
+      "day": 1,
+      "time": "10:16 - 10:17a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 7,
+      "day": 1,
+      "time": "10:17 - 10:27a",
+      "title": "Imagine IF Bitcoin and Energy Went Supernova",
+      "speakers": [
+        "Rapha Zagury (Twenty One Capital / XXI - CEO)"
+      ],
+      "abstract": "Every public company keeps score in a currency that loses value to its own money printer. Rapha Zagury runs Twenty One Capital, the Cantor-backed public company built to keep score differently: more than 43,000 bitcoin on the balance sheet and performance measured in bitcoin per share, not just dollars of earnings. Taking the helm from Jack Mallers this summer, he is turning a treasury thesis into an operating company. Ten minutes on why the unit of account is a choice, what shareholders gain from a denominator that cannot be debased, and what changes inside a company the day it starts measuring itself in bitcoin.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 8,
+      "day": 1,
+      "time": "10:27 - 10:28a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 9,
+      "day": 1,
+      "time": "10:28 - 10:38a",
+      "title": "Imagine IF AI Worked for Freedom",
+      "speakers": [
+        "Rene Angel (Reynolds Foundation - Head of AI)"
+      ],
+      "abstract": "Seventy-four percent of humanity lives under autocracy, yet less than one percent of American charitable giving supports freedom and democracy. The Reynolds Foundation calls this a mispricing, and invests in the conditions freedom depends on.\n\nAI can help organizations defending freedom reach more people, document abuses and analyze evidence. But what happens when the company they depend on cuts them off? René Ángel, the foundation’s Head of AI, explores how these organizations can use powerful AI while keeping control of their knowledge and workflows. Drawing on the foundation’s own work, he explains how to build systems that can use different AI providers, and what funders and builders can do to make them practical for organizations with ordinary devices and no engineering team.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 10,
+      "day": 1,
+      "time": "10:38 - 10:39a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 11,
+      "day": 1,
+      "time": "10:39 - 10:49a",
+      "title": "Imagine IF You Held the Keys to Everything",
+      "speakers": [
+        "Jesse Posner (Vora)"
+      ],
+      "abstract": "The cryptography engineer behind the first BIP-340-compatible implementation of FROST makes the case that self-custody is about to outgrow money. Threshold signatures let a group hold bitcoin keys with no single point of failure, and the same math extends to everything that matters: your data, your identity, your AI. After building key management and cold storage at Coinbase and Block, he is now building Vora on a simple conviction: the age of AI agents acting on your behalf only works if you, not a platform, hold the keys they answer to. Ten minutes on the primitive underneath digital sovereignty, and what becomes possible when we bring the principles of Bitcoin self-custody to personal AI.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 12,
+      "day": 1,
+      "time": "10:49 - 10:50a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 13,
+      "day": 1,
+      "time": "10:50 - 11:00a",
+      "title": "Imagine IF Everyone Read the Source Material",
+      "speakers": [
+        "Michael Goldstein (Satoshi Nakamoto Institute)"
+      ],
+      "abstract": "The President of the Satoshi Nakamoto Institute has spent a decade keeping bitcoin's primary sources in print: the cypherpunk mailing lists, the whitepaper, Satoshi's every post. The keynote is an argument for reading them. Every hype cycle rediscovers ideas that were argued out twenty-five years ago, and every newcomer who reads the canon skips a decade of confusion. Ten minutes from one of bitcoin's sharpest memetic minds on what the source material actually says, why movements drift when they stop reading their founders, and what the cypherpunks knew about the AI era before it had a name.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 14,
+      "day": 1,
+      "time": "11:00 - 11:01a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 15,
+      "day": 1,
+      "time": "11:01 - 11:26a",
+      "title": "Imagine IF America Defended Forward",
+      "speakers": [
+        "General Paul Nakasone (Vanderbilt Institute of National Security)"
+      ],
+      "abstract": "Session details coming soon.",
+      "room": "Theater",
+      "production": false,
+      "hold": false,
+      "speakerReview": true
+    },
+    {
+      "id": 16,
+      "day": 1,
+      "time": "11:26 - 11:27a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 17,
+      "day": 1,
+      "time": "11:27 - 11:37a",
+      "title": "TBA",
+      "speakers": [
+        "Jeff Booth (Ego Death Capital)"
+      ],
+      "abstract": "One of the most-quoted bitcoin idea of the last five years: that technology is inherently deflationary, that fiat is structurally incompatible with that deflation, and that bitcoin is the only neutral monetary asset built for the world that is actually coming. This IF talk updates the thesis for 2026 — AI productivity slamming through the consumer-price index in real time, sovereign debt blowing through every guardrail, the cost of intelligence collapsing toward zero. The single most concentrated argument for why Imagine IF exists.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 18,
+      "day": 1,
+      "time": "12:00 - 1:30p",
+      "title": "Lunch served",
+      "speakers": [],
+      "abstract": "90-minute lunch break.",
+      "room": "Fisher Center foyer",
+      "production": false,
+      "hold": false,
+      "description": "Menu details coming soon.",
+      "kind": "meal",
+      "reviewOverride": true
+    },
+    {
+      "id": 19,
+      "day": 1,
+      "time": "12:00 - 12:05p",
+      "title": "TRANSITION: Theater → Paisley Ballroom (lunch)",
+      "speakers": [],
+      "abstract": "5-minute room move into lunch.",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 20,
+      "day": 1,
+      "time": "12:05 - 12:06p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 21,
+      "day": 1,
+      "time": "12:06 - 12:46p",
+      "title": "Imagine IF Wall Street Ran on Open Rails",
+      "speakers": [
+        "Trey Sellers (Strike)",
+        "Lorenzo Valente (ARK Invest - Director of Digital Assets)",
+        "Jasmine Burgess (Blockstream Capital Partners - COO & CRO)",
+        "Rory Murray (CleanSpark - VP, Digital Asset Management)"
+      ],
+      "abstract": "Wall Street's plumbing was built for paper: transfer agents, clearing houses, T+2 settlement, and layers of intermediaries each holding a piece of the risk. Bitcoin and tokenized securities put the balance sheet, the security, and the settlement layer on open rails, and the first public vehicles built this way are already trading. This panel seats the rails, the research, the risk, and the balance sheet: Strike moving money at the speed of the internet, ARK's digital asset research mapping what open rails do to public markets, the Blockstream Capital Partners operator who has run risk from Brevan Howard to bitcoin asset management, and the CleanSpark digital asset lead, who runs the treasury desk inside a public miner holding nearly 14,000 bitcoin. What actually gets rewired: how capital forms, how risk is carried and by whom, and what disappears when settlement is instant and final. Public-market mechanics, not theory.",
+      "room": "Paisley Ballroom",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 22,
+      "day": 1,
+      "time": "12:46 - 12:47p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 23,
+      "day": 1,
+      "time": "12:47 - 1:22p",
+      "title": "Imagine IF the Valley Powered the Intelligence Age",
+      "speakers": [],
+      "abstract": "Session description to be announced.",
+      "room": "Paisley Ballroom",
+      "production": false,
+      "hold": true,
+      "speakerPlaceholder": "Speakers to be announced"
+    },
+    {
+      "id": 24,
+      "day": 1,
+      "time": "1:22 - 1:30p",
+      "title": "TRANSITION: Paisley Ballroom → Theater",
+      "speakers": [],
+      "abstract": "13-minute room move back to afternoon programming.",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 25,
+      "day": 1,
+      "time": "1:30 - 1:35p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "Five-minute trailer ahead of the Laffer and Bessent Treasury fireside.",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 26,
+      "day": 1,
+      "time": "1:35 - 2:00p",
+      "title": "Imagine IF the Treasury Set a New Standard",
+      "speakers": [
+        "Dr. Art Laffer (The Laffer Center)",
+        "Brian Domitrovic (The Laffer Center)"
+      ],
+      "abstract": "Session details coming soon.",
+      "room": "Theater",
+      "production": false,
+      "hold": false,
+      "reviewOverride": true,
+      "speakerReview": true
+    },
+    {
+      "id": 27,
+      "day": 1,
+      "time": "2:00 - 2:03p",
+      "title": "CONTEXT VIDEO: TYRANNY TRACKER VIDEO",
+      "speakers": [],
+      "abstract": "Three-minute trailer for HRF's Tyranny Tracker, the democracy index behind the panel that follows: 179 countries and territories classified, 75 percent of humanity under authoritarian rule.\n\nVideo: https://www.youtube.com/watch?v=uSa6UW5iCEU",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 28,
+      "day": 1,
+      "time": "2:03 - 2:38p",
+      "title": "Imagine IF Tyranny Had Nowhere to Hide",
+      "speakers": [
+        "Javier El-Hage (Human Rights Foundation)",
+        "Felix Maradiaga (World Liberty Congress - President)",
+        "Farida Nabourema (Togolese Civil League)"
+      ],
+      "abstract": "Seventy-five percent of humanity lives under authoritarian rule. That number comes from HRF's Tyranny Tracker, whose trailer precedes this panel, and the people on this stage have lived it. Felix Maradiaga ran for president of Nicaragua and was jailed, stripped of citizenship, and exiled for it. Farida Nabourema has spent her adult life fighting Africa's oldest hereditary dictatorship in Togo and co-founded the Africa Bitcoin Conference after learning that money is the regime's first chokepoint. Javier El-Hage, chief legal and policy officer of the Human Rights Foundation, the organization behind the Tyranny Tracker itself, moderates. A conversation about the tools flipping the balance: AI that documents abuses faster than regimes can hide them, bitcoin that funds dissent when banks are weaponized, and why tyranny, for the first time, can be tracked in the open.",
+      "room": "Theater",
+      "production": false,
+      "hold": false,
+      "reviewOverride": true
+    },
+    {
+      "id": 29,
+      "day": 1,
+      "time": "2:38 - 2:39p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 30,
+      "day": 1,
+      "time": "2:39 - 2:49p",
+      "title": "TBA",
+      "speakers": [
+        "Obi Nwosu (Fedi)"
+      ],
+      "abstract": "Most bitcoin conversations are about price, custody, or policy. This keynote is about something else entirely: making bitcoin actually work for the seven billion people who are not American institutional investors. Federated mints, community-scale custody, and the protocols designed for the political and infrastructure failures that define most of the world. Ten minutes on the architecture for what bitcoin looks like when the next billion users come on — not through wallets, but through federations.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 31,
+      "day": 1,
+      "time": "2:49 - 2:50p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 32,
+      "day": 1,
+      "time": "2:50 - 3:00p",
+      "title": "Imagine IF Every Home Ran a Data Center",
+      "speakers": [
+        "Jonathan Kirkwood (Ten31)"
+      ],
+      "abstract": "The cloud is a tool, not a landlord. The co-founder of Ten31, the bitcoin-native investment firm behind dozens of infrastructure companies, and a Start9 board member, wrote the manual for taking your compute home: the Personal Data Center. A server hub running sovereign services, local GPUs handling inference and fine-tuning on your own data, and cloud APIs demoted from landlord to utility, rented only when a task truly needs a frontier model. Ten minutes on the stack, what it costs today, and why the same instinct that made bitcoiners run their own nodes is about to make households run their own intelligence.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 33,
+      "day": 1,
+      "time": "3:00 - 3:01p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 34,
+      "day": 1,
+      "time": "3:01 - 3:36p",
+      "title": "Imagine IF the U.S. Led the Convergence Decade",
+      "speakers": [
+        "Sen. Bill Hagerty (US Senate, TN)",
+        "Brandon Williams (US Department of Energy - Under Secretary for Nuclear Security)",
+        "Hash Hashemian (AMS Corporation - Past President, American Nuclear Society)"
+      ],
+      "abstract": "The convergence of AI, energy, and bitcoin is a competition between nations, and the next decade decides who leads it. A sitting senator who spent his career in global capital markets sits down with the Under Secretary for Nuclear Security, a former congressman and Navy submarine officer who now runs the enterprise behind America's nuclear deterrent, including the Y-12 complex in Oak Ridge. Between them sit both halves of the answer: the capital and legislation that fund the buildout, and the nuclear industrial base the civilian restart leans on. What it takes for America to win: permitting that moves at build speed, a grid that grows faster than demand, capital that stays onshore, and a government that knows when to get out of the way. Tennessee is the proof of concept, with a new nuclear corridor moving through TVA and an AI and bitcoin building boom pulling capital into the state. One decade to get it right.",
+      "room": "Theater",
+      "production": false,
+      "hold": false,
+      "reviewOverride": true
+    },
+    {
+      "id": 35,
+      "day": 1,
+      "time": "3:36 - 4:05p",
+      "title": "TRANSITION: Theater → Paisley Ballroom (Evening Cocktails)",
+      "speakers": [],
+      "abstract": "13-minute room move to Paisley Ballroom for evening cocktails and The Brainstorm.",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 36,
+      "day": 1,
+      "time": "4:05 - 4:50p",
+      "title": "The Brainstorm",
+      "speakers": [
+        "Rod Roudi (Bitcoin Park)",
+        "Cathie Wood (ARK Invest)",
+        "Dr. Art Laffer (The Laffer Center)"
+      ],
+      "abstract": "Session details coming soon.",
+      "room": "Paisley Ballroom",
+      "production": false,
+      "hold": false,
+      "reviewOverride": true,
+      "speakerReview": true,
+      "specialGuests": "Special guests"
+    },
+    {
+      "id": 1000,
+      "day": 2,
+      "time": "8:00–10:00 AM",
+      "title": "Doors open, breakfast served",
+      "speakers": [],
+      "abstract": "",
+      "description": "Arrive and enjoy breakfast before the opening session.",
+      "room": "Fisher Center foyer",
+      "production": false,
+      "hold": false,
+      "kind": "meal",
+      "reviewOverride": true,
+      "addedInReview": true
+    },
+    {
+      "id": 39,
+      "day": 2,
+      "time": "10:00 - 10:02a",
+      "title": "Day 2 Opener Video",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 40,
+      "day": 2,
+      "time": "10:02 - 10:03a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 41,
+      "day": 2,
+      "time": "10:00–10:33 AM",
+      "title": "Imagine IF They Were Right: Cathie & Laffer, Part 2",
+      "speakers": [
+        "Cathie Wood (ARK Invest)",
+        "Dr. Art Laffer (The Laffer Center)"
+      ],
+      "abstract": "The sequel. A leading institutional capital allocator and the godfather of supply-side economics reconvene a year after their first conversation on the IF stage. They bring new ammunition: AI-driven deflation hitting consumer prices in real time, fusion crossing breakeven, sovereign debt spreads at historic highs, and bitcoin's price target moving from outlier to consensus. Two of the most consequential macro voices of two different generations argue out the framework underneath the entire Imagine IF agenda. The conversation everyone in the room shows up early for.",
+      "room": "Theater",
+      "production": false,
+      "hold": false,
+      "reviewOverride": true
+    },
+    {
+      "id": 42,
+      "day": 2,
+      "time": "10:33 - 10:34a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 43,
+      "day": 2,
+      "time": "10:34 - 10:44a",
+      "title": "Imagine IF We Lost the AI Race",
+      "speakers": [
+        "Rob Hamilton (AnchorWatch - CEO)"
+      ],
+      "abstract": "Earlier this year a Bitcoin red team went looking for weaknesses in the systems that secure the hardest money on earth: pointing AI models at custody setups, scripts, and protocol edges to find the holes before an adversary does. The uncomfortable discovery was not the vulnerabilities. It was the tooling. The American frontier models refused the work, so the red team ran on Chinese open-weight models, which happily obliged. Sit with that: the sharpest openly available intelligence for attacking and defending Bitcoin is currently made in China. Rob Hamilton runs AnchorWatch, the company that insures bitcoin custody at Lloyd's of London, which means he is paid to think about what breaks. Ten minutes on what the red team found, why the models that refused matter more than the ones that complied, and why intelligence has to be open, for everyone, and built in the United States before the race is decided for us.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 44,
+      "day": 2,
+      "time": "10:44 - 10:45a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 45,
+      "day": 2,
+      "time": "10:45 - 10:55a",
+      "title": "TBA",
+      "speakers": [
+        "Dhruv Bansal (Unchained)"
+      ],
+      "abstract": "The Unchained co-founder is a physicist who asked what nobody else thought to: what does the speed of light do to money? His Bitcoin Astronomy series works it out. Consensus has a hash horizon, a physical radius beyond which blocks cannot settle, so a civilization that spreads through the solar system mints a new chain for every world it reaches. Kardashev money: as humanity captures more energy, the monetary network securing it grows in kind. And beyond humanity, the miners and holders need not be human at all. AI agents that travel as software and buy energy wherever they land may become bitcoin's heaviest users. Ten minutes on physics, money, and intelligence expanding together, and why all three run on proof of work.",
+      "room": "Theater",
+      "production": false,
+      "hold": false,
+      "reviewOverride": true
+    },
+    {
+      "id": 46,
+      "day": 2,
+      "time": "10:55 - 11:20a",
+      "title": "Imagine IF Kids Were Limitless",
+      "speakers": [
+        "Dr. Candice McQueen (Lipscomb University)",
+        "Joe Liemandt (Alpha School)"
+      ],
+      "abstract": "Joe Liemandt pulled a billion dollars out of the software company he founded and poured it into Alpha School on a single conviction: kids are not slow, schools are. Alpha's clean-sheet, AI-native model compresses core academics into two hours a day, sends students into life-skills workshops every afternoon, and claims they learn at several times the normal pace. The same engine now runs inside Lipscomb Academy, a Nashville institution founded in 1891, where it isn't called Alpha at all. It's called \"Accelerate,\" an optional track that began with twenty kids, built on Lipscomb's own terms and grafted carefully onto the traditional, faith-anchored school around it. Two bets on the same premise from opposite starting points: the entrepreneur building schools from scratch, and the educator-statesperson and former Tennessee Commissioner of Education adopting AI-first learning without breaking what already works. The fireside puts them on stage together for the first time. What the data actually shows about how far kids go when the ceiling comes off. What the model does to the role of the teacher. Whether a way of learning now spreading across the country can survive contact with real classrooms, real parents, and real kids.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 47,
+      "day": 2,
+      "time": "11:20 - 11:21a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 48,
+      "day": 2,
+      "time": "11:21 - 11:31a",
+      "title": "TBA",
+      "speakers": [
+        "Paul Itoi (Stakwork - Founder & CEO)"
+      ],
+      "abstract": "Machines are about to do a large share of the world's work, and the payment rails underneath that work were built for employees, invoices, and thirty-day terms. Stakwork splits a job between AI and humans, routes each piece to whoever or whatever can do it, and settles payment in bitcoin over Lightning the moment the work is verified. No bank account, no country, no minimum. A builder who has been shipping since the mid-nineties makes the case that machine-speed payment is the missing primitive of the AI economy, and that the first billion people to feel it will be the ones the existing financial system never bothered to serve.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 49,
+      "day": 2,
+      "time": "11:31 - 11:32a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 50,
+      "day": 2,
+      "time": "11:32 - 11:42a",
+      "title": "Imagine IF Data Centers Disappeared",
+      "speakers": [
+        "Sean James (NVIDIA - Distinguished Engineer, Energy Systems)"
+      ],
+      "abstract": "A Navy submarine electrician turned data center builder makes the argument against his own industry's visibility. Mark Weiser wrote that the profound technologies are the ones that disappear, and by that standard the AI buildout is still adolescent: noise, dust, truck traffic, water draw, and the grid instability that earned data centers their own NERC Level 3 alert once a single campus could drop a thousand megawatts without warning. The talk walks the receipts on how far the industry already moved, from power usage effectiveness of three to five in the nineties down to 1.2 and 1.5 today, chillers replaced by evaporative cooling, and now liquid loops running at 113 degrees that kill the cooling tower and take water consumption to zero. Then the harder half: load flexibility and fault-tolerant design that turn a data center from a threat to the grid into an asset on it, and diesel generators into a legacy line item. The goal is not a better headline. The goal is to become as unremarkable as a water main.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 51,
+      "day": 2,
+      "time": "12:00 - 1:30p",
+      "title": "Lunch served",
+      "speakers": [],
+      "abstract": "90-minute lunch break.",
+      "room": "Fisher Center foyer",
+      "production": false,
+      "hold": false,
+      "description": "Menu details coming soon.",
+      "kind": "meal",
+      "reviewOverride": true
+    },
+    {
+      "id": 52,
+      "day": 2,
+      "time": "12:00 - 12:05p",
+      "title": "TRANSITION: Theater → Paisley Ballroom (lunch)",
+      "speakers": [],
+      "abstract": "5-minute room move into lunch.",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 53,
+      "day": 2,
+      "time": "12:05 - 12:06p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 54,
+      "day": 2,
+      "time": "12:06 - 12:41p",
+      "title": "Imagine IF We Built the Quantum Internet",
+      "speakers": [
+        "Braden Stover (TNECD - Senior Advisor, Nuclear & Quantum Strategy)",
+        "Shaun Gleason (Oak Ridge National Laboratory)",
+        "Janet Rehberg (EPB)"
+      ],
+      "abstract": "Session details coming soon.",
+      "room": "Paisley Ballroom",
+      "production": false,
+      "hold": false,
+      "speakerReview": true
+    },
+    {
+      "id": 55,
+      "day": 2,
+      "time": "12:41 - 12:42p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 56,
+      "day": 2,
+      "time": "12:42 - 1:17p",
+      "title": "Imagine IF Every Watt Had a Brain",
+      "speakers": [
+        "Mario Gutierrez (TeraWulf)",
+        "Sebastian Sheng (Brick - Founder & CEO)"
+      ],
+      "abstract": "Session details coming soon.",
+      "room": "Paisley Ballroom",
+      "production": false,
+      "hold": false,
+      "speakerReview": true
+    },
+    {
+      "id": 57,
+      "day": 2,
+      "time": "1:17 - 1:30p",
+      "title": "TRANSITION: Paisley Ballroom → Theater",
+      "speakers": [],
+      "abstract": "13-minute room move back to afternoon programming.",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 58,
+      "day": 2,
+      "time": "1:30 - 1:31p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 59,
+      "day": 2,
+      "time": "1:31 - 2:06p",
+      "title": "Imagine IF America Won the AI Race",
+      "speakers": [
+        "Nick Elliot (Innovation Council Action)",
+        "Harry Sudock (CleanSpark)",
+        "Adam Sullivan (Core Scientific - CEO)"
+      ],
+      "abstract": "The AI race will be decided by who can build compute fastest, and two of the people building it are on this stage. Harry Sudock helped turn CleanSpark into one of the largest bitcoin miners in America and now leads its push into power-dense infrastructure. Adam Sullivan took Core Scientific out of bankruptcy and into one of the largest owners of AI-ready capacity in the country. Both learned the game the same way: bitcoin mining taught them to find stranded power, build fast, and run hot. Nick Elliot of Innovation Council Action asks what winning actually requires: how many gigawatts, how fast, where the permits and transformers come from, what China is doing differently, and whether the miners who got there first become the backbone of American intelligence.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 60,
+      "day": 2,
+      "time": "2:06 - 2:07p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 61,
+      "day": 2,
+      "time": "2:07 - 2:32p",
+      "title": "Imagine IF It All Got Built Here",
+      "speakers": [
+        "Stuart McWhorter (State of Tennessee - Deputy Governor & Commissioner, TNECD)",
+        "Sen. Marsha Blackburn (US Senate, TN)"
+      ],
+      "abstract": "Capital goes where the rules are legible and the answer comes back fast. Tennessee has spent a decade making that its product. Nearly 300 projects, more than 39,000 job commitments, and $31.3 billion of capital investment landed in the state on this economic development team's watch, and the pipeline underneath it is nuclear, AI, advanced manufacturing, and healthcare all at once. The Deputy Governor who runs the recruiting and the senior senator carrying Tennessee's case in Washington sit down with one job: explain the certainty premium. No state income tax is the easy part. The harder part is an entrepreneurship culture that funds and hires its own, permitting that actually moves, and a bet that the next several decades of building happen here. For anyone in the room weighing a move, this is the fireside that answers it.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 62,
+      "day": 2,
+      "time": "2:32 - 2:33p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 63,
+      "day": 2,
+      "time": "2:33 - 3:08p",
+      "title": "Imagine IF the Gigawatts Got Built",
+      "speakers": [
+        "Ryan Norris (Abundance Institute)",
+        "Chuck Fleischmann (U.S. Congressman, TN-3)",
+        "Matt Schultz (CleanSpark - CEO)"
+      ],
+      "abstract": "America has to build more electricity in the next decade than it added in the last three, and artificial intelligence is the reason. This panel puts three of the seats that decide whether it happens on one stage: the appropriator, the builder, and the nuclear enterprise. The congressman whose district houses Oak Ridge helps write the nation's energy appropriations. CleanSpark, after a decade as one of North America's largest bitcoin miners, is converting that muscle into a multi-gigawatt AI platform, with 890 megawatts secured in the Houston region and nearly 14,000 bitcoin funding the buildout. And the Under Secretary for Nuclear Security runs the enterprise that keeps America's nuclear edge, the same industrial base the civilian restart leans on. Who actually delivers the next hundred gigawatts, and whether Washington can keep pace with the people building them.",
+      "room": "Theater",
+      "production": false,
+      "hold": true
+    },
+    {
+      "id": 64,
+      "day": 2,
+      "time": "3:08 - 3:09p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 65,
+      "day": 2,
+      "time": "3:09 - 3:34p",
+      "title": "Imagine IF Freedom Were Built from the Bottom Up",
+      "speakers": [
+        "Russ Greene (Prime Mover Institute)",
+        "Gideon Powell (Cholla Inc.)"
+      ],
+      "abstract": "Bottom-up systems beat top-down ones at every scale that matters. That conviction built one of the largest privately held companies in the world, and it is the operating system for both sides of this fireside. The Abundance Institute's Ryan Norris has spent his career arguing that energy abundance is upstream of human flourishing and that permissionless builders, not central planners, deliver it. Gideon Powell lives the playbook daily as a builder at the intersection of energy and bitcoin, pointing principled capital at stranded megawatts and open monetary rails. How the free-market thesis lands in 2026, what energy abundance does to the structure of capitalism, and where bottom-up capital points its next decade.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 66,
+      "day": 2,
+      "time": "3:34 - 3:35p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 67,
+      "day": 2,
+      "time": "3:35 - 3:45p",
+      "title": "Imagine IF Time-to-Exploit Hit Zero",
+      "speakers": [
+        "Andre Neves (ZBD)"
+      ],
+      "abstract": "Bitcoin self-custody used to have one threat model: survive the five dollar wrench attack. It still does, but now there is a second front. AI agents have collapsed the time from disclosed vulnerability to working exploit from weeks to minutes, for nearly every piece of open and closed source software that touches the Bitcoin protocol. Money as code on the internet has always been a target; agents just erased the patch window everyone was quietly counting on. Pretend it is still just the wrench and you lose. Ten minutes on what self-custody looks like when the attacker reads the commit before you do: what breaks, what holds, and how custody has to be engineered when time-to-exploit hits zero.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 68,
+      "day": 2,
+      "time": "3:45 - 3:46p",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 69,
+      "day": 2,
+      "time": "3:46 - 3:56p",
+      "title": "Imagine IF All Activists Had AI Superpowers",
+      "speakers": [
+        "Alex Gladstein (Human Rights Foundation)"
+      ],
+      "abstract": "Today 6.3 billion people live under authoritarian rule, and the activists who resist are outnumbered, outspent, and surveilled by states with cutting-edge AI capabilities. But in the hands of dissidents, AI can quickly produce counter-campaigns, generate educational videos, aid fundraising and marketing, and scale the work of those pushing back against tyranny. It's impossible to defeat an AI-powered dictator without using AI. That's why activists need AI superpowers.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 70,
+      "day": 2,
+      "time": "3:56 - 3:58p",
+      "title": "CLOSING TRAILER",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    }
+  ],
+  "notes": [
+    "Preview corrections requested by Rod: Day 1 doors and breakfast 8:00–10:00 AM; welcome 10:00–10:05 AM in Theater; Treasury, Tyranny, and Convergence in Theater; The Brainstorm in Paisley Ballroom; both lunches labeled Lunch served in Paisley Ballroom. The source spreadsheet is unchanged.",
+    "Row 35 contains production notes in speaker/abstract cells; no speaker has been assigned in the preview.",
+    "Row 45 has a time and Dhruv Bansal but no session title.",
+    "Lunch overlaps the programmed Ballroom sessions in the source. These overlaps are preserved.",
+    "Parking-lot ideas are excluded from the program. Day 1 exit note: exit building 5:30pm. Day 2 exit note: audience exit building by 5:00pm.",
+    "Other source entries and production cues are retained, including the 10:00–10:02 AM opening video that overlaps the revised welcome. Lunch specifics beyond a 90-minute break were not supplied.",
+    "Speaker photos and social links are matched to the main website. People without a verified matching profile use an initials placeholder; no links are guessed.",
+    "Day 2 review corrections: doors and breakfast 8:00–10:00 AM; Imagine IF They Were Right 10:00–10:33 AM in Theater; Dhruv Bansal’s session in Theater. Other source times remain, including the opening video overlapping the revised first session.",
+    "Only speakers whose individual session cells have a green background in the master spreadsheet are shown. The Brainstorm slot remains, with speakers to be confirmed. Descriptions for sessions with removed speakers are held for review."
+  ],
+  "parked": [
+    {
+      "row": 74,
+      "title": "HOLD: Alex Karp"
+    },
+    {
+      "row": 75,
+      "title": "The Long Game"
+    },
+    {
+      "row": 76,
+      "title": "HOLD: Brian Domitrovic"
+    },
+    {
+      "row": 77,
+      "title": "Imagine IF Money Moved Like a Text Message"
+    },
+    {
+      "row": 78,
+      "title": "Chips and Megawatts"
+    },
+    {
+      "row": 79,
+      "title": "Imagine IF We Lost the AI Race."
+    },
+    {
+      "row": 80,
+      "title": "Imagine IF We Built the Biggest Machine in History"
+    },
+    {
+      "row": 81,
+      "title": "Imagine IF AI Discovered New Physics"
+    },
+    {
+      "row": 82,
+      "title": "Imagine IF It Happened Gradually, Then Suddenly"
+    },
+    {
+      "row": 83,
+      "title": "Imagine IF America Rebuilt the Atomic Supply Chain"
+    },
+    {
+      "row": 84,
+      "title": "Imagine IF Capital Were Statecraft"
+    },
+    {
+      "row": 85,
+      "title": "Imagine IF the Utilities Said Yes"
+    }
+  ],
+  "source": "https://docs.google.com/spreadsheets/d/1IBYWqZItaeHC9zayJMxrLwzCqLbAjXJENgTRo9YMnNE/edit#gid=0",
+  "sourceTitle": "3. IF26_MASTER_Agenda_Speakers 8.11",
+  "snapshot": "September 20, 2026"
+}

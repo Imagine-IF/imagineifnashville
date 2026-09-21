@@ -1,0 +1,292 @@
+{
+  "Adam Sullivan (Core Scientific - CEO)": {
+    "name": "Adam Sullivan",
+    "role": "CEO",
+    "org": "Core Scientific",
+    "photo": "https://imagineifnashville.com/uploads/speakers/adam-sullivan.webp",
+    "x": "https://x.com/_Adam_Sullivan1"
+  },
+  "Alex Gladstein (Human Rights Foundation)": {
+    "name": "Alex Gladstein",
+    "role": "Chief Strategy Officer",
+    "org": "Human Rights Foundation",
+    "photo": "https://imagineifnashville.com/uploads/speakers/alex-gladstein.jpg?v=2",
+    "photoPos": "center 30%",
+    "x": "https://x.com/gladstein",
+    "linkedin": "https://www.linkedin.com/in/alexgladstein/"
+  },
+  "Andre Neves (ZBD)": {
+    "name": "Andre Neves",
+    "role": "CTO & Co-Founder",
+    "org": "ZBD",
+    "photo": "https://imagineifnashville.com/uploads/speakers/andre-neves.jpg",
+    "x": "https://x.com/andreneves",
+    "linkedin": "https://www.linkedin.com/in/andrerfneves"
+  },
+  "Braden Stover (TNECD - Senior Advisor, Nuclear & Quantum Strategy)": {
+    "name": "Braden Stover",
+    "role": "Senior Advisor to the Commissioner, Nuclear & Quantum Strategy",
+    "org": "Tennessee Department of Economic and Community Development",
+    "photo": "https://imagineifnashville.com/uploads/speakers/braden-stover.jpg"
+  },
+  "Brandon Williams (US Department of Energy - Under Secretary for Nuclear Security)": {
+    "name": "Brandon Williams",
+    "role": "Under Secretary for Nuclear Security & Administrator",
+    "org": "National Nuclear Security Administration",
+    "photo": "https://imagineifnashville.com/uploads/speakers/brandon-williams.png"
+  },
+  "Cathie Wood (ARK Invest)": {
+    "name": "Cathie Wood",
+    "role": "Founder, CEO, and CIO",
+    "org": "ARK Invest",
+    "photo": "https://imagineifnashville.com/uploads/speakers/cathie-wood.png",
+    "x": "https://x.com/CathieDWood",
+    "linkedin": "https://www.linkedin.com/in/catherinedwood/"
+  },
+  "Chuck Fleischmann (U.S. Congressman, TN-3)": {
+    "name": "Chuck Fleischmann",
+    "role": "U.S. Congressman",
+    "photo": "https://imagineifnashville.com/uploads/speakers/chuck-fleischmann.png",
+    "x": "https://x.com/RepChuck"
+  },
+  "Dhruv Bansal (Unchained)": {
+    "name": "Dhruv Bansal",
+    "role": "Co-Founder & CSO",
+    "org": "Unchained",
+    "photo": "https://imagineifnashville.com/uploads/speakers/dhruv-bansal.jpg",
+    "linkedin": "https://www.linkedin.com/in/dhruvbansal/"
+  },
+  "Dr. Art Laffer (The Laffer Center)": {
+    "name": "Dr. Art Laffer",
+    "role": "Founder and Chairman",
+    "org": "Laffer Associates",
+    "photo": "https://imagineifnashville.com/uploads/speakers/art-laffer.png",
+    "x": "https://x.com/realartlaffer"
+  },
+  "Dr. Candice McQueen (Lipscomb University)": {
+    "name": "Dr. Candice McQueen",
+    "role": "President",
+    "org": "Lipscomb University",
+    "photo": "https://imagineifnashville.com/uploads/speakers/candice-mcqueen.jpg"
+  },
+  "Farida Nabourema (Togolese Civil League)": {
+    "name": "Farida Nabourema",
+    "role": "Executive Director",
+    "org": "Katutu Civil Rights Center",
+    "photo": "https://imagineifnashville.com/uploads/speakers/farida-nabourema.png",
+    "x": "https://x.com/Farida_N"
+  },
+  "Felix Maradiaga (World Liberty Congress - President)": {
+    "name": "Félix Maradiaga",
+    "role": "Pro-democracy Advocate",
+    "org": "Nicaragua",
+    "photo": "https://imagineifnashville.com/uploads/speakers/felix-maradiaga.png"
+  },
+  "Gideon Powell (Cholla Inc.)": {
+    "name": "Gideon Powell",
+    "role": "CEO",
+    "org": "Cholla Inc.",
+    "photo": "https://imagineifnashville.com/uploads/speakers/gideon-powell.webp",
+    "x": "https://x.com/GideonOPowell",
+    "linkedin": "https://www.linkedin.com/in/gideon-o-powell-%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F-84615a50/"
+  },
+  "Harry Sudock (CleanSpark)": {
+    "name": "Harry Sudock",
+    "role": "Chief Business Officer",
+    "org": "CleanSpark",
+    "photo": "https://imagineifnashville.com/uploads/speakers/harry-sudock.jpg",
+    "x": "https://x.com/harry_sudock",
+    "linkedin": "https://www.linkedin.com/in/harrysudock/"
+  },
+  "Hash Hashemian (AMS Corporation - Past President, American Nuclear Society)": {
+    "name": "Hash Hashemian",
+    "role": "Past President",
+    "org": "American Nuclear Society",
+    "photo": "https://imagineifnashville.com/uploads/speakers/hash-hashemian.jpg"
+  },
+  "Janet Rehberg (EPB)": {
+    "name": "Janet Rehberg",
+    "role": "President & CEO",
+    "org": "EPB in Chattanooga",
+    "photo": "https://imagineifnashville.com/uploads/speakers/janet-rehberg.png",
+    "linkedin": "https://www.linkedin.com/in/janet-rehberg/"
+  },
+  "Jasmine Burgess (Blockstream Capital Partners - COO & CRO)": {
+    "name": "Jasmine Burgess",
+    "role": "Chief Risk Officer",
+    "org": "Blockstream Capital Partners",
+    "photo": "https://imagineifnashville.com/uploads/speakers/jasmine-burgess.jpg",
+    "linkedin": "https://www.linkedin.com/in/jasmine-burgess-a3924412/"
+  },
+  "Javier El-Hage (Human Rights Foundation)": {
+    "name": "Javier El-Hage",
+    "role": "Chief Legal and Policy Officer",
+    "org": "Human Rights Foundation",
+    "photo": "https://imagineifnashville.com/uploads/speakers/javier-el-hage.jpg",
+    "linkedin": "https://www.linkedin.com/in/carlos-javier-el-hage-guaristi/"
+  },
+  "Jeff Booth (Ego Death Capital)": {
+    "name": "Jeff Booth",
+    "role": "Author & Entrepreneur",
+    "org": "The Price of Tomorrow",
+    "photo": "https://imagineifnashville.com/uploads/speakers/jeff-booth.jpg",
+    "x": "https://x.com/JeffBooth",
+    "linkedin": "https://www.linkedin.com/in/jeffdbooth/"
+  },
+  "Jesse Posner (Vora)": {
+    "name": "Jesse Posner",
+    "role": "Co-Founder",
+    "org": "Vora",
+    "photo": "https://imagineifnashville.com/uploads/speakers/jesse-posner.jpg",
+    "x": "https://x.com/jesseposner",
+    "linkedin": "https://www.linkedin.com/in/jesseposner/"
+  },
+  "Joe Liemandt (Alpha School)": {
+    "name": "Joe Liemandt",
+    "role": "Principal",
+    "org": "Alpha School",
+    "photo": "https://imagineifnashville.com/uploads/speakers/joe-liemandt.jpg",
+    "x": "https://x.com/jliemandt",
+    "linkedin": "https://www.linkedin.com/in/liemandt/"
+  },
+  "Jonathan Kirkwood (Ten31)": {
+    "name": "Jonathan Kirkwood",
+    "role": "Co-founder and Managing Partner",
+    "org": "Ten31",
+    "photo": "https://imagineifnashville.com/uploads/speakers/jonathan-kirkwood.png",
+    "photoPos": "center 35%",
+    "linkedin": "https://www.linkedin.com/in/jonathan-kirkwood-md-mba-863497253/"
+  },
+  "Justin Maierhofer (TN Electric Co-Op)": {
+    "name": "Justin Maierhofer",
+    "role": "Senior Vice President of Government Affairs",
+    "org": "Tennessee Electric Cooperative Association",
+    "photo": "https://imagineifnashville.com/uploads/speakers/justin-maierhofer.jpg",
+    "photoPos": "center 20%",
+    "linkedin": "https://www.linkedin.com/in/jmaierhofer/"
+  },
+  "Lorenzo Valente (ARK Invest - Director of Digital Assets)": {
+    "name": "Lorenzo Valente",
+    "role": "Director of Research, Digital Assets",
+    "org": "ARK Invest",
+    "photo": "https://imagineifnashville.com/uploads/speakers/lorenzo-valente.jpg?v=2",
+    "x": "https://x.com/LorenzoARK",
+    "linkedin": "https://www.linkedin.com/in/lorenzo-valente-71308512a/"
+  },
+  "Matt Schultz (CleanSpark - CEO)": {
+    "name": "Matt Schultz",
+    "role": "CEO",
+    "org": "CleanSpark",
+    "photo": "https://imagineifnashville.com/uploads/speakers/matt-schultz.jpg",
+    "linkedin": "https://www.linkedin.com/in/s-matthew-schultz-19400447/"
+  },
+  "Michael Goldstein (Satoshi Nakamoto Institute)": {
+    "name": "Michael Goldstein",
+    "role": "President",
+    "org": "Satoshi Nakamoto Institute",
+    "photo": "https://imagineifnashville.com/uploads/speakers/michael-goldstein.jpg",
+    "x": "https://x.com/bitstein"
+  },
+  "Nick Elliot (Innovation Council Action)": {
+    "name": "Nick Elliot",
+    "role": "Director of Government Affairs",
+    "org": "Innovation Council Action",
+    "photo": "https://imagineifnashville.com/uploads/speakers/nick-elliot.png"
+  },
+  "Obi Nwosu (Fedi)": {
+    "name": "Obi Nwosu",
+    "role": "CEO",
+    "org": "Fedi",
+    "photo": "https://imagineifnashville.com/uploads/speakers/obi-nwosu.webp",
+    "x": "https://x.com/obi",
+    "linkedin": "https://uk.linkedin.com/in/obinwosu"
+  },
+  "Paul Itoi (Stakwork - Founder & CEO)": {
+    "name": "Paul Itoi",
+    "role": "Founder & CEO",
+    "org": "Stakwork",
+    "photo": "https://imagineifnashville.com/uploads/speakers/paul-itoi.png",
+    "x": "https://x.com/paulitoi"
+  },
+  "Rapha Zagury (Twenty One Capital / XXI - CEO)": {
+    "name": "Rapha Zagury",
+    "role": "CEO",
+    "org": "Twenty One Capital",
+    "photo": "https://imagineifnashville.com/uploads/speakers/rapha-zagury.jpg?v=2",
+    "x": "https://x.com/RaphaZagury",
+    "linkedin": "https://www.linkedin.com/in/rzagury/"
+  },
+  "Rene Angel (Reynolds Foundation - Head of AI)": {
+    "name": "René Ángel",
+    "role": "Head of AI",
+    "org": "The Reynolds Foundation",
+    "photo": "https://imagineifnashville.com/uploads/speakers/rene-angel.jpg"
+  },
+  "Rob Hamilton (AnchorWatch - CEO)": {
+    "name": "Rob Hamilton",
+    "role": "Co-Founder & CEO",
+    "org": "AnchorWatch",
+    "photo": "https://imagineifnashville.com/uploads/speakers/rob-hamilton.jpg",
+    "x": "https://x.com/Rob1Ham",
+    "linkedin": "https://www.linkedin.com/in/anchorwatch-rob/"
+  },
+  "Russ Greene (Prime Mover Institute)": {
+    "name": "Russ Greene",
+    "role": "Executive Director",
+    "org": "Prime Mover Institute",
+    "photo": "https://imagineifnashville.com/uploads/speakers/russ-greene.webp",
+    "photoPos": "center 25%"
+  },
+  "Ryan Norris (Abundance Institute)": {
+    "name": "Ryan Norris",
+    "role": "Senior Fellow for Energy Policy",
+    "org": "Abundance Institute",
+    "photo": "https://imagineifnashville.com/uploads/speakers/ryan-norris.jpg",
+    "x": "https://x.com/RWNorse",
+    "linkedin": "https://www.linkedin.com/in/ryanwnorris/"
+  },
+  "Scott Harrison (charity: water)": {
+    "name": "Scott Harrison",
+    "role": "Founder and CEO",
+    "org": "charity: water",
+    "photo": "https://imagineifnashville.com/uploads/speakers/scott-harrison.jpg",
+    "x": "https://x.com/scottharrison",
+    "linkedin": "https://www.linkedin.com/in/scottharrison1/"
+  },
+  "Sean James (NVIDIA - Distinguished Engineer, Energy Systems)": {
+    "name": "Sean James",
+    "role": "Distinguished Engineer, Energy Systems",
+    "org": "NVIDIA",
+    "photo": "https://imagineifnashville.com/uploads/speakers/sean-james.jpg",
+    "photoPos": "center 30%",
+    "linkedin": "https://www.linkedin.com/in/sean-james-6592524/"
+  },
+  "Sebastian Sheng (Brick - Founder & CEO)": {
+    "name": "Seb Sheng",
+    "role": "Founder & CEO",
+    "org": "Brick AI",
+    "photo": "https://imagineifnashville.com/uploads/speakers/seb-sheng.jpg"
+  },
+  "Sen. Bill Hagerty (US Senate, TN)": {
+    "name": "Bill Hagerty",
+    "role": "U.S. Senator",
+    "org": "Tennessee",
+    "photo": "https://imagineifnashville.com/uploads/speakers/bill-hagerty.png",
+    "x": "https://x.com/SenatorHagerty",
+    "linkedin": "https://www.linkedin.com/in/bill-hagerty-363876b4/"
+  },
+  "Sen. Marsha Blackburn (US Senate, TN)": {
+    "name": "Marsha Blackburn",
+    "role": "U.S. Senator",
+    "org": "Tennessee",
+    "photo": "https://imagineifnashville.com/uploads/speakers/marsha-blackburn.jpg?v=2",
+    "x": "https://x.com/marshablackburn"
+  },
+  "Rod Roudi (Bitcoin Park)": {
+    "name": "Rod Roudi",
+    "org": "Bitcoin Park",
+    "photo": "assets/rod-roudi-linkedin.jpg",
+    "x": "https://x.com/bitkite",
+    "linkedin": "https://www.linkedin.com/in/rodroudi/"
+  }
+}
