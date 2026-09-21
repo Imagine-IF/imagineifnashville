@@ -444,7 +444,7 @@
 /* ---------- VENUE ---------- */
 .vn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-7); align-items: center; }
 @media (max-width: 880px) { .vn-grid { grid-template-columns: 1fr; } }
-.vn-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-5); margin-top: var(--s-7); padding-top: var(--s-5); border-top: 1px solid var(--line); }
+.vn-meta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-5); margin-top: var(--s-7); padding-top: var(--s-5); border-top: 1px solid var(--line); }
 .vn-meta strong { font-family: var(--f-head); font-weight: 700; font-size: 22px; color: var(--midnight); display: block; margin-top: 6px; line-height: 1.1; }
 .vn-meta > div { font-size: 13px; color: var(--ink-soft); }
 .vn-map { aspect-ratio: 4/3; border-radius: var(--r-lg); overflow: hidden; }
