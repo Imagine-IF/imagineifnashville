@@ -295,5 +295,13 @@
     "name": "General Paul M. Nakasone",
     "org": "Vanderbilt Institute of National Security / OpenAI",
     "photo": "assets/general-paul-m-nakasone.jpeg"
+  },
+  "Trey Sellers (Strike)": {
+    "name": "Trey Sellers",
+    "photo": "assets/trey-sellers.jpg"
+  },
+  "Rory Murray (CleanSpark - VP, Digital Asset Management)": {
+    "name": "Rory Murray",
+    "photo": "assets/rory-murray.jpg"
   }
 }
