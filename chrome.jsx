@@ -129,7 +129,7 @@ window.IFChrome = (() => {
       <section className="newsletter">
         <div className="shell newsletter__inner">
           <div className="newsletter__copy">
-            <span className="eyebrow" style={{ color: 'var(--coral)' }}>Tangents Daily (formerly OP_Daily)</span>
+            <span className="eyebrow" style={{ color: 'var(--coral)' }}>Tangents Daily</span>
             <p className="newsletter__h" style={{ margin: '10px 0 0' }}>
               <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>A daily briefing on AI, energy, and Bitcoin.</em>
             </p>
@@ -170,9 +170,6 @@ window.IFChrome = (() => {
               <div className="foot__big">
                 Imagine <em>IF</em><br />
                 we built it.
-              </div>
-              <div style={{ marginTop: 28, color: 'rgba(251,246,241,0.7)', fontSize: 14, maxWidth: '32ch' }}>
-                AI, energy, and bitcoin in one room. Where frontier systems touch, new trajectories begin.
               </div>
               <div style={{ marginTop: 28 }}>
                 <span className="btn btn--primary" role="status">SOLD OUT</span>
