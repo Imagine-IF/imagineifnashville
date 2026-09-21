@@ -276,13 +276,16 @@
       "id": 23,
       "day": 1,
       "time": "12:47 - 1:22p",
-      "title": "Imagine IF the Valley Powered the Intelligence Age",
-      "speakers": [],
-      "abstract": "Session description to be announced.",
+      "title": "Imagine IF Every Watt Had a Brain",
+      "speakers": [
+        "Mario Gutierrez (TeraWulf)",
+        "Sebastian Sheng (Brick - Founder & CEO)"
+      ],
+      "abstract": "Session details coming soon.",
       "room": "Paisley Ballroom",
       "production": false,
-      "hold": true,
-      "speakerPlaceholder": "Speakers to be announced"
+      "hold": false,
+      "speakerReview": true
     },
     {
       "id": 24,
@@ -298,7 +301,7 @@
     {
       "id": 25,
       "day": 1,
-      "time": "1:30 - 1:35p",
+      "time": "1:30 - 1:31p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "Five-minute trailer ahead of the Laffer and Bessent Treasury fireside.",
@@ -309,7 +312,7 @@
     {
       "id": 26,
       "day": 1,
-      "time": "1:35 - 2:00p",
+      "time": "1:31 - 2:06p",
       "title": "Imagine IF the Treasury Set a New Standard",
       "speakers": [
         "Dr. Art Laffer (The Laffer Center)",
@@ -325,7 +328,7 @@
     {
       "id": 27,
       "day": 1,
-      "time": "2:00 - 2:03p",
+      "time": "2:06 - 2:08p",
       "title": "CONTEXT VIDEO: TYRANNY TRACKER VIDEO",
       "speakers": [],
       "abstract": "Three-minute trailer for HRF's Tyranny Tracker, the democracy index behind the panel that follows: 179 countries and territories classified, 75 percent of humanity under authoritarian rule.\n\nVideo: https://www.youtube.com/watch?v=uSa6UW5iCEU",
@@ -336,7 +339,7 @@
     {
       "id": 28,
       "day": 1,
-      "time": "2:03 - 2:38p",
+      "time": "2:08 - 2:43p",
       "title": "Imagine IF Tyranny Had Nowhere to Hide",
       "speakers": [
         "Javier El-Hage (Human Rights Foundation)",
@@ -352,7 +355,7 @@
     {
       "id": 29,
       "day": 1,
-      "time": "2:38 - 2:39p",
+      "time": "2:43 - 2:44p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -363,7 +366,7 @@
     {
       "id": 30,
       "day": 1,
-      "time": "2:39 - 2:49p",
+      "time": "2:44 - 2:54p",
       "title": "TBA",
       "speakers": [
         "Obi Nwosu (Fedi)"
@@ -376,7 +379,7 @@
     {
       "id": 31,
       "day": 1,
-      "time": "2:49 - 2:50p",
+      "time": "2:54 - 2:55p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -387,7 +390,7 @@
     {
       "id": 32,
       "day": 1,
-      "time": "2:50 - 3:00p",
+      "time": "2:55 - 3:05p",
       "title": "Imagine IF Every Home Ran a Data Center",
       "speakers": [
         "Jonathan Kirkwood (Ten31)"
@@ -400,7 +403,7 @@
     {
       "id": 33,
       "day": 1,
-      "time": "3:00 - 3:01p",
+      "time": "3:05 - 3:06p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -411,7 +414,7 @@
     {
       "id": 34,
       "day": 1,
-      "time": "3:01 - 3:36p",
+      "time": "3:06 - 3:41p",
       "title": "Imagine IF the U.S. Led the Convergence Decade",
       "speakers": [
         "Sen. Bill Hagerty (US Senate, TN)",
@@ -427,7 +430,7 @@
     {
       "id": 35,
       "day": 1,
-      "time": "3:36 - 4:05p",
+      "time": "3:41 - 4:05p",
       "title": "TRANSITION: Theater → Paisley Ballroom (Evening Cocktails)",
       "speakers": [],
       "abstract": "13-minute room move to Paisley Ballroom for evening cocktails and The Brainstorm.",
@@ -682,22 +685,19 @@
     {
       "id": 56,
       "day": 2,
-      "time": "12:42 - 1:17p",
-      "title": "Imagine IF Every Watt Had a Brain",
-      "speakers": [
-        "Mario Gutierrez (TeraWulf)",
-        "Sebastian Sheng (Brick - Founder & CEO)"
-      ],
-      "abstract": "Session details coming soon.",
+      "time": "12:42 - 1:22p",
+      "title": "Imagine IF the Valley Powered the Intelligence Age",
+      "speakers": [],
+      "abstract": "Session description to be announced.",
       "room": "Paisley Ballroom",
       "production": false,
-      "hold": false,
-      "speakerReview": true
+      "hold": true,
+      "speakerPlaceholder": "Speakers to be announced"
     },
     {
       "id": 57,
       "day": 2,
-      "time": "1:17 - 1:30p",
+      "time": "1:22 - 1:30p",
       "title": "TRANSITION: Paisley Ballroom → Theater",
       "speakers": [],
       "abstract": "13-minute room move back to afternoon programming.",
@@ -858,7 +858,20 @@
     {
       "id": 70,
       "day": 2,
-      "time": "3:56 - 3:58p",
+      "time": "3:56 - 4:01p",
+      "title": "Closing remarks and a look ahead to 2027",
+      "speakers": [
+        "Rod Roudi (Bitcoin Park)"
+      ],
+      "abstract": "",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 71,
+      "day": 2,
+      "time": "4:01 - 4:03p",
       "title": "CLOSING TRAILER",
       "speakers": [],
       "abstract": "",
