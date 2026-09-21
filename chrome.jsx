@@ -131,15 +131,18 @@ window.IFChrome = (() => {
           <div className="newsletter__copy">
             <span className="eyebrow" style={{ color: 'var(--coral)' }}>Tangents Daily (formerly OP_Daily)</span>
             <p className="newsletter__h" style={{ margin: '10px 0 0' }}>
-              <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Six bytes a day across AI, energy, and bitcoin.</em>
+              <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>A daily briefing on AI, energy, and Bitcoin.</em>
             </p>
             <h3 className="newsletter__h" style={{ fontSize: 'clamp(18px, 1.4vw, 22px)', lineHeight: 1.4, marginTop: 14 }}>
               Imagine IF is two days a year.<br />
               Tangents runs all 365.<br />
-              The weekly show premieres this August.
+              The weekly show premiered in August.
             </h3>
+            <a className="btn btn--ghost-light" style={{ marginTop: 18 }} href="https://tangentsdaily.substack.com/s/tangents-with-rod-roudi" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to the weekly Tangents show">
+              Subscribe <span className="arr"></span>
+            </a>
           </div>
-          <a className="btn btn--primary newsletter__btn" href="https://tangentsdaily.substack.com" target="_blank" rel="noopener noreferrer">
+          <a className="btn btn--primary newsletter__btn" aria-label="Subscribe to Tangents Daily" href="https://tangentsdaily.substack.com" target="_blank" rel="noopener noreferrer">
             Subscribe <span className="arr"></span>
           </a>
         </div>
