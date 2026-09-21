@@ -235,7 +235,7 @@ window.IFHome = (() => {
   // ---------------- "IMAGINE IF…" PROMPT REEL ----------------
   function PromptReel() {
     const seeds = [
-    { rail: 'Energy', prompt: 'Nuclear Were Young Again' },
+    { rail: 'Energy', prompt: 'Every Watt Had a Brain' },
     { rail: 'Intelligence', prompt: 'Data Centers Disappeared' },
     { rail: 'Humanity', prompt: 'Kids Were Limitless' },
     { rail: 'Intelligence', prompt: 'Every Home Ran a Data Center' },
