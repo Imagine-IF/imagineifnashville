@@ -16,9 +16,6 @@ window.IFIdea = (() => {
               <p style={{ fontSize: 22, lineHeight: 1.4, color: 'var(--ink-soft)', maxWidth: '38ch' }}>
                 Every talk at Imagine IF starts with the same prompt. <em className="italic-hero" style={{ fontSize: '1.15em', color: 'var(--royal)' }}>Imagine IF…</em> what comes next is the speaker's, the audience's, and ours together.
               </p>
-              <p style={{ fontSize: 18, color: 'var(--ink-soft)', maxWidth: '52ch' }}>
-                It's not a slogan. It's a hinge. The speaker walks through. So do you.
-              </p>
             </div>
           </div>
         </section>
