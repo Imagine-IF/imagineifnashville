@@ -290,5 +290,10 @@
     "photo": "assets/rod-roudi-linkedin.jpg",
     "x": "https://x.com/bitkite",
     "linkedin": "https://www.linkedin.com/in/rodroudi/"
+  },
+  "General Paul M. Nakasone (Vanderbilt Institute of National Security)": {
+    "name": "General Paul M. Nakasone",
+    "org": "Vanderbilt Institute of National Security / OpenAI",
+    "photo": "assets/general-paul-m-nakasone.jpeg"
   }
 }
