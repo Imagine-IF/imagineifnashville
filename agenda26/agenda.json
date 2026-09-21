@@ -520,11 +520,11 @@
       "id": 43,
       "day": 2,
       "time": "10:34 - 10:44a",
-      "title": "Imagine IF We Lost the AI Race",
+      "title": "Imagine IF the Model Refused the Mission",
       "speakers": [
         "Rob Hamilton (AnchorWatch - CEO)"
       ],
-      "abstract": "Earlier this year a Bitcoin red team went looking for weaknesses in the systems that secure the hardest money on earth: pointing AI models at custody setups, scripts, and protocol edges to find the holes before an adversary does. The uncomfortable discovery was not the vulnerabilities. It was the tooling. The American frontier models refused the work, so the red team ran on Chinese open-weight models, which happily obliged. Sit with that: the sharpest openly available intelligence for attacking and defending Bitcoin is currently made in China. Rob Hamilton runs AnchorWatch, the company that insures bitcoin custody at Lloyd's of London, which means he is paid to think about what breaks. Ten minutes on what the red team found, why the models that refused matter more than the ones that complied, and why intelligence has to be open, for everyone, and built in the United States before the race is decided for us.",
+      "abstract": "Earlier this year a Bitcoin red team went looking for weaknesses in the systems that secure the hardest money on earth: pointing AI models at custody setups, scripts, and protocol edges to find the holes before an adversary does. The uncomfortable discovery was not the vulnerabilities. It was the tooling. The American frontier models refused the work, so the red team ran on Chinese open-weight models, which happily obliged. Sit with that: the sharpest openly available intelligence for attacking and defending Bitcoin is currently made in China. Rob Hamilton runs AnchorWatch, the company that insures bitcoin custody at Lloyd's of London, which means he is paid to think about what breaks. When the mission was defending bitcoin, the American models said no. Ten minutes on what the red team found, why the refusal matters more than any vulnerability it missed, and why intelligence has to be open, for everyone, and built in the United States before the race is decided for us.",
       "room": "Theater",
       "production": false,
       "hold": false
@@ -720,7 +720,7 @@
       "id": 59,
       "day": 2,
       "time": "1:31 - 2:06p",
-      "title": "Imagine IF America Won the AI Race",
+      "title": "Imagine IF Speed to Power Decided Everything",
       "speakers": [
         "Nick Elliot (Innovation Council Action)",
         "Harry Sudock (CleanSpark)",
