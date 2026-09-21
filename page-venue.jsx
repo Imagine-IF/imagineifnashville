@@ -17,7 +17,6 @@ window.IFVenue = (() => {
                 <div className="vn-meta">
                   <div><span className="field-label">Address</span><strong>2002 Belmont Blvd</strong><br/>Nashville, TN 37212</div>
                   <div><span className="field-label">Expected Attendance</span><strong>Max 1,000</strong><br/>Across both stages</div>
-                  <div><span className="field-label">Second Stage</span><strong>Flexible hall</strong><br/>Off the Main Theatre</div>
                 </div>
               </div>
               <div className="vn-map">
