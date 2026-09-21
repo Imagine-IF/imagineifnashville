@@ -241,6 +241,14 @@ window.IF_DATA = {
       photoPos: 'center 25%',
       bio: 'Executive Director of the Prime Mover Institute and Senior Advisor for Public Affairs and Defense Policy at Apex Path. Previously held roles at Stand Together Trust and, before that, CrossFit Inc.',
       talk: 'Imagine IF… freedom were built from the bottom up.' },
+    // Profile verified against TVA's official executive biography.
+    { id: 'dan-pratt', name: 'Dan Pratt', role: 'Senior Vice President, Customer Relations & Economic Development', org: 'TVA', tags: ['Humanity'],
+      bio: 'Dan Pratt leads customer relations and economic development at TVA, working with local power companies, directly served customers, and communities across the Tennessee Valley. He joined TVA in 2008 and has more than 30 years of experience in the energy industry.' },
+    // Profile, portrait, and LinkedIn verified against Ohio State's School of Earth Sciences directory.
+    { id: 'mario-gutierrez', name: 'Mario Gutierrez', role: 'Director of Energy Origination & Development', org: 'TeraWulf', tags: ['Humanity', 'Intelligence'],
+      photo: 'uploads/speakers/mario-gutierrez.webp',
+      linkedin: 'https://www.linkedin.com/in/mario-andres-gutierrez/',
+      bio: 'Mario Gutierrez works in energy origination and development for AI data centers at TeraWulf. He earned a degree in Earth Sciences from The Ohio State University and works at the intersection of energy, data centers, and technology.' },
   ],
 
   sponsors: {
@@ -259,6 +267,7 @@ window.IF_DATA = {
       { name: 'Proto', url: 'https://proto.xyz/' },
     ],
     supporting: [
+      { name: 'Best Day Brewing', url: 'https://bestdaybrewing.com/' },
       { name: 'Athena', url: 'https://www.athena.com/' },
       { name: 'Bitkey', url: 'https://bitkey.world' },
       { name: 'BLISS', url: 'https://www.blissmakers.org/' },
