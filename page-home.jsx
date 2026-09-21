@@ -235,7 +235,7 @@ window.IFHome = (() => {
   // ---------------- "IMAGINE IF…" PROMPT REEL ----------------
   function PromptReel() {
     const seeds = [
-    { rail: 'Energy', prompt: 'Nuclear Were Young Again' },
+    { rail: 'Energy', prompt: 'Every Watt Had a Brain' },
     { rail: 'Intelligence', prompt: 'Data Centers Disappeared' },
     { rail: 'Humanity', prompt: 'Kids Were Limitless' },
     { rail: 'Intelligence', prompt: 'Every Home Ran a Data Center' },
@@ -363,9 +363,8 @@ window.IFHome = (() => {
   function ProceedsCTA({ onNav }) {
     const bodyParas = [
       "Bitcoin Park and AI Freedom Lab's mission is to support and accelerate the grassroots freedom tech movement.",
+      "We create magical experiences for mission-obsessed Bitcoiners, entrepreneurs, and freedom fighters to work, learn, collaborate, and build.",
       "Your participation plays a significant role in doing just that.",
-      "We create spaces for mission-obsessed Bitcoiners, builders, and freedom fighters to work, learn, collaborate, and build.",
-      "Imagine IF brings all these folks together to celebrate and push forward.",
     ];
     return (
       <section className="section" style={{ background: 'var(--coral)' }}>
