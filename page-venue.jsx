@@ -12,11 +12,11 @@ window.IFVenue = (() => {
                   Fisher Center.<br/><em className="italic-hero" style={{ color: 'var(--royal)' }}>Two stages.</em>
                 </h1>
                 <p style={{ fontSize: 19, color: 'var(--ink-soft)', marginTop: 16 }}>
-                  Belmont's Fisher Center for the Performing Arts is the kind of room a real conversation deserves. Expected attendance is ~1,000 across both stages — the Main Theatre and a flexible Second Stage — with the kind of acoustics that makes a fireside actually feel like one.
+                  Belmont's Fisher Center for the Performing Arts is the kind of room a real conversation deserves. Expected attendance is Max 1,000 across both stages — the Main Theatre and a flexible Second Stage — with the kind of acoustics that makes a fireside actually feel like one.
                 </p>
                 <div className="vn-meta">
                   <div><span className="field-label">Address</span><strong>2002 Belmont Blvd</strong><br/>Nashville, TN 37212</div>
-                  <div><span className="field-label">Expected Attendance</span><strong>~1,000</strong><br/>Across both stages</div>
+                  <div><span className="field-label">Expected Attendance</span><strong>Max 1,000</strong><br/>Across both stages</div>
                   <div><span className="field-label">Second Stage</span><strong>Flexible hall</strong><br/>Off the Main Theatre</div>
                 </div>
               </div>
