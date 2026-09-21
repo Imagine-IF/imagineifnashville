@@ -32,12 +32,12 @@ window.IFVenue = (() => {
             <span className="eyebrow">Accommodations</span>
             <h2 style={{ maxWidth: '14ch', marginTop: 12 }}>Where to stay. <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>Close to the room.</em></h2>
             <p className="muted" style={{ maxWidth: '54ch', fontSize: 17, marginTop: 16 }}>
-              Three hotels within easy reach of the Fisher Center, two with discounted rates for Imagine IF guests.
+              Three hotels within easy reach of the Fisher Center.
             </p>
 
             <div className="vn-cards">
               {[
-                { tag: 'Vanderbilt', title: 'The Moxy', url: 'https://app.marriott.com/resview2?id=1788291154601&key=GRP&app=resvlink', body: 'Design-forward and walkable to the venue. Imagine IF group rate ($174/night), book by Sept 18.' },
+                { tag: 'Vanderbilt', title: 'The Moxy', url: 'https://app.marriott.com/resview2?id=1788291154601&key=GRP&app=resvlink', body: 'Design-forward and walkable to the venue.' },
                 { tag: 'Midtown', title: 'The Kimpton Aertson', url: 'https://www.ihg.com/kimptonhotels/hotels/us/en/aertson-hotel-nashville-tn/bnaae/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99502056&icdv=99502056&qSlH=BNAAE&qCpid=787245467&qAAR=APJKQ&qRtP=APJKQ&setPMCookies=true&qSHBrC=KI&qDest=2021%20Broadway%2C%20Nashville%2C%20TN%2C%20US&showApp=true&adjustMonth=false&srb_u=1', body: 'Upscale modern, a short Lyft from Belmont. Bitcoin Park discounted rate.' },
                 { tag: 'Hillsboro', title: 'The Chloe', url: 'https://www.chloenashville.com/', body: 'New boutique landmark in Hillsboro Village.' },
               ].map(c => (
