@@ -181,7 +181,7 @@ window.IFChrome = (() => {
                 <li><a href="#idea" onClick={(e) => {e.preventDefault();onNav('idea');}}>The Idea</a></li>
                 <li><a href="#speakers" onClick={(e) => {e.preventDefault();onNav('speakers');}}>Speakers</a></li>
                 <li><a href="#agenda" onClick={(e) => {e.preventDefault();onNav('agenda');}}>Agenda</a></li>
-                <li><a href="#sponsors-section" onClick={scrollToSponsors}>Sponsors</a></li>
+                <li><a href="#sponsors-section" onClick={scrollToSponsors}>Supporters</a></li>
               </ul>
             </div>
             <div>
