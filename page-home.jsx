@@ -9,17 +9,33 @@ window.IFHome = (() => {
   // Variant A — Cycling prompts (typewriter feel)
   // Three rails of freedom tech: intelligence (AI), humanity (energy), money (bitcoin)
   function HeroCycling({ onNav }) {
+    // Current approved topics from the temporary agenda website (September 21, 2026).
     const prompts = [
-    'intelligence, power, and money belonged to anyone.',
-    'intelligence became electricity — and you owned the meter.',
-    'the cheapest energy in history rewrote the dollar.',
-    'bitcoin worked for the next eight billion.',
-    'technology outlived the quantum decade.',
-    'we built the life we have imagined.',
-    'AI worked for you, not on you.',
-    'energy stopped being the binding constraint.',
-    'atoms came back to the grid edge.',
-    'privacy was the floor, not the fight.'];
+      "Stories Moved Money",
+      "Bitcoin and Energy Went Supernova",
+      "AI Worked for Freedom",
+      "You Held the Keys to Everything",
+      "Everyone Read the Source Material",
+      "America Defended Forward",
+      "Wall Street Ran on Open Rails",
+      "the Valley Powered the Intelligence Age",
+      "the Treasury Set a New Standard",
+      "Tyranny Had Nowhere to Hide",
+      "Every Home Ran a Data Center",
+      "the U.S. Led the Convergence Decade",
+      "They Were Right: Cathie & Laffer, Part 2",
+      "We Lost the AI Race",
+      "Kids Were Limitless",
+      "Data Centers Disappeared",
+      "We Built the Quantum Internet",
+      "Every Watt Had a Brain",
+      "America Won the AI Race",
+      "It All Got Built Here",
+      "the Gigawatts Got Built",
+      "Freedom Were Built from the Bottom Up",
+      "Time-to-Exploit Hit Zero",
+      "All Activists Had AI Superpowers"
+];
 
     const [idx, setIdx] = useState(0);
     useEffect(() => {
