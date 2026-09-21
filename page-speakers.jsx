@@ -117,15 +117,6 @@ window.IFSpeakers = (() => {
           <div className="shell">
             <div className="sp-mosaic">
               {speakers.map((s, i) => <SpeakerCard key={s.id} s={s} idx={i} onOpen={setOpen} />)}
-              {/* TBA placeholder cards to show the system scales */}
-              {[0, 1, 2, 3, 4, 5].map((i) => (
-                <article key={'tba-' + i} className={'sp-card sp-card--sm sp-card--tba sp-card--' + SIZE_PATTERN[(speakers.length + i) % SIZE_PATTERN.length]}>
-                  <div className="sp-card__tba">
-                    <span className="italic-hero">to be announced</span>
-                    <span className="muted" style={{ fontSize: 12, letterSpacing: '0.16em', textTransform: 'uppercase', fontFamily: 'var(--f-head)' }}>more soon</span>
-                  </div>
-                </article>
-              ))}
             </div>
           </div>
         </section>
