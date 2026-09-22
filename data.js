@@ -22,7 +22,7 @@ window.IF_DATA = {
       bio: 'Cathie founded ARK to invest in disruptive innovation — genomics, robotics, AI, blockchain. She thinks in decades, not quarters.',
       talk: 'Imagine IF… capital flowed toward the future, not the past.' },
     { id: 'art-laffer', name: 'Dr. Art Laffer', role: 'Founder and Chairman', org: 'Laffer Associates', tags: ['Money'], featured: true,
-      photo: 'uploads/speakers/art-laffer.png',
+      photo: 'uploads/speakers/art-laffer.jpg',
       x: 'https://x.com/realartlaffer',
       bio: 'Architect of supply-side economics. Curious about what the next century of money looks like.',
       talk: 'Imagine IF… we taxed nothing we wanted more of.' },
