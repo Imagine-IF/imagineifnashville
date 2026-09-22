@@ -278,6 +278,7 @@ window.IF_DATA = {
       { name: 'Howden', url: 'https://www.howdengroupholdings.com/' },
       { name: 'Institute for Humane Studies', short: 'IHS', url: 'https://theihs.org/' },
       { name: 'The Reynolds Foundation', url: 'https://www.reynoldsfoundation.com/' },
+      { name: 'TVA', url: 'https://www.tva.com/' },
     ],
   },
 
