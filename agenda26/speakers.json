@@ -303,5 +303,20 @@
   "Rory Murray (CleanSpark - VP, Digital Asset Management)": {
     "name": "Rory Murray",
     "photo": "assets/rory-murray.jpg"
+  },
+  "Brian Domitrovic (The Laffer Center)": {
+    "name": "Brian Domitrovic",
+    "photo": "../2025/Brian-Dom.png",
+    "photoPos": "center"
+  },
+  "Mario Gutierrez (TeraWulf)": {
+    "name": "Mario Gutierrez",
+    "photo": "../uploads/speakers/mario-gutierrez.webp",
+    "photoPos": "center 50%"
+  },
+  "Shaun Gleason (Oak Ridge National Laboratory)": {
+    "name": "Shaun Gleason",
+    "photo": "../uploads/speakers/shaun-gleason.jpg?v=2",
+    "photoPos": "center 20%"
   }
 }
