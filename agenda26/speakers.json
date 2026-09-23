@@ -323,5 +323,19 @@
     "name": "Dan Pratt",
     "org": "TVA",
     "photo": "../uploads/speakers/dan-pratt.jpg"
+  },
+  "Stuart McWhorter (State of Tennessee - Deputy Governor & Commissioner, TNECD)": {
+    "name": "Stuart McWhorter",
+    "photo": "assets/stuart-mcwhorter.jpg"
+  },
+  "Matt Van Epps (U.S. Congressman, TN-7)": {
+    "name": "Matt Van Epps",
+    "photo": "assets/matt-van-epps.webp",
+    "x": "https://x.com/repvanepps"
+  },
+  "Matt Beasley (Silicon Ranch - Chief Commercial Officer)": {
+    "name": "Matt Beasley",
+    "photo": "assets/matt-beasley.png",
+    "linkedin": "https://www.linkedin.com/in/matt-beasley-7229154"
   }
 }
