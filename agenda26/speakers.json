@@ -318,5 +318,10 @@
     "name": "Shaun Gleason",
     "photo": "../uploads/speakers/shaun-gleason.jpg?v=2",
     "photoPos": "center 20%"
+  },
+  "Dan Pratt (TVA)": {
+    "name": "Dan Pratt",
+    "org": "TVA",
+    "photo": "../uploads/speakers/dan-pratt.jpg"
   }
 }
