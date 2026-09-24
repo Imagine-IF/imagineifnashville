@@ -337,5 +337,16 @@
     "name": "Matt Beasley",
     "photo": "assets/matt-beasley.png",
     "linkedin": "https://www.linkedin.com/in/matt-beasley-7229154"
+  },
+  "Parker Lewis (Zaprite)": {
+    "name": "Parker Lewis",
+    "photo": "../uploads/speakers/parker-lewis.jpg",
+    "x": "https://x.com/parkeralewis",
+    "linkedin": "https://www.linkedin.com/in/parker-lewis-ab904669/"
+  },
+  "Econoalchemist (256 Foundation)": {
+    "name": "Econoalchemist",
+    "photo": "../2025/Eco.png",
+    "x": "https://x.com/econoalchemist"
   }
 }
