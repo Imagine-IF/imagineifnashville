@@ -302,10 +302,11 @@
       "time": "12:47 - 1:22p",
       "title": "Imagine IF Every Watt Had a Brain",
       "speakers": [
+        "Brad Cuddy (Cholla)",
         "Mario Gutierrez (TeraWulf)",
         "Sebastian Sheng (Brick - Founder & CEO)"
       ],
-      "abstract": "The AI buildout puts a practical question in front of every operator: how do you get more useful work from the power you have? Mario Gutierrez of TeraWulf and Sebastian Sheng of Brick bring the infrastructure and software perspectives to the same conversation. Together, they explore how the design and operation of data centers can work with AI control systems to make better use of each watt. What can operators change today to reduce wasted energy without sacrificing reliability? Where can software help when power is the constraint, and where does the physical infrastructure still set the limit? A conversation about building and running the next generation of compute, and what changes when intelligence helps manage the energy it depends on.",
+      "abstract": "The AI buildout puts a practical question in front of every operator: how do you get more useful work from the power you have? Brad Cuddy of Cholla leads a conversation with Mario Gutierrez of TeraWulf and Sebastian Sheng of Brick, bringing the infrastructure and software perspectives together. They explore how the design and operation of data centers can work with AI control systems to make better use of each watt. What can operators change today to reduce wasted energy without sacrificing reliability? Where can software help when power is the constraint, and where does the physical infrastructure still set the limit? A conversation about building and running the next generation of compute, and what changes when intelligence helps manage the energy it depends on.",
       "room": "Paisley Ballroom",
       "production": false,
       "hold": false,
