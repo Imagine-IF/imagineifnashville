@@ -186,7 +186,7 @@
       "speakerReview": true
     },
     {
-      "id": 16,
+      "id": 29,
       "day": 1,
       "time": "11:26 - 11:27a",
       "title": "CONTEXT VIDEO TRANSITION",
@@ -197,14 +197,38 @@
       "hold": false
     },
     {
-      "id": 17,
+      "id": 32,
       "day": 1,
       "time": "11:27 - 11:37a",
-      "title": "Imagine IF It Already Happened",
+      "title": "Imagine IF Every Home Ran a Data Center",
       "speakers": [
-        "Jeff Booth (Ego Death Capital)"
+        "Jonathan Kirkwood (Ten31)"
       ],
-      "abstract": "One of the most-quoted bitcoin idea of the last five years: that technology is inherently deflationary, that fiat is structurally incompatible with that deflation, and that bitcoin is the only neutral monetary asset built for the world that is actually coming. This IF talk updates the thesis for 2026 — AI productivity slamming through the consumer-price index in real time, sovereign debt blowing through every guardrail, the cost of intelligence collapsing toward zero. The single most concentrated argument for why Imagine IF exists.",
+      "abstract": "The cloud is a tool, not a landlord. The co-founder of Ten31, the bitcoin-native investment firm behind dozens of infrastructure companies, and a Start9 board member, wrote the manual for taking your compute home: the Personal Data Center. A server hub running sovereign services, local GPUs handling inference and fine-tuning on your own data, and cloud APIs demoted from landlord to utility, rented only when a task truly needs a frontier model. Ten minutes on the stack, what it costs today, and why the same instinct that made bitcoiners run their own nodes is about to make households run their own intelligence.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 31,
+      "day": 1,
+      "time": "11:37 - 11:38a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 1004,
+      "day": 1,
+      "time": "11:38 - 11:48a",
+      "title": "Imagine IF Every Citizen Believed They Could Change Their Country",
+      "speakers": [
+        "Evan Mawarire"
+      ],
+      "abstract": "In 2016, Zimbabwean pastor Evan Mawarire recorded a four-minute video holding his country’s flag. His frustration with corruption and repression became #ThisFlag, a movement that helped ordinary citizens find the courage to speak up together. Prison and exile followed. His commitment to a freer Zimbabwe endured.\n\nDrawing on that journey and his participation in AI Hack for Freedom III, Evan explores what becomes possible when people who have felt powerless gain the confidence and tools to act. How might AI help a small group of citizens organize and make their voices heard? What should builders understand about the people risking their freedom to use what they create? Evan invites us to imagine a country whose citizens believe they can shape its future—and consider how each of us can help make that possible.",
       "room": "Theater",
       "production": false,
       "hold": false
@@ -281,7 +305,7 @@
         "Mario Gutierrez (TeraWulf)",
         "Sebastian Sheng (Brick - Founder & CEO)"
       ],
-      "abstract": "Session details coming soon.",
+      "abstract": "The AI buildout puts a practical question in front of every operator: how do you get more useful work from the power you have? Mario Gutierrez of TeraWulf and Sebastian Sheng of Brick bring the infrastructure and software perspectives to the same conversation. Together, they explore how the design and operation of data centers can work with AI control systems to make better use of each watt. What can operators change today to reduce wasted energy without sacrificing reliability? Where can software help when power is the constraint, and where does the physical infrastructure still set the limit? A conversation about building and running the next generation of compute, and what changes when intelligence helps manage the energy it depends on.",
       "room": "Paisley Ballroom",
       "production": false,
       "hold": false,
@@ -353,7 +377,7 @@
       "reviewOverride": true
     },
     {
-      "id": 29,
+      "id": 1002,
       "day": 1,
       "time": "2:43 - 2:44p",
       "title": "CONTEXT VIDEO TRANSITION",
@@ -364,22 +388,23 @@
       "hold": false
     },
     {
-      "id": 30,
+      "id": 1001,
       "day": 1,
-      "time": "2:44 - 2:54p",
-      "title": "TBA",
+      "time": "2:44 - 3:09p",
+      "title": "Imagine IF Open Systems Stayed Open",
       "speakers": [
-        "Obi Nwosu (Fedi)"
+        "Parker Lewis (Zaprite)",
+        "Econoalchemist (256 Foundation)"
       ],
-      "abstract": "Most bitcoin conversations are about price, custody, or policy. This keynote is about something else entirely: making bitcoin actually work for the seven billion people who are not American institutional investors. Federated mints, community-scale custody, and the protocols designed for the political and infrastructure failures that define most of the world. Ten minutes on the architecture for what bitcoin looks like when the next billion users come on — not through wallets, but through federations.",
+      "abstract": "Open systems give people the freedom to build. As they create wealth, they attract gatekeepers who seek to control access and capture more of the value. Over time, those restrictions inspire a new wave of builders to open things up again.\n\nWhat would it take to make openness last?\n\nParker Lewis leads a conversation with Econoalchemist about this recurring pattern through Bitcoin mining, where the 256 Foundation is working to build an open-source mining ecosystem, chip by chip and line of code by line of code. The ambition is to make closing a system more costly—and keeping it open more rewarding. The implications reach far beyond mining: who can participate, who controls the tools we depend on, and whether the next generation has the freedom to build on what came before.",
       "room": "Theater",
       "production": false,
       "hold": false
     },
     {
-      "id": 31,
+      "id": 16,
       "day": 1,
-      "time": "2:54 - 2:55p",
+      "time": "3:09 - 3:10p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -388,14 +413,14 @@
       "hold": false
     },
     {
-      "id": 32,
+      "id": 17,
       "day": 1,
-      "time": "2:55 - 3:05p",
-      "title": "Imagine IF Every Home Ran a Data Center",
+      "time": "3:10 - 3:20p",
+      "title": "Imagine IF It Already Happened",
       "speakers": [
-        "Jonathan Kirkwood (Ten31)"
+        "Jeff Booth (Ego Death Capital)"
       ],
-      "abstract": "The cloud is a tool, not a landlord. The co-founder of Ten31, the bitcoin-native investment firm behind dozens of infrastructure companies, and a Start9 board member, wrote the manual for taking your compute home: the Personal Data Center. A server hub running sovereign services, local GPUs handling inference and fine-tuning on your own data, and cloud APIs demoted from landlord to utility, rented only when a task truly needs a frontier model. Ten minutes on the stack, what it costs today, and why the same instinct that made bitcoiners run their own nodes is about to make households run their own intelligence.",
+      "abstract": "One of the most-quoted bitcoin idea of the last five years: that technology is inherently deflationary, that fiat is structurally incompatible with that deflation, and that bitcoin is the only neutral monetary asset built for the world that is actually coming. This IF talk updates the thesis for 2026 — AI productivity slamming through the consumer-price index in real time, sovereign debt blowing through every guardrail, the cost of intelligence collapsing toward zero. The single most concentrated argument for why Imagine IF exists.",
       "room": "Theater",
       "production": false,
       "hold": false
@@ -403,7 +428,7 @@
     {
       "id": 33,
       "day": 1,
-      "time": "3:05 - 3:06p",
+      "time": "3:20 - 3:21p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -414,7 +439,7 @@
     {
       "id": 34,
       "day": 1,
-      "time": "3:06 - 3:41p",
+      "time": "3:21 - 3:56p",
       "title": "Imagine IF the U.S. Led the Convergence Decade",
       "speakers": [
         "Sen. Bill Hagerty (US Senate, TN)",
@@ -430,10 +455,10 @@
     {
       "id": 35,
       "day": 1,
-      "time": "3:41 - 4:05p",
+      "time": "3:56 - 4:05p",
       "title": "TRANSITION: Theater → Paisley Ballroom (Evening Cocktails)",
       "speakers": [],
-      "abstract": "13-minute room move to Paisley Ballroom for evening cocktails and The Brainstorm.",
+      "abstract": "9-minute room move to Paisley Ballroom for evening cocktails and The Brainstorm.",
       "room": "",
       "production": true,
       "hold": false
@@ -615,6 +640,30 @@
         "Sean James (NVIDIA - Distinguished Engineer, Energy Systems)"
       ],
       "abstract": "A Navy submarine electrician turned data center builder makes the argument against his own industry's visibility. Mark Weiser wrote that the profound technologies are the ones that disappear, and by that standard the AI buildout is still adolescent: noise, dust, truck traffic, water draw, and the grid instability that earned data centers their own NERC Level 3 alert once a single campus could drop a thousand megawatts without warning. The talk walks the receipts on how far the industry already moved, from power usage effectiveness of three to five in the nineties down to 1.2 and 1.5 today, chillers replaced by evaporative cooling, and now liquid loops running at 113 degrees that kill the cooling tower and take water consumption to zero. Then the harder half: load flexibility and fault-tolerant design that turn a data center from a threat to the grid into an asset on it, and diesel generators into a legacy line item. The goal is not a better headline. The goal is to become as unremarkable as a water main.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
+      "id": 1003,
+      "day": 2,
+      "time": "11:42 - 11:43a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 30,
+      "day": 2,
+      "time": "11:43 - 11:53a",
+      "title": "TBA",
+      "speakers": [
+        "Obi Nwosu (Fedi)"
+      ],
+      "abstract": "Most bitcoin conversations are about price, custody, or policy. This keynote is about something else entirely: making bitcoin actually work for the seven billion people who are not American institutional investors. Federated mints, community-scale custody, and the protocols designed for the political and infrastructure failures that define most of the world. Ten minutes on the architecture for what bitcoin looks like when the next billion users come on — not through wallets, but through federations.",
       "room": "Theater",
       "production": false,
       "hold": false

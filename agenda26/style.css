@@ -31,7 +31,7 @@
  .print-heading h2{font-size:20pt;line-height:1.2;margin:3pt 0 0}
  .print-heading h2 span{font-size:11pt;letter-spacing:0;font-weight:400;margin-left:10pt}
  .print-day ol{list-style:none;margin:0;padding:0}
- .print-session{display:grid;grid-template-columns:1.05in minmax(0,1fr);gap:12pt;padding:5pt 0;border-bottom:.5pt solid #ccd;break-inside:avoid;page-break-inside:avoid}
+ .print-session{display:grid;grid-template-columns:1.05in minmax(0,1fr);gap:12pt;padding:3.5pt 0;border-bottom:.5pt solid #ccd;break-inside:avoid;page-break-inside:avoid}
  .print-when strong{display:block;font-size:9pt;line-height:1.2;font-variant-numeric:tabular-nums}
  .print-when span{display:block;font-size:8pt;line-height:1.2;margin-top:2pt}
  .print-content h3{font-size:10.5pt;line-height:1.15;letter-spacing:-.015em;margin:0}
