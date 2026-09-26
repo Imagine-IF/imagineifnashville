@@ -648,11 +648,11 @@
       "id": 30,
       "day": 2,
       "time": "11:43 - 11:53a",
-      "title": "TBA",
+      "title": "Imagine IF I Trust You More Than I Trust Myself",
       "speakers": [
         "Obi Nwosu (Fedi)"
       ],
-      "abstract": "Most bitcoin conversations are about price, custody, or policy. This keynote is about something else entirely: making bitcoin actually work for the seven billion people who are not American institutional investors. Federated mints, community-scale custody, and the protocols designed for the political and infrastructure failures that define most of the world. Ten minutes on the architecture for what bitcoin looks like when the next billion users come on — not through wallets, but through federations.",
+      "abstract": "People holding bitcoin rely on the advice of Bitcoin educators and builders — advice that tends to favour \"trustless\" over trusted. This summer, thousands of them lost close to half a billion dollars doing exactly what they were told. Obi Nwosu explains why we end up giving the wrong advice, the customer who showed him he'd been getting it wrong for years, and the question that should sit under all of it: how many things must fail before the money is gone?",
       "room": "Theater",
       "production": false,
       "hold": false
