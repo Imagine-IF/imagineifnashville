@@ -1,7 +1,7 @@
 // Speakers page — asymmetric mosaic + filterable + detail modal
 
 window.IFSpeakers = (() => {
-  const { useState } = React;
+  const { useState, useEffect } = React;
   const { SpeakerArt } = window.IFArt;
 
   // Mosaic size pattern — repeats. Variety in cells creates the editorial feel.
@@ -46,6 +46,14 @@ window.IFSpeakers = (() => {
   }
 
   function SpeakerModal({ speaker, onClose }) {
+    useEffect(() => {
+      if (!speaker) return;
+      const handleKeyDown = (event) => {
+        if (event.key === 'Escape') onClose();
+      };
+      document.addEventListener('keydown', handleKeyDown);
+      return () => document.removeEventListener('keydown', handleKeyDown);
+    }, [speaker, onClose]);
     if (!speaker) return null;
     return (
       <div className="sp-modal" onClick={onClose}>
