@@ -714,9 +714,10 @@
       "speakers": [
         "Braden Stover (TNECD - Senior Advisor, Nuclear & Quantum Strategy)",
         "Shaun Gleason (Oak Ridge National Laboratory)",
-        "Janet Rehberg (EPB)"
+        "Janet Rehberg (EPB)",
+        "Nick Mondrik (IonQ)"
       ],
-      "abstract": "Session details coming soon.",
+      "abstract": "In 2022 a municipal utility in Chattanooga switched on America's first commercially available quantum network, years before anyone expected a city to do it. Since then the state has gone all in: a $20 million Tennessee Quantum Initiative, the Knoxville Quantum Accelerator and its planned quantum foundry, an IonQ-EPB research center putting the world's first commercial quantum memory inside a live network, and Oak Ridge running the Department of Energy's Quantum Science Center down the road. The state's nuclear and quantum strategist moderates the people building it: EPB and Oak Ridge leaders building the network and the science, and IonQ’s Nick Mondrik on bringing quantum-memory technology into practical use. Forty minutes on what a quantum internet is actually for, why it is being born in Tennessee, and what it means for money, energy, and intelligence when the encryption everything rests on changes underneath us.",
       "room": "Paisley Ballroom",
       "production": false,
       "hold": false,
