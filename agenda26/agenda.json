@@ -574,11 +574,11 @@
       "id": 45,
       "day": 2,
       "time": "10:45 - 10:55a",
-      "title": "TBA",
+      "title": "Imagine IF bitcoin is what aligns AI.",
       "speakers": [
         "Dhruv Bansal (Unchained)"
       ],
-      "abstract": "The Unchained co-founder is a physicist who asked what nobody else thought to: what does the speed of light do to money? His Bitcoin Astronomy series works it out. Consensus has a hash horizon, a physical radius beyond which blocks cannot settle, so a civilization that spreads through the solar system mints a new chain for every world it reaches. Kardashev money: as humanity captures more energy, the monetary network securing it grows in kind. And beyond humanity, the miners and holders need not be human at all. AI agents that travel as software and buy energy wherever they land may become bitcoin's heaviest users. Ten minutes on physics, money, and intelligence expanding together, and why all three run on proof of work.",
+      "abstract": "In this speculative talk Dhruv provides an optimistic vision for the future in which peer-to-peer markets settling through bitcoin replace the Internet and become a digital ecology within which AI evolves towards economic symbiosis with humanity, rather than predating upon us.",
       "room": "Theater",
       "production": false,
       "hold": false,
