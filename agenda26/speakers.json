@@ -354,5 +354,17 @@
     "org": "IonQ",
     "linkedin": "https://www.linkedin.com/in/nicholas-mondrik/",
     "photo": "../uploads/speakers/nick-mondrik.jpg"
+  },
+  "Evan Mawarire": {
+    "name": "Evan Mawarire",
+    "role": "Founder",
+    "org": "#ThisFlag",
+    "photo": "../uploads/speakers/evan-mawarire.png"
+  },
+  "Brad Cuddy (Cholla)": {
+    "name": "Brad Cuddy",
+    "role": "Director, Field Operations Energy",
+    "org": "Cholla",
+    "photo": "../uploads/speakers/brad-cuddy.webp"
   }
 }
