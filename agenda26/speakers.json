@@ -348,5 +348,10 @@
     "name": "Econoalchemist",
     "photo": "../2025/Eco.png",
     "x": "https://x.com/econoalchemist"
+  },
+  "Nick Mondrik (IonQ)": {
+    "name": "Nick Mondrik",
+    "org": "IonQ",
+    "linkedin": "https://www.linkedin.com/in/nicholas-mondrik/"
   }
 }
