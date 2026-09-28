@@ -39,7 +39,7 @@ window.IFAgenda = (() => {
                 Two days, two stages. AI, energy, and bitcoin, and everything they touch. Keynotes, firesides, and panels with the people building at the frontier.
               </p>
               <div style={{ marginTop: 28 }}>
-                <a className="btn btn--primary btn--lg" href="https://www.imagineifnashville.com/agenda26/">View the Agenda ↗</a>
+                <a className="btn btn--primary btn--lg" href="https://www.imagineifnashville.com/agenda26/" target="_blank" rel="noopener noreferrer">View the Agenda ↗</a>
               </div>
             </div>
           </section>
