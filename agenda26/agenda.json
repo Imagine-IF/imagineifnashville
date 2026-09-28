@@ -613,11 +613,11 @@
       "id": 48,
       "day": 2,
       "time": "11:21 - 11:31a",
-      "title": "TBA",
+      "title": "Imagine IF We Think Small and Win Big",
       "speakers": [
         "Paul Itoi (Stakwork - Founder & CEO)"
       ],
-      "abstract": "Machines are about to do a large share of the world's work, and the payment rails underneath that work were built for employees, invoices, and thirty-day terms. Stakwork splits a job between AI and humans, routes each piece to whoever or whatever can do it, and settles payment in bitcoin over Lightning the moment the work is verified. No bank account, no country, no minimum. A builder who has been shipping since the mid-nineties makes the case that machine-speed payment is the missing primitive of the AI economy, and that the first billion people to feel it will be the ones the existing financial system never bothered to serve.",
+      "abstract": "What if solving enterprise general intelligence starts with smaller models? Paul Itoi explores how focused AI systems could work together to handle the varied, complex tasks businesses face every day. The ambition is broad intelligence built from smaller pieces, each doing a job well. Could that approach make useful AI less expensive, easier to control, and available to more people? A talk about thinking small to build something bigger and how businesses, builders, and the people they serve can all win.",
       "room": "Theater",
       "production": false,
       "hold": false
