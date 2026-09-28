@@ -33,16 +33,13 @@ window.IFAgenda = (() => {
             <div className="shell">
               <span className="eyebrow">Agenda</span>
               <h1 style={{ marginTop: 16, maxWidth: '16ch' }}>
-                The lineup is <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>coming together</em>.
+                Explore the <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>2026 agenda</em>.
               </h1>
               <p className="muted" style={{ fontSize: 19, maxWidth: '52ch', marginTop: 20 }}>
-                Two days, two stages. AI, energy, and bitcoin, and everything they touch. Keynotes, firesides, and panels with the people building at the frontier. The full agenda drops closer to the experience.
-              </p>
-              <p className="muted" style={{ fontSize: 17, maxWidth: '52ch', marginTop: 12 }}>
-                Want to be in the room? Attendance is by invitation.
+                Two days, two stages. AI, energy, and bitcoin, and everything they touch. Keynotes, firesides, and panels with the people building at the frontier.
               </p>
               <div style={{ marginTop: 28 }}>
-                <span className="btn btn--primary btn--lg" role="status">SOLD OUT</span>
+                <a className="btn btn--primary btn--lg" href="https://www.imagineifnashville.com/agenda26/">View the Agenda ↗</a>
               </div>
             </div>
           </section>

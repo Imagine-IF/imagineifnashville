@@ -351,8 +351,9 @@ window.IFHome = (() => {
         <div className="shell">
           <span className="eyebrow" style={{ color: 'var(--coral)' }}>Agenda</span>
           <h2 style={{ color: 'var(--paper)', marginTop: 12 }}>
-            Agenda <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>to be announced</em>.
+            Explore the <em className="italic-hero" style={{ color: 'var(--sunrise)' }}>2026 agenda</em>.
           </h2>
+          <a className="btn btn--primary btn--lg" style={{ marginTop: 28 }} href="https://www.imagineifnashville.com/agenda26/">View the Agenda ↗</a>
         </div>
       </section>);
 
