@@ -263,6 +263,7 @@ window.IF_DATA = {
       linkedin: 'https://www.linkedin.com/in/nacho-pauls-67501b115/',
       bio: 'Chief Commercial Officer at OCEAN, the decentralized Bitcoin mining pool building tools for more transparent, permissionless mining. An Argentine-born bitcoin advocate and former athlete, Nacho works with miners to expand adoption of DATUM and strengthen the infrastructure layer that keeps Bitcoin open.',
       talk: 'Imagine IF… mining became permissionless again.' },
+    {"id": "james-danly", "name": "James Danly", "role": "Deputy Secretary of Energy", "org": "U.S. Department of Energy", "tags": ["Humanity"], "photo": "uploads/speakers/james-danly.jpg", "bio": "James Danly serves as Deputy Secretary of Energy. He previously served as general counsel, commissioner, and chairman of the Federal Energy Regulatory Commission and led the Energy Regulatory Group at Skadden. A former U.S. Army officer, he served two tours in Iraq and received a Bronze Star and a Purple Heart.", "officialProfile": "https://www.energy.gov/person/james-danly"},
   ],
 
   sponsors: {

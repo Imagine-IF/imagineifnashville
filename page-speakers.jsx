@@ -73,6 +73,9 @@ window.IFSpeakers = (() => {
             {String(speaker.bio || '').split(/\n\s*\n/).map((para, i) => (
               <p key={i} style={{ fontSize: 18, lineHeight: 1.55, maxWidth: 'none' }}>{renderBioParagraph(para)}</p>
             ))}
+            {speaker.officialProfile && (
+              <p><a href={speaker.officialProfile} target="_blank" rel="noopener noreferrer">Official Department of Energy Profile ↗</a></p>
+            )}
             {(speaker.x || speaker.linkedin) && (
               <div className="sp-modal__social">
                 {speaker.x && (
