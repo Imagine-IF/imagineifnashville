@@ -54,7 +54,7 @@
     {
       "id": 5,
       "day": 1,
-      "time": "10:06 - 10:16a",
+      "time": "10:06 - 10:15a",
       "title": "Imagine IF Stories Moved Money",
       "speakers": [
         "Scott Harrison (charity: water)"
@@ -67,7 +67,7 @@
     {
       "id": 6,
       "day": 1,
-      "time": "10:16 - 10:17a",
+      "time": "10:15 - 10:16a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -78,7 +78,7 @@
     {
       "id": 7,
       "day": 1,
-      "time": "10:17 - 10:27a",
+      "time": "10:16 - 10:25a",
       "title": "Imagine IF Bitcoin and Energy Went Supernova",
       "speakers": [
         "Rapha Zagury (Twenty One Capital - CEO)"
@@ -91,7 +91,7 @@
     {
       "id": 8,
       "day": 1,
-      "time": "10:27 - 10:28a",
+      "time": "10:25 - 10:26a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -102,7 +102,7 @@
     {
       "id": 9,
       "day": 1,
-      "time": "10:28 - 10:38a",
+      "time": "10:26 - 10:35a",
       "title": "Imagine IF AI Worked for Freedom",
       "speakers": [
         "Rene Angel (Reynolds Foundation - Head of AI)"
@@ -115,7 +115,7 @@
     {
       "id": 10,
       "day": 1,
-      "time": "10:38 - 10:39a",
+      "time": "10:35 - 10:36a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -126,7 +126,7 @@
     {
       "id": 11,
       "day": 1,
-      "time": "10:39 - 10:49a",
+      "time": "10:36 - 10:45a",
       "title": "Imagine IF You Held the Keys to Everything",
       "speakers": [
         "Jesse Posner (Vora)"
@@ -139,7 +139,7 @@
     {
       "id": 12,
       "day": 1,
-      "time": "10:49 - 10:50a",
+      "time": "10:45 - 10:46a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -150,7 +150,7 @@
     {
       "id": 13,
       "day": 1,
-      "time": "10:50 - 11:00a",
+      "time": "10:46 - 10:55a",
       "title": "Imagine IF Everyone Read the Source Material",
       "speakers": [
         "Michael Goldstein (Satoshi Nakamoto Institute)"
@@ -163,7 +163,7 @@
     {
       "id": 14,
       "day": 1,
-      "time": "11:00 - 11:01a",
+      "time": "10:55 - 10:56a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -174,7 +174,7 @@
     {
       "id": 15,
       "day": 1,
-      "time": "11:01 - 11:26a",
+      "time": "10:56 - 11:21a",
       "title": "Imagine IF America Defended Forward",
       "speakers": [
         "Cathie Wood (ARK Invest)",
@@ -189,7 +189,7 @@
     {
       "id": 29,
       "day": 1,
-      "time": "11:26 - 11:27a",
+      "time": "11:21 - 11:22a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -200,7 +200,7 @@
     {
       "id": 32,
       "day": 1,
-      "time": "11:27 - 11:37a",
+      "time": "11:22 - 11:31a",
       "title": "Imagine IF Every Home Ran a Data Center",
       "speakers": [
         "Jonathan Kirkwood (Ten31)"
@@ -211,9 +211,33 @@
       "hold": false
     },
     {
+      "id": 16,
+      "day": 1,
+      "time": "11:31 - 11:32a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 17,
+      "day": 1,
+      "time": "11:32 - 11:41a",
+      "title": "Imagine IF It Already Happened",
+      "speakers": [
+        "Jeff Booth (Ego Death Capital)"
+      ],
+      "abstract": "One of the most-quoted bitcoin idea of the last five years: that technology is inherently deflationary, that fiat is structurally incompatible with that deflation, and that bitcoin is the only neutral monetary asset built for the world that is actually coming. This IF talk updates the thesis for 2026 — AI productivity slamming through the consumer-price index in real time, sovereign debt blowing through every guardrail, the cost of intelligence collapsing toward zero. The single most concentrated argument for why Imagine IF exists.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
       "id": 31,
       "day": 1,
-      "time": "11:37 - 11:38a",
+      "time": "11:41 - 11:42a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -224,7 +248,7 @@
     {
       "id": 1004,
       "day": 1,
-      "time": "11:38 - 11:48a",
+      "time": "11:42 - 11:51a",
       "title": "Imagine IF Every Citizen Believed They Could Change Their Country",
       "speakers": [
         "Evan Mawarire"
@@ -354,7 +378,7 @@
     {
       "id": 27,
       "day": 1,
-      "time": "2:06 - 2:08p",
+      "time": "2:06 - 2:07p",
       "title": "CONTEXT VIDEO: TYRANNY TRACKER VIDEO",
       "speakers": [],
       "abstract": "Three-minute trailer for HRF's Tyranny Tracker, the democracy index behind the panel that follows: 179 countries and territories classified, 75 percent of humanity under authoritarian rule.\n\nVideo: https://www.youtube.com/watch?v=uSa6UW5iCEU",
@@ -365,7 +389,7 @@
     {
       "id": 28,
       "day": 1,
-      "time": "2:08 - 2:43p",
+      "time": "2:07 - 2:42p",
       "title": "Imagine IF Tyranny Had Nowhere to Hide",
       "speakers": [
         "Javier El-Hage (Human Rights Foundation)",
@@ -381,7 +405,7 @@
     {
       "id": 1002,
       "day": 1,
-      "time": "2:43 - 2:44p",
+      "time": "2:42 - 2:43p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -392,7 +416,7 @@
     {
       "id": 1001,
       "day": 1,
-      "time": "2:44 - 3:09p",
+      "time": "2:43 - 3:08p",
       "title": "Imagine IF Open Systems Stayed Open",
       "speakers": [
         "Parker Lewis (Zaprite)",
@@ -404,33 +428,9 @@
       "hold": false
     },
     {
-      "id": 16,
-      "day": 1,
-      "time": "3:09 - 3:10p",
-      "title": "CONTEXT VIDEO TRANSITION",
-      "speakers": [],
-      "abstract": "",
-      "room": "",
-      "production": true,
-      "hold": false
-    },
-    {
-      "id": 17,
-      "day": 1,
-      "time": "3:10 - 3:20p",
-      "title": "Imagine IF It Already Happened",
-      "speakers": [
-        "Jeff Booth (Ego Death Capital)"
-      ],
-      "abstract": "One of the most-quoted bitcoin idea of the last five years: that technology is inherently deflationary, that fiat is structurally incompatible with that deflation, and that bitcoin is the only neutral monetary asset built for the world that is actually coming. This IF talk updates the thesis for 2026 — AI productivity slamming through the consumer-price index in real time, sovereign debt blowing through every guardrail, the cost of intelligence collapsing toward zero. The single most concentrated argument for why Imagine IF exists.",
-      "room": "Theater",
-      "production": false,
-      "hold": false
-    },
-    {
       "id": 33,
       "day": 1,
-      "time": "3:20 - 3:21p",
+      "time": "3:08 - 3:09p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -441,7 +441,7 @@
     {
       "id": 34,
       "day": 1,
-      "time": "3:21 - 3:56p",
+      "time": "3:09 - 3:54p",
       "title": "Imagine IF the U.S. Led the Convergence Decade",
       "speakers": [
         "Sen. Bill Hagerty (US Senate, TN)",
@@ -458,10 +458,10 @@
     {
       "id": 35,
       "day": 1,
-      "time": "3:56 - 4:05p",
+      "time": "3:54 - 4:05p",
       "title": "TRANSITION: Theater → Paisley Ballroom (Evening Cocktails)",
       "speakers": [],
-      "abstract": "9-minute room move to Paisley Ballroom for evening cocktails and The Brainstorm.",
+      "abstract": "11-minute room move to Paisley Ballroom for evening cocktails and The Brainstorm.",
       "room": "",
       "production": true,
       "hold": false
@@ -550,7 +550,7 @@
     {
       "id": 43,
       "day": 2,
-      "time": "10:34 - 10:44a",
+      "time": "10:34 - 10:43a",
       "title": "Imagine IF the Model Refused the Mission",
       "speakers": [
         "Rob Hamilton (AnchorWatch - CEO)"
@@ -563,7 +563,7 @@
     {
       "id": 44,
       "day": 2,
-      "time": "10:44 - 10:45a",
+      "time": "10:43 - 10:44a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -574,7 +574,7 @@
     {
       "id": 45,
       "day": 2,
-      "time": "10:45 - 10:55a",
+      "time": "10:44 - 10:53a",
       "title": "Imagine IF Bitcoin Is What Aligns AI",
       "speakers": [
         "Dhruv Bansal (Unchained)"
@@ -588,7 +588,7 @@
     {
       "id": 46,
       "day": 2,
-      "time": "10:55 - 11:20a",
+      "time": "10:53 - 11:18a",
       "title": "Imagine IF Kids Were Limitless",
       "speakers": [
         "Dr. Candice McQueen (Lipscomb University)",
@@ -602,7 +602,7 @@
     {
       "id": 47,
       "day": 2,
-      "time": "11:20 - 11:21a",
+      "time": "11:18 - 11:19a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -613,7 +613,7 @@
     {
       "id": 48,
       "day": 2,
-      "time": "11:21 - 11:31a",
+      "time": "11:19 - 11:28a",
       "title": "Imagine IF We Think Small and Win Big",
       "speakers": [
         "Paul Itoi (Stakwork - Founder & CEO)"
@@ -626,7 +626,7 @@
     {
       "id": 49,
       "day": 2,
-      "time": "11:31 - 11:32a",
+      "time": "11:28 - 11:29a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -637,7 +637,7 @@
     {
       "id": 50,
       "day": 2,
-      "time": "11:32 - 11:42a",
+      "time": "11:29 - 11:38a",
       "title": "Imagine IF Data Centers Disappeared",
       "speakers": [
         "Sean James (NVIDIA - Distinguished Engineer, Energy Systems)"
@@ -650,7 +650,7 @@
     {
       "id": 1003,
       "day": 2,
-      "time": "11:42 - 11:43a",
+      "time": "11:38 - 11:39a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -661,7 +661,7 @@
     {
       "id": 30,
       "day": 2,
-      "time": "11:43 - 11:53a",
+      "time": "11:39 - 11:48a",
       "title": "Imagine IF I Trust You More Than I Trust Myself",
       "speakers": [
         "Obi Nwosu (Fedi)"
@@ -878,7 +878,7 @@
     {
       "id": 67,
       "day": 2,
-      "time": "3:35 - 3:45p",
+      "time": "3:35 - 3:44p",
       "title": "Imagine IF Time-to-Exploit Hit Zero",
       "speakers": [
         "Andre Neves (ZBD)"
@@ -891,7 +891,7 @@
     {
       "id": 68,
       "day": 2,
-      "time": "3:45 - 3:46p",
+      "time": "3:44 - 3:45p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -902,7 +902,7 @@
     {
       "id": 69,
       "day": 2,
-      "time": "3:46 - 3:56p",
+      "time": "3:45 - 3:54p",
       "title": "Imagine IF All Activists Had AI Superpowers",
       "speakers": [
         "Alex Gladstein (Human Rights Foundation)"
@@ -915,7 +915,7 @@
     {
       "id": 70,
       "day": 2,
-      "time": "3:56 - 4:01p",
+      "time": "3:54 - 3:59p",
       "title": "Imagine IF This Was Only the Beginning",
       "speakers": [
         "Rod Roudi (Bitcoin Park)"
@@ -928,7 +928,7 @@
     {
       "id": 71,
       "day": 2,
-      "time": "4:01 - 4:03p",
+      "time": "3:59 - 4:01p",
       "title": "CLOSING TRAILER",
       "speakers": [],
       "abstract": "",
