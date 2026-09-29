@@ -13,3 +13,8 @@
 nav a[aria-current="page"]{text-decoration:underline;text-underline-offset:7px}footer{flex-wrap:wrap}
 @media(max-width:1000px){header nav{gap:16px;font-size:14px}.header-date{max-width:190px;text-align:right}}
 @media(max-width:760px){.submission-intro{font-size:18px}.submission-hero{padding-top:45px;padding-bottom:50px}.application-section{padding:48px 0 24px}.application-intro{padding:0 6%}.application-form{height:2550px}.submission-hero .eyebrow{font-size:12px}.submission-page footer{gap:20px}.apply-button{font-size:16px;padding:16px 20px;width:100%}}
+
+/* Keep the program-to-experiences transition compact. */
+.days.section{padding-bottom:48px}
+.beyond.section{padding-top:48px}
+@media(max-width:760px){.days.section{padding-bottom:32px}.beyond.section{padding-top:32px}}
