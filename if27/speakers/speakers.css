@@ -17,3 +17,17 @@
 @media(max-width:1000px){.speaker-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.speakers-page header{height:auto;flex-wrap:wrap;gap:18px}.speakers-page header nav{display:flex;flex-wrap:wrap;gap:14px}.speakers-page .header-date{display:none}.speakers-hero{padding:36px 6% 28px}.speaker-directory{padding:8px 6% 28px}.speaker-grid{gap:0 24px}.speaker{padding:24px 0}.speakers-cta{padding:28px 6%;flex-direction:column;align-items:flex-start}.speakers-cta .apply-button{white-space:normal}}
 @media(max-width:480px){.speaker-grid{grid-template-columns:1fr}.speaker{padding:20px 0}.speaker h2{font-size:28px}}
+/* Portrait cards: the full card opens the speaker's public profile. */
+.speaker-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.speaker{padding:20px 0 24px}
+.speaker-profile{display:block;height:100%}
+.speaker-photo{aspect-ratio:1;overflow:hidden;background:#211b3c;margin-bottom:18px}
+.speaker-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.speaker h2{font-size:clamp(23px,2vw,30px)}
+.speaker-social{display:inline-block;margin-top:14px;font-size:14px;color:#ffc6c2}
+.speaker-social span{margin-left:6px}
+.speaker-profile:hover h2,.speaker-profile:focus-visible h2{color:#ffc6c2}
+.speaker-profile:hover .speaker-social{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1100px){.speaker-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}}
+@media(max-width:760px){.speaker-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.speaker{padding:16px 0 20px}.speaker-photo{margin-bottom:14px}.speaker h2{font-size:23px}.speaker p{font-size:15px}}
+@media(max-width:380px){.speaker-grid{grid-template-columns:1fr}}
