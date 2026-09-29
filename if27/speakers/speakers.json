@@ -1,34 +1,34 @@
 [
   {
     "name": "Cathie Wood",
-    "affiliation": "",
+    "affiliation": "ARK Invest",
     "photo": "../../uploads/speakers/cathie-wood.png",
     "profile": "https://x.com/CathieDWood",
-    "source": "agenda26/speakers.json",
+    "source": "agenda26/speakers.json; https://www.ark-invest.com/our-team",
     "photo_position": "center 25%"
   },
   {
     "name": "Joe Liemandt",
-    "affiliation": "",
+    "affiliation": "Alpha School",
     "photo": "../../uploads/speakers/joe-liemandt.jpg",
     "profile": "https://x.com/jliemandt",
-    "source": "agenda26/speakers.json",
+    "source": "agenda26/speakers.json; https://alpha.school/joe-liemandt-and-the-future-of-education/",
     "photo_position": "center 25%"
   },
   {
     "name": "Dr. Art Laffer",
-    "affiliation": "",
+    "affiliation": "Laffer Associates",
     "photo": "../../uploads/speakers/art-laffer.jpg",
     "profile": "https://x.com/realartlaffer",
-    "source": "agenda26/speakers.json",
+    "source": "agenda26/speakers.json; https://laffercenter.org/about/arthur-laffer/",
     "photo_position": "center 25%"
   },
   {
     "name": "Senator Hagerty",
-    "affiliation": "",
+    "affiliation": "U.S. Senate \u00b7 Tennessee",
     "photo": "../../uploads/speakers/bill-hagerty.png",
     "profile": "https://x.com/SenatorHagerty",
-    "source": "agenda26/speakers.json",
+    "source": "agenda26/speakers.json; https://www.hagerty.senate.gov/about/",
     "photo_position": "center 25%"
   },
   {
