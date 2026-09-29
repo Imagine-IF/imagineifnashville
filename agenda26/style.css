@@ -38,3 +38,4 @@
  .print-content p{font-size:9pt;line-height:1.2;margin:2pt 0 0}
  dialog,dialog::backdrop{display:none!important}
 }
+.menu{margin-top:24px;border-top:1px solid var(--line);padding-top:20px}.menu h4{font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--purple);margin:18px 0 10px}.menu-item{margin-bottom:14px}.menu-item strong{display:block;font-size:16px}.menu-item em{display:block;font-size:13px;color:var(--purple);margin-top:2px}.menu-item p{font-size:14px;line-height:1.5;margin-top:4px}

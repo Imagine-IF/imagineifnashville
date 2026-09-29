@@ -268,9 +268,51 @@
       "room": "Fisher Center foyer",
       "production": false,
       "hold": false,
-      "description": "Menu details coming soon.",
+      "description": "Boxed lunches: Tex Mex Beef Wrap, Nashville Summertime Cuban, Lemon Garlic Chicken Skewer, or Balsamic Harvest Salad (vegan).",
       "kind": "meal",
-      "reviewOverride": true
+      "reviewOverride": true,
+      "menuTitle": "Boxed Lunches",
+      "menu": [
+        {
+          "heading": "Sandwiches & Wraps",
+          "items": [
+            {
+              "name": "Tex Mex Beef Wrap",
+              "details": "Seasoned Skirt Steak | Black Beans | Roasted Corn | Grilled Red Peppers & Onions | Cheddar Cheese | Rice | Jalapeño Cheese Wrap | Chipotle Mayo"
+            },
+            {
+              "name": "Nashville Summertime Cuban",
+              "details": "House Smoked Pulled Pork | Ham | Swiss Cheese | Pickle | Peach Mostarda | Arugula | Hoagie"
+            },
+            {
+              "name": "Assorted Bagged Chips"
+            },
+            {
+              "name": "Pickle Spears"
+            }
+          ]
+        },
+        {
+          "heading": "Hot Entree Boxes",
+          "items": [
+            {
+              "name": "Lemon Garlic Chicken Skewer",
+              "tags": "Dairy Free",
+              "details": "Grilled Vegetables | Chickpeas & Herb Rice | Pita"
+            }
+          ]
+        },
+        {
+          "heading": "Salad Boxes",
+          "items": [
+            {
+              "name": "Balsamic Harvest Salad",
+              "tags": "Gluten Friendly | Vegan",
+              "details": "Mixed Greens | Diced Apples | Dried Cranberries | Balsamic Onions | Spiced Pecans & Balsamic Vinaigrette"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 19,
@@ -680,9 +722,50 @@
       "room": "Fisher Center foyer",
       "production": false,
       "hold": false,
-      "description": "Menu details coming soon.",
+      "description": "Boxed lunches: Baked Salmon Wrap, Ham & Brie, Soy Glazed Beef Yakitori Skewers, or Harvest Rice Power Bowl (vegan, gluten free).",
       "kind": "meal",
-      "reviewOverride": true
+      "reviewOverride": true,
+      "menuTitle": "Boxed Lunches",
+      "menu": [
+        {
+          "heading": "Sandwiches & Wraps",
+          "items": [
+            {
+              "name": "Baked Salmon Wrap",
+              "details": "Avocado | Tomato | Pickled Onion | Dill Havarti Cheese | Mayo | Spinach Wrap"
+            },
+            {
+              "name": "Ham & Brie",
+              "details": "Arugula | Peach Reserves | Ciabatta"
+            },
+            {
+              "name": "Assorted Bagged Chips"
+            },
+            {
+              "name": "Pickle Spears"
+            }
+          ]
+        },
+        {
+          "heading": "Hot Entree Bowls",
+          "items": [
+            {
+              "name": "Soy Glazed Beef Yakitori Skewers",
+              "details": "Stir Fry Vegetables (Bok Choy, Broccoli, Shishito Peppers, Yellow & Red Bell Pepper, Mushrooms) | Fried Rice"
+            }
+          ]
+        },
+        {
+          "heading": "Cold Rice Bowls",
+          "items": [
+            {
+              "name": "Harvest Rice Power Bowl",
+              "tags": "Vegan | Gluten Free",
+              "details": "Rice | Roasted Sweet Potatoes | Grilled Red Peppers | Chickpeas | Cucumber | Black Beans | Roasted Corn | Arugula | Avocado Vinaigrette"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 52,
