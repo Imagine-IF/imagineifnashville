@@ -18,3 +18,6 @@ nav a[aria-current="page"]{text-decoration:underline;text-underline-offset:7px}f
 .days.section{padding-bottom:48px}
 .beyond.section{padding-top:48px}
 @media(max-width:760px){.days.section{padding-bottom:32px}.beyond.section{padding-top:32px}}
+
+/* Refund policy */
+.refund-faq{border-top:1px solid var(--line)}.refund-faq p:not(.eyebrow){max-width:850px;font-size:19px;line-height:1.7}.refund-faq h2{max-width:1000px}@media(max-width:760px){.refund-faq p:not(.eyebrow){font-size:17px}}
