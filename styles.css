@@ -751,3 +751,6 @@ image-slot {
   -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 0 L14 10 L24 12 L14 14 L12 24 L10 14 L0 12 L10 10 Z' fill='black'/></svg>") center/contain no-repeat;
           mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 0 L14 10 L24 12 L14 14 L12 24 L10 14 L0 12 L10 10 Z' fill='black'/></svg>") center/contain no-repeat;
 }
+
+/* Imagine IF always uses upright brand typography. */
+.brand-name { font-family: var(--f-head); font-style: normal; font-weight: 700; }

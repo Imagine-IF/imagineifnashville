@@ -49,7 +49,7 @@ window.IFHome = (() => {
         <div className="shell hero__inner hero__inner--cycling">
           <div className="hero__col-text">
             <h1 className="hero__title">
-              <span className="italic-hero" style={{ color: 'var(--coral)' }}>Imagine IF</span>…<br />
+              <span className="brand-name" style={{ color: 'var(--coral)' }}>Imagine IF</span>…<br />
               <span className="hero__cycle">
                 {prompts.map((p, i) =>
                 <span key={i} className={'hero__cycle-line' + (i === idx ? ' is-active' : '')}>{p}</span>
@@ -253,7 +253,7 @@ window.IFHome = (() => {
             {seeds.map((s, i) =>
             <div key={i} className={'reel-card reel-card--' + i % 3}>
                 <span className="reel-card__seed">
-                  <em className="italic-hero">Imagine IF…</em>
+                  <span className="brand-name">Imagine IF…</span>
                 </span>
                 <p className="reel-card__prompt">{s.prompt}</p>
               </div>

@@ -14,7 +14,7 @@ window.IFIdea = (() => {
             </h1>
             <div className="idea-lede">
               <p style={{ fontSize: 22, lineHeight: 1.4, color: 'var(--ink-soft)', maxWidth: '38ch' }}>
-                Every talk at Imagine IF starts with the same prompt. <em className="italic-hero" style={{ fontSize: '1.15em', color: 'var(--royal)' }}>Imagine IF…</em> what comes next is the speaker's, the audience's, and ours together.
+                Every talk at Imagine IF starts with the same prompt. <span className="brand-name" style={{ fontSize: '1.15em', color: 'var(--royal)' }}>Imagine IF…</span> what comes next is the speaker's, the audience's, and ours together.
               </p>
             </div>
           </div>
@@ -50,7 +50,7 @@ window.IFIdea = (() => {
               </div>
               <div>
                 <p style={{ fontSize: 18 }}>
-                  An <em className="italic-hero" style={{ color: 'var(--royal)' }}>Imagine IF…</em> survives. It plants. People walk out entertained, informed, and inspired.
+                  An <span className="brand-name" style={{ color: 'var(--royal)' }}>Imagine IF…</span> survives. It plants. People walk out entertained, informed, and inspired.
                 </p>
                 <button className="btn btn--primary" style={{ marginTop: 12 }} onClick={() => onNav('speakers')}>See the speakers <span className="arr"></span></button>
               </div>
@@ -97,7 +97,7 @@ window.IFIdea = (() => {
               </div>
               <div className="ab-org ab-org--us">
                 <div className="ab-org__art" style={{ background: 'linear-gradient(135deg, var(--sunrise), var(--royal), var(--midnight))' }}>
-                  <span className="italic-hero" style={{ color: 'var(--coral)', fontSize: 44 }}>Imagine if…</span>
+                  <span className="brand-name" style={{ color: 'var(--coral)', fontSize: 44 }}>Imagine if…</span>
                 </div>
                 <span className="eyebrow">This summit</span>
                 <h3 style={{ marginTop: 8 }}>Imagine IF</h3>
