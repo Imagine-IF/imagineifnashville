@@ -35,21 +35,54 @@ EXPERIENCES = [
  [('09:00','Firsthand stories','Technology under pressure','Explore the needs of people facing repression.'),('09:30','Conversation','Build around the people using the tools','Connect human rights challenges with design decisions.'),('10:30','Demonstrations','Private communications and open protocols','Examine practical tools and their trade-offs.'),('11:30','Discussion','Open intelligence and the right to compute','Explore local models, ownership, and access.'),('13:00','Hands-on workshop','Run and inspect your own tools','Work through a local AI or privacy-tool demonstration.'),('14:15','Working groups','From needs to useful prototypes','Pair concrete problems with builders and next steps.')]),
 ]
 
+EXTRA_TOPICS = {
+    'power-of-payments': [('Payment privacy in practice', 'Consider what each participant can learn from a payment.'), ('Merchant operations', 'Discuss reconciliation and day-to-day support.'), ('A payment integration in ten minutes', 'Follow a focused demonstration from setup to settlement.'), ('Lessons to take home', 'Identify a practical next step for your business or project.')],
+    'custody-treasury': [('A custody controls checklist', 'Review evidence of access controls and recovery readiness.'), ('From policy to practice', 'Identify the next custody decision for your household or business.')],
+    'global-compute': [('Power procurement and local constraints', 'Compare how operators secure and manage energy supply.'), ('Operating for reliability', 'Examine maintenance and infrastructure dependencies.'), ('Inside a compute deployment', 'Follow a focused operating case study.'), ('Decisions for the next build', 'Identify practical questions to resolve before deployment.')],
+    'capital-at-the-frontier': [('Conviction and position sizing', 'Discuss how allocators translate a thesis into exposure.'), ('Evaluating the people building', 'Compare approaches to teams, incentives, and governance.'), ('A diligence checklist', 'Review the evidence needed to support an investment decision.'), ('The questions still open', 'Identify assumptions that require further investigation.')],
+    'show-and-tell': [('Building for real users', 'Compare how builders respond to feedback and adoption.'), ('From prototype to release', 'Discuss the decisions involved in shipping useful tools.'), ('A closer look at one tool', 'Follow a focused solo demonstration.'), ('What to build next', 'Share concrete needs and opportunities for collaboration.')],
+    'grassroots-bitcoin': [('Teaching across communities', 'Compare approaches for different audiences and local needs.'), ('Sustaining the work', 'Discuss organizer capacity and long-term participation.'), ('A local adoption story', 'Share one practical example of community progress.'), ('Bring it home', 'Identify the next step for your own community.')],
+    'alt-health': [('Personal data and informed choices', 'Discuss interpreting measurements with appropriate context.'), ('Tools, evidence, and their limits', 'Compare how practitioners and builders evaluate new approaches.'), ('A closer look at a health tool', 'Demonstrate an educational tool and explain its limitations.'), ('Questions for your own health', 'Identify informed questions to explore with qualified practitioners.')],
+    'freedom-tech': [('Privacy in everyday practice', 'Discuss how people choose tools for their circumstances.'), ('Designing with human rights defenders', 'Compare field needs with technical and usability constraints.'), ('Local intelligence in ten minutes', 'Follow a focused demonstration of AI running on local hardware.'), ('Tools to explore next', 'Identify practical resources and opportunities to collaborate.')],
+}
+
+FORMATS = [('Solo presentation',10), ('Three-person panel',35), ('Fireside',25), ('Four-person panel',40), ('Solo presentation',10), ('Three-person panel',35), ('Fireside',25), ('Four-person panel',40), ('Solo presentation',10), ('Solo presentation',10)]
+
+def clock_label(minutes):
+    hour, minute = divmod(minutes,60)
+    return f'{hour % 12 or 12}:{minute:02d} {"a.m." if hour < 12 else "p.m."}'
+
+def build_agenda(slug, original):
+    topics = [(name,desc) for _,kind,name,desc in original if kind not in ('Break','Close')] + EXTRA_TOPICS[slug]
+    assert len(topics) == len(FORMATS) == 10
+    rows = [(540,600,'Arrival','Doors open · Coffee served','Arrive, enjoy coffee, and meet fellow attendees.')]
+    now = 600
+    for i,((name,desc),(kind,duration)) in enumerate(zip(topics,FORMATS)):
+        if i == 5:
+            assert now == 720
+            rows.append((720,780,'Lunch','Lunch included','Lunch is included in your summit experience.'))
+            now = 780
+        rows.append((now,now+duration,kind,name,desc))
+        now += duration
+    assert now == 900
+    assert all(a[1] == b[0] for a,b in zip(rows,rows[1:]))
+    return rows
+
 def render(slug, title, line, abstract, agenda):
     source = ''
     if slug == 'custody-treasury':
         source = '<p class="agenda-source">Adapted into a one-day example from the <a href="https://bitcoinpark.com/custody-treasury/custody-treasury-summit.html">September 17–18, 2025 Custody &amp; Treasury Summit</a>. Prior speakers and supporters are not confirmed for 2027.</p>'
-    rows = ''.join(f'<li><time>{escape(time)}</time><div><span class="session-format">{escape(kind)}</span><h3>{escape(name)}</h3>{"<p>"+escape(desc)+"</p>" if desc else ""}</div></li>' for time,kind,name,desc in agenda)
+    rows = ''.join(f'<li><div class="session-time"><span>{clock_label(start)}–{clock_label(end)}</span><span class="session-duration">{end-start} minutes</span></div><div><span class="session-format">{escape(kind)}</span><h3>{escape(name)}</h3>{"<p>"+escape(desc)+"</p>" if desc else ""}</div></li>' for start,end,kind,name,desc in build_agenda(slug,agenda))
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)} — Frontier Days 2027</title><meta name="description" content="{escape(line, quote=True)}">
 <link rel="icon" href="../../assets/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../../styles.css?v=7"><link rel="stylesheet" href="../experience.css?v=1"></head>
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../../styles.css?v=7"><link rel="stylesheet" href="../experience.css?v=2"></head>
 <body class="summit-page"><a class="skip" href="#about">Skip to experience</a>
 <header><a class="brand" href="../../" aria-label="Frontier Days home"><img src="../../assets/logo-white.png" alt="Imagine IF" width="160" height="54"></a><nav aria-label="Main navigation"><a href="../../#fp-summits">All experiences</a><a href="#agenda">Example agenda</a><a href="../../#fp-tickets">Explore passes</a></nav><a class="header-date" href="../../">Frontier Days · 2027</a></header>
-<main><section class="experience-hero section"><p class="eyebrow">Summit Day / Friday, October 22, 2027</p><h1>{escape(title)}</h1><p class="experience-line">{escape(line)}</p><div class="experience-access">Included with Imagine IF + Summit Day and Frontier All-Access</div></section>
+<main><section class="experience-hero section"><p class="eyebrow">Summit Day / Friday, October 22, 2027</p><h1>{escape(title)}</h1><p class="experience-line">{escape(line)}</p><p class="experience-hours">Doors &amp; coffee: 9 a.m. · Sessions: 10 a.m.–3 p.m. · Lunch included</p><div class="experience-access">Included with Imagine IF + Summit Day and Frontier All-Access</div></section>
 <section class="experience-body section" id="about"><div class="experience-about"><p class="eyebrow">The experience</p><h2>Go deeper.</h2><p>{escape(abstract)}</p></div><aside class="experience-facts" aria-label="Experience details"><div><h2>Venue</h2><p>To be announced</p><p class="fact-note">Summit Day spans separate, walkable venues in and around Vanderbilt University, Bitcoin Park, and Belmont University. The venue for this experience will be confirmed.</p></div><div><h2>In partnership with</h2><p>To be announced</p></div><div><h2>Supported by</h2><p>To be announced</p></div></aside></section>
-<section class="experience-agenda section" id="agenda"><div class="agenda-heading"><div><p class="eyebrow">A look at the day</p><h2>Example agenda</h2></div><span class="agenda-label">Illustrative · Not confirmed</span></div><p class="agenda-intro">A proposed shape for the experience. Times, sessions, and speakers are subject to change. All times are Central.</p>{source}<ol class="agenda-list">{rows}</ol></section>
+<section class="experience-agenda section" id="agenda"><div class="agenda-heading"><div><p class="eyebrow">A look at the day</p><h2>Example agenda</h2></div><span class="agenda-label">Illustrative · Not confirmed</span></div><p class="agenda-intro">Doors open at 9 a.m. with coffee served. Programming runs from 10 a.m. to 3 p.m., with an included lunch from noon to 1 p.m. All times are Central. This is an example program; session topics and speakers are not confirmed.</p>{source}<ol class="agenda-list">{rows}</ol></section>
 <section class="experience-cta section"><div><p class="eyebrow">October 19–22 / Nashville</p><h2>Make it part of your<br>Frontier Days.</h2></div><a class="apply-button" href="../../#fp-tickets">Explore ticket packages</a></section></main>
 <footer><img src="../../assets/logo-white.png" alt="Imagine IF" width="132" height="45"><p>Nashville, Tennessee · 2027</p><a href="../../#fp-summits">All summit experiences</a><a href="../../#refunds">Refund policy</a></footer></body></html>'''
 
