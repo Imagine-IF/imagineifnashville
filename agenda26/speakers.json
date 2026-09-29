@@ -366,5 +366,12 @@
     "role": "Director, Field Operations Energy",
     "org": "Cholla",
     "photo": "../uploads/speakers/brad-cuddy.webp"
+  },
+  "James Danly (U.S. Department of Energy - Deputy Secretary)": {
+    "name": "James Danly",
+    "role": "Deputy Secretary of Energy",
+    "org": "U.S. Department of Energy",
+    "photo": "../uploads/speakers/james-danly.jpg",
+    "officialProfile": "https://www.energy.gov/person/james-danly"
   }
 }
