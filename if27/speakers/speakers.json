@@ -166,5 +166,13 @@
     "profile": "https://www.linkedin.com/in/erikhersman/",
     "photo_position": "center 25%",
     "source": "2025/if-schedule-2025.html; user-confirmed 2027 addition"
+  },
+  {
+    "name": "Alex Gladstein",
+    "affiliation": "Human Rights Foundation",
+    "photo": "../../uploads/speakers/alex-gladstein.jpg?v=2",
+    "profile": "https://x.com/gladstein",
+    "photo_position": "center 30%",
+    "source": "data.js; user-confirmed 2027 addition"
   }
 ]
