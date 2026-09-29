@@ -35,7 +35,7 @@ document.querySelectorAll('[data-day]').forEach(b=>b.addEventListener('click',()
 function speakerHTML(label,sessionId){
  const person=speakerProfiles[label],{name,org:details}=speakerIdentity(label,sessionId);
  const initials=name.replace(/^(Dr\.|Sen\.|Secretary|General)\s*/,'').split(/\s+/).map(n=>n[0]).slice(0,2).join('');
- const links=person?['x','linkedin'].filter(k=>/^https:\/\//.test(person[k]||'')).map(k=>`<a href="${escapeHTML(person[k])}" target="_blank" rel="noopener noreferrer">${k==='x'?'X':'LinkedIn'} ↗</a>`).join(''):'';
+ const links=person?['x','linkedin','officialProfile'].filter(k=>/^https:\/\//.test(person[k]||'')).map(k=>`<a href="${escapeHTML(person[k])}" target="_blank" rel="noopener noreferrer">${k==='x'?'X':k==='linkedin'?'LinkedIn':'Official DOE Profile'} ↗</a>`).join(''):'';
  return `<li class="speaker-person"><span class="portrait"><span class="initials" aria-hidden="true">${escapeHTML(initials)}</span>${person?.photo?`<img src="${escapeHTML(person.photo)}" alt="${escapeHTML(name)}" style="object-position:${escapeHTML(person.photoPos||'center')}" loading="lazy">`:''}</span><div><strong>${escapeHTML(name)}</strong><p>${escapeHTML(details)}</p>${links?`<nav aria-label="${escapeHTML(name)} links">${links}</nav>`:''}</div></li>`;
 }
 $('#schedule').addEventListener('click',e=>{const b=e.target.closest('[data-id]');if(!b)return;const s=data.items.find(x=>x.id===Number(b.dataset.id));
@@ -43,4 +43,4 @@ $('#schedule').addEventListener('click',e=>{const b=e.target.closest('[data-id]'
  document.querySelectorAll('.portrait img').forEach(img=>img.addEventListener('error',()=>{img.hidden=true;}));
  $('#detail').showModal();});
 $('#close-detail').addEventListener('click',()=>$('#detail').close());
-Promise.all([fetch('agenda.json?v=24').then(r=>{if(!r.ok)throw Error('Agenda unavailable');return r.json();}),fetch('speakers.json?v=13').then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,profiles])=>{data=d;speakerProfiles=profiles;render();renderPrintAgenda();$('#print-agenda').disabled=false;}).catch(()=>{$('#schedule').innerHTML='<p>The agenda source could not load. Refresh the page or open the master agenda below.</p>';});
+Promise.all([fetch('agenda.json?v=25').then(r=>{if(!r.ok)throw Error('Agenda unavailable');return r.json();}),fetch('speakers.json?v=14').then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,profiles])=>{data=d;speakerProfiles=profiles;render();renderPrintAgenda();$('#print-agenda').disabled=false;}).catch(()=>{$('#schedule').innerHTML='<p>The agenda source could not load. Refresh the page or open the master agenda below.</p>';});
