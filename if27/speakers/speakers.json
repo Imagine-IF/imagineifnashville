@@ -25,7 +25,7 @@
   },
   {
     "name": "Senator Hagerty",
-    "affiliation": "U.S. Senate \u00b7 Tennessee",
+    "affiliation": "U.S. Senate · Tennessee",
     "photo": "../../uploads/speakers/bill-hagerty.png",
     "profile": "https://x.com/SenatorHagerty",
     "source": "agenda26/speakers.json; https://www.hagerty.senate.gov/about/",
@@ -190,5 +190,13 @@
     "profile": "https://x.com/MeatMafiaHarry",
     "photo_position": "center 25%",
     "source": "https://themeatmafia.com/people/harry-gray; user-confirmed Alt Health speaker"
+  },
+  {
+    "name": "Matthias Debernardini",
+    "affiliation": "Nashville Automation Company",
+    "photo": "photos/matthias-debernardini.jpg",
+    "profile": "https://www.linkedin.com/in/matthias-debernardini-a5317759/",
+    "photo_position": "center center",
+    "source": "https://nashvilleautomation.io/; https://github.com/matthiasdebernardini (profile avatar); user-confirmed 2027 addition"
   }
 ]
