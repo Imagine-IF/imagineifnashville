@@ -205,7 +205,7 @@
       "speakers": [
         "Jonathan Kirkwood (Ten31)"
       ],
-      "abstract": "The cloud is a tool, not a landlord. The co-founder of Ten31, the bitcoin-native investment firm behind dozens of infrastructure companies, and a Start9 board member, wrote the manual for taking your compute home: the Personal Data Center. A server hub running sovereign services, local GPUs handling inference and fine-tuning on your own data, and cloud APIs demoted from landlord to utility, rented only when a task truly needs a frontier model. Ten minutes on the stack, what it costs today, and why the same instinct that made bitcoiners run their own nodes is about to make households run their own intelligence.",
+      "abstract": "The cloud is a tool, not a landlord. The co-founder of Ten31, the bitcoin-native investment firm behind dozens of infrastructure companies, and a Start9 board member, wrote the manual for taking your compute home: the Personal Data Center. A server hub running sovereign services, local GPUs handling inference and fine-tuning on your own data, and cloud APIs demoted from landlord to utility, rented only when a task truly needs a frontier model. An IF talk on the stack, what it costs today, and why the same instinct that made bitcoiners run their own nodes is about to make households run their own intelligence.",
       "room": "Theater",
       "production": false,
       "hold": false
@@ -596,7 +596,7 @@
       "speakers": [
         "Rob Hamilton (AnchorWatch - CEO)"
       ],
-      "abstract": "Earlier this year a Bitcoin red team went looking for weaknesses in the systems that secure the hardest money on earth: pointing AI models at custody setups, scripts, and protocol edges to find the holes before an adversary does. The uncomfortable discovery was not the vulnerabilities. It was the tooling. The American frontier models refused the work, so the red team ran on Chinese open-weight models, which happily obliged. Sit with that: the sharpest openly available intelligence for attacking and defending Bitcoin is currently made in China. Rob Hamilton runs AnchorWatch, the company that insures bitcoin custody at Lloyd's of London, which means he is paid to think about what breaks. When the mission was defending bitcoin, the American models said no. Ten minutes on what the red team found, why the refusal matters more than any vulnerability it missed, and why intelligence has to be open, for everyone, and built in the United States before the race is decided for us.",
+      "abstract": "Earlier this year a Bitcoin red team went looking for weaknesses in the systems that secure the hardest money on earth: pointing AI models at custody setups, scripts, and protocol edges to find the holes before an adversary does. The uncomfortable discovery was not the vulnerabilities. It was the tooling. The American frontier models refused the work, so the red team ran on Chinese open-weight models, which happily obliged. Sit with that: the sharpest openly available intelligence for attacking and defending Bitcoin is currently made in China. Rob Hamilton runs AnchorWatch, the company that insures bitcoin custody at Lloyd's of London, which means he is paid to think about what breaks. When the mission was defending bitcoin, the American models said no. An IF talk on what the red team found, why the refusal matters more than any vulnerability it missed, and why intelligence has to be open, for everyone, and built in the United States before the race is decided for us.",
       "room": "Theater",
       "production": false,
       "hold": false
@@ -742,7 +742,7 @@
       "speakers": [
         "Andre Neves (ZBD)"
       ],
-      "abstract": "Bitcoin self-custody used to have one threat model: survive the five dollar wrench attack. It still does, but now there is a second front. AI agents have collapsed the time from disclosed vulnerability to working exploit from weeks to minutes, for nearly every piece of open and closed source software that touches the Bitcoin protocol. Money as code on the internet has always been a target; agents just erased the patch window everyone was quietly counting on. Pretend it is still just the wrench and you lose. Ten minutes on what self-custody looks like when the attacker reads the commit before you do: what breaks, what holds, and how custody has to be engineered when time-to-exploit hits zero.",
+      "abstract": "Bitcoin self-custody used to have one threat model: survive the five dollar wrench attack. It still does, but now there is a second front. AI agents have collapsed the time from disclosed vulnerability to working exploit from weeks to minutes, for nearly every piece of open and closed source software that touches the Bitcoin protocol. Money as code on the internet has always been a target; agents just erased the patch window everyone was quietly counting on. Pretend it is still just the wrench and you lose. An IF talk on what self-custody looks like when the attacker reads the commit before you do: what breaks, what holds, and how custody has to be engineered when time-to-exploit hits zero.",
       "room": "Theater",
       "production": false,
       "hold": false
