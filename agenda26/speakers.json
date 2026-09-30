@@ -27,13 +27,15 @@
     "name": "Braden Stover",
     "role": "Senior Advisor to the Commissioner, Nuclear & Quantum Strategy",
     "org": "Tennessee Department of Economic and Community Development",
-    "photo": "https://imagineifnashville.com/uploads/speakers/braden-stover.jpg"
+    "photo": "https://imagineifnashville.com/uploads/speakers/braden-stover.jpg",
+    "officialProfile": "https://tnecd.com/staff/braden-stover/"
   },
   "Brandon Williams (US Department of Energy - Under Secretary for Nuclear Security)": {
     "name": "Brandon Williams",
     "role": "Under Secretary for Nuclear Security & Administrator",
     "org": "National Nuclear Security Administration",
-    "photo": "https://imagineifnashville.com/uploads/speakers/brandon-williams.png"
+    "photo": "https://imagineifnashville.com/uploads/speakers/brandon-williams.png",
+    "officialProfile": "https://www.energy.gov/nnsa/person/brandon-williams"
   },
   "Cathie Wood (ARK Invest)": {
     "name": "Cathie Wood",
@@ -68,7 +70,8 @@
     "name": "Dr. Candice McQueen",
     "role": "President",
     "org": "Lipscomb University",
-    "photo": "https://imagineifnashville.com/uploads/speakers/candice-mcqueen.jpg"
+    "photo": "https://imagineifnashville.com/uploads/speakers/candice-mcqueen.jpg",
+    "officialProfile": "https://lipscomb.edu/directory/mcqueen-candice"
   },
   "Farida Nabourema (Togolese Civil League)": {
     "name": "Farida Nabourema",
@@ -81,7 +84,8 @@
     "name": "Félix Maradiaga",
     "role": "Pro-democracy Advocate",
     "org": "Nicaragua",
-    "photo": "https://imagineifnashville.com/uploads/speakers/felix-maradiaga.png"
+    "photo": "https://imagineifnashville.com/uploads/speakers/felix-maradiaga.png",
+    "linkedin": "https://www.linkedin.com/in/maradiaga"
   },
   "Gideon Powell (Cholla Inc.)": {
     "name": "Gideon Powell",
@@ -103,7 +107,8 @@
     "name": "Hash Hashemian",
     "role": "Past President",
     "org": "American Nuclear Society",
-    "photo": "https://imagineifnashville.com/uploads/speakers/hash-hashemian.jpg"
+    "photo": "https://imagineifnashville.com/uploads/speakers/hash-hashemian.jpg",
+    "officialProfile": "https://www.ans.org/about/presidents/hashemian/"
   },
   "Janet Rehberg (EPB)": {
     "name": "Janet Rehberg",
@@ -192,7 +197,8 @@
     "name": "Nick Elliot",
     "role": "Director of Government Affairs",
     "org": "Innovation Council Action",
-    "photo": "https://imagineifnashville.com/uploads/speakers/nick-elliot.png"
+    "photo": "https://imagineifnashville.com/uploads/speakers/nick-elliot.png",
+    "authorProfile": "https://www.foxnews.com/person/e/nicholas-elliot/"
   },
   "Obi Nwosu (Fedi)": {
     "name": "Obi Nwosu",
@@ -221,7 +227,8 @@
     "name": "René Ángel",
     "role": "Head of AI",
     "org": "The Reynolds Foundation",
-    "photo": "https://imagineifnashville.com/uploads/speakers/rene-angel.jpg"
+    "photo": "https://imagineifnashville.com/uploads/speakers/rene-angel.jpg",
+    "linkedin": "https://cr.linkedin.com/in/rene-angel"
   },
   "Rob Hamilton (AnchorWatch - CEO)": {
     "name": "Rob Hamilton",
@@ -267,7 +274,8 @@
     "name": "Seb Sheng",
     "role": "Founder & CEO",
     "org": "Brick AI",
-    "photo": "https://imagineifnashville.com/uploads/speakers/seb-sheng.jpg"
+    "photo": "https://imagineifnashville.com/uploads/speakers/seb-sheng.jpg",
+    "linkedin": "https://www.linkedin.com/in/sebastiansheng"
   },
   "Sen. Bill Hagerty (US Senate, TN)": {
     "name": "Bill Hagerty",
@@ -294,39 +302,47 @@
   "General Paul M. Nakasone (Vanderbilt Institute of National Security)": {
     "name": "General Paul M. Nakasone",
     "org": "Vanderbilt Institute of National Security / OpenAI",
-    "photo": "assets/general-paul-m-nakasone.jpeg"
+    "photo": "assets/general-paul-m-nakasone.jpeg",
+    "officialProfile": "https://www.nakasonegroup.com/advisory-team"
   },
   "Trey Sellers (Strike)": {
     "name": "Trey Sellers",
-    "photo": "assets/trey-sellers.jpg"
+    "photo": "assets/trey-sellers.jpg",
+    "officialProfile": "https://www.treysellers.com/"
   },
   "Rory Murray (CleanSpark - VP, Digital Asset Management)": {
     "name": "Rory Murray",
-    "photo": "assets/rory-murray.jpg"
+    "photo": "assets/rory-murray.jpg",
+    "linkedin": "https://www.linkedin.com/in/r-c-murray"
   },
   "Brian Domitrovic (The Laffer Center)": {
     "name": "Brian Domitrovic",
     "photo": "../2025/Brian-Dom.png",
-    "photoPos": "center"
+    "photoPos": "center",
+    "officialProfile": "https://laffercenter.org/brian-domitrovic-ph-d/"
   },
   "Mario Gutierrez (TeraWulf)": {
     "name": "Mario Gutierrez",
     "photo": "../uploads/speakers/mario-gutierrez.webp",
-    "photoPos": "center 50%"
+    "photoPos": "center 50%",
+    "linkedin": "https://www.linkedin.com/in/mario-andres-gutierrez/"
   },
   "Shaun Gleason (Oak Ridge National Laboratory)": {
     "name": "Shaun Gleason",
     "photo": "../uploads/speakers/shaun-gleason.jpg?v=2",
-    "photoPos": "center 20%"
+    "photoPos": "center 20%",
+    "officialProfile": "https://www.ornl.gov/staff-profile/shaun-s-gleason"
   },
   "Dan Pratt (TVA)": {
     "name": "Dan Pratt",
     "org": "TVA",
-    "photo": "../uploads/speakers/dan-pratt.jpg"
+    "photo": "../uploads/speakers/dan-pratt.jpg",
+    "officialProfile": "https://www.tva.com/about-tva/our-leadership/our-executive-leadership/daniel-%28dan%29-pratt"
   },
   "Stuart McWhorter (State of Tennessee - Deputy Governor & Commissioner, TNECD)": {
     "name": "Stuart McWhorter",
-    "photo": "assets/stuart-mcwhorter.jpg"
+    "photo": "assets/stuart-mcwhorter.jpg",
+    "officialProfile": "https://www.tn.gov/ecd/about-us/senior-staff/senior-staff/stuart-mcwhorter.html"
   },
   "Matt Van Epps (U.S. Congressman, TN-7)": {
     "name": "Matt Van Epps",
@@ -359,13 +375,15 @@
     "name": "Evan Mawarire",
     "role": "Founder",
     "org": "#ThisFlag",
-    "photo": "../uploads/speakers/evan-mawarire.png"
+    "photo": "../uploads/speakers/evan-mawarire.png",
+    "officialProfile": "https://www.evanmawarire.org/"
   },
   "Brad Cuddy (Cholla)": {
     "name": "Brad Cuddy",
     "role": "Director, Field Operations Energy",
     "org": "Cholla",
-    "photo": "../uploads/speakers/brad-cuddy.webp"
+    "photo": "../uploads/speakers/brad-cuddy.webp",
+    "officialProfile": "https://chollainc.com/about/team/brad-cuddy"
   },
   "James Danly (U.S. Department of Energy - Deputy Secretary)": {
     "name": "James Danly",
