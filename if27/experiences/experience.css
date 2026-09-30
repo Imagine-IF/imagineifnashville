@@ -2,3 +2,5 @@
 
 /* Explicit session ranges and durations */
 .experience-hours{font-size:16px;line-height:1.7;color:#ffc6c2;margin:0 0 18px}.agenda-list li{grid-template-columns:225px 1fr}.session-time{font-size:17px;color:#ffc6c2;font-variant-numeric:tabular-nums;line-height:1.5}.session-duration{display:block;margin-top:5px;font-size:13px;color:#bfbad4}@media(max-width:760px){.agenda-list li{grid-template-columns:1fr;gap:10px}.session-duration{display:inline;margin-left:12px}.experience-hours{font-size:15px}}
+
+.experience-partner{font-size:16px;color:#ffc6c2;margin:14px 0 20px;line-height:1.5}

@@ -174,5 +174,13 @@
     "profile": "https://x.com/gladstein",
     "photo_position": "center 30%",
     "source": "data.js; user-confirmed 2027 addition"
+  },
+  {
+    "name": "Brett Ender",
+    "affiliation": "Noble Origins",
+    "photo": "photos/brett-ender.webp",
+    "profile": "https://x.com/MeatMafiaBrett",
+    "photo_position": "center 25%",
+    "source": "https://themeatmafia.com/people/brett-ender; https://themeatmafia.com/217; user-confirmed Alt Health speaker"
   }
 ]
