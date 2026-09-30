@@ -483,7 +483,7 @@
     {
       "id": 34,
       "day": 1,
-      "time": "3:09 - 3:54p",
+      "time": "3:09 - 3:44p",
       "title": "Imagine IF the U.S. Led the Convergence Decade",
       "speakers": [
         "Sen. Bill Hagerty (US Senate, TN)",
@@ -499,10 +499,10 @@
     {
       "id": 35,
       "day": 1,
-      "time": "3:54 - 4:05p",
+      "time": "3:44 - 4:05p",
       "title": "TRANSITION: Theater → Paisley Ballroom (Evening Cocktails)",
       "speakers": [],
-      "abstract": "11-minute room move to Paisley Ballroom for evening cocktails and The Brainstorm.",
+      "abstract": "21-minute room move to Paisley Ballroom for evening cocktails and The Brainstorm.",
       "room": "",
       "production": true,
       "hold": false
@@ -627,9 +627,20 @@
       "reviewOverride": true
     },
     {
+      "id": 1005,
+      "day": 2,
+      "time": "10:53 - 10:54a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
       "id": 46,
       "day": 2,
-      "time": "10:53 - 11:18a",
+      "time": "10:54 - 11:19a",
       "title": "Imagine IF Kids Were Limitless",
       "speakers": [
         "Dr. Candice McQueen (Lipscomb University)",
@@ -643,7 +654,7 @@
     {
       "id": 47,
       "day": 2,
-      "time": "11:18 - 11:19a",
+      "time": "11:19 - 11:20a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -654,7 +665,7 @@
     {
       "id": 48,
       "day": 2,
-      "time": "11:19 - 11:28a",
+      "time": "11:20 - 11:29a",
       "title": "Imagine IF We Think Small and Win Big",
       "speakers": [
         "Paul Itoi (Stakwork - Founder & CEO)"
@@ -667,7 +678,7 @@
     {
       "id": 49,
       "day": 2,
-      "time": "11:28 - 11:29a",
+      "time": "11:29 - 11:30a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -678,7 +689,7 @@
     {
       "id": 50,
       "day": 2,
-      "time": "11:29 - 11:38a",
+      "time": "11:30 - 11:39a",
       "title": "Imagine IF Data Centers Disappeared",
       "speakers": [
         "Sean James (NVIDIA - Distinguished Engineer, Energy Systems)"
@@ -691,7 +702,7 @@
     {
       "id": 1003,
       "day": 2,
-      "time": "11:38 - 11:39a",
+      "time": "11:39 - 11:40a",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -702,7 +713,7 @@
     {
       "id": 30,
       "day": 2,
-      "time": "11:39 - 11:48a",
+      "time": "11:40 - 11:49a",
       "title": "Imagine IF I Trust You More Than I Trust Myself",
       "speakers": [
         "Obi Nwosu (Fedi)"
@@ -909,7 +920,7 @@
     {
       "id": 63,
       "day": 2,
-      "time": "2:33 - 3:08p",
+      "time": "2:33 - 3:18p",
       "title": "Imagine IF the Gigawatts Got Built",
       "speakers": [
         "Ryan Norris (Abundance Institute)",
@@ -925,7 +936,7 @@
     {
       "id": 64,
       "day": 2,
-      "time": "3:08 - 3:09p",
+      "time": "3:18 - 3:19p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -936,7 +947,7 @@
     {
       "id": 65,
       "day": 2,
-      "time": "3:09 - 3:34p",
+      "time": "3:19 - 3:44p",
       "title": "Imagine IF Freedom Were Built from the Bottom Up",
       "speakers": [
         "Russ Greene (Prime Mover Institute)",
@@ -950,7 +961,7 @@
     {
       "id": 66,
       "day": 2,
-      "time": "3:34 - 3:35p",
+      "time": "3:44 - 3:45p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -961,7 +972,7 @@
     {
       "id": 67,
       "day": 2,
-      "time": "3:35 - 3:44p",
+      "time": "3:45 - 3:54p",
       "title": "Imagine IF Time-to-Exploit Hit Zero",
       "speakers": [
         "Andre Neves (ZBD)"
@@ -974,7 +985,7 @@
     {
       "id": 68,
       "day": 2,
-      "time": "3:44 - 3:45p",
+      "time": "3:54 - 3:55p",
       "title": "CONTEXT VIDEO TRANSITION",
       "speakers": [],
       "abstract": "",
@@ -985,7 +996,7 @@
     {
       "id": 69,
       "day": 2,
-      "time": "3:45 - 3:54p",
+      "time": "3:55 - 4:04p",
       "title": "Imagine IF All Activists Had AI Superpowers",
       "speakers": [
         "Alex Gladstein (Human Rights Foundation)"
@@ -998,7 +1009,7 @@
     {
       "id": 70,
       "day": 2,
-      "time": "3:54 - 3:59p",
+      "time": "4:04 - 4:07p",
       "title": "Imagine IF This Was Only the Beginning",
       "speakers": [
         "Rod Roudi (Bitcoin Park)"
@@ -1011,7 +1022,7 @@
     {
       "id": 71,
       "day": 2,
-      "time": "3:59 - 4:01p",
+      "time": "4:07 - 4:09p",
       "title": "CLOSING TRAILER",
       "speakers": [],
       "abstract": "",
