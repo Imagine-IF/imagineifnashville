@@ -724,6 +724,30 @@
       "hold": false
     },
     {
+      "id": 66,
+      "day": 2,
+      "time": "11:46 - 11:47a",
+      "title": "CONTEXT VIDEO TRANSITION",
+      "speakers": [],
+      "abstract": "",
+      "room": "",
+      "production": true,
+      "hold": false
+    },
+    {
+      "id": 67,
+      "day": 2,
+      "time": "11:47 - 11:56a",
+      "title": "Imagine IF Time-to-Exploit Hit Zero",
+      "speakers": [
+        "Andre Neves (ZBD)"
+      ],
+      "abstract": "Bitcoin self-custody used to have one threat model: survive the five dollar wrench attack. It still does, but now there is a second front. AI agents have collapsed the time from disclosed vulnerability to working exploit from weeks to minutes, for nearly every piece of open and closed source software that touches the Bitcoin protocol. Money as code on the internet has always been a target; agents just erased the patch window everyone was quietly counting on. Pretend it is still just the wrench and you lose. Ten minutes on what self-custody looks like when the attacker reads the commit before you do: what breaks, what holds, and how custody has to be engineered when time-to-exploit hits zero.",
+      "room": "Theater",
+      "production": false,
+      "hold": false
+    },
+    {
       "id": 51,
       "day": 2,
       "time": "12:00 - 1:30p",
@@ -959,7 +983,7 @@
       "hold": false
     },
     {
-      "id": 66,
+      "id": 68,
       "day": 2,
       "time": "3:44 - 3:45p",
       "title": "CONTEXT VIDEO TRANSITION",
@@ -970,33 +994,9 @@
       "hold": false
     },
     {
-      "id": 67,
-      "day": 2,
-      "time": "3:45 - 3:54p",
-      "title": "Imagine IF Time-to-Exploit Hit Zero",
-      "speakers": [
-        "Andre Neves (ZBD)"
-      ],
-      "abstract": "Bitcoin self-custody used to have one threat model: survive the five dollar wrench attack. It still does, but now there is a second front. AI agents have collapsed the time from disclosed vulnerability to working exploit from weeks to minutes, for nearly every piece of open and closed source software that touches the Bitcoin protocol. Money as code on the internet has always been a target; agents just erased the patch window everyone was quietly counting on. Pretend it is still just the wrench and you lose. Ten minutes on what self-custody looks like when the attacker reads the commit before you do: what breaks, what holds, and how custody has to be engineered when time-to-exploit hits zero.",
-      "room": "Theater",
-      "production": false,
-      "hold": false
-    },
-    {
-      "id": 68,
-      "day": 2,
-      "time": "3:54 - 3:55p",
-      "title": "CONTEXT VIDEO TRANSITION",
-      "speakers": [],
-      "abstract": "",
-      "room": "",
-      "production": true,
-      "hold": false
-    },
-    {
       "id": 69,
       "day": 2,
-      "time": "3:55 - 4:04p",
+      "time": "3:45 - 3:54p",
       "title": "Imagine IF All Activists Had AI Superpowers",
       "speakers": [
         "Alex Gladstein (Human Rights Foundation)"
@@ -1009,7 +1009,7 @@
     {
       "id": 70,
       "day": 2,
-      "time": "4:04 - 4:06p",
+      "time": "3:54 - 3:56p",
       "title": "Imagine IF This Was Only the Beginning",
       "speakers": [
         "Rod Roudi (Bitcoin Park)"
@@ -1022,7 +1022,7 @@
     {
       "id": 71,
       "day": 2,
-      "time": "4:06 - 4:08p",
+      "time": "3:56 - 3:58p",
       "title": "CLOSING TRAILER",
       "speakers": [],
       "abstract": "",
