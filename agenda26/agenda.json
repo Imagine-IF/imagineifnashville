@@ -7,7 +7,7 @@
       "title": "Doors open, breakfast served",
       "speakers": [],
       "abstract": "",
-      "description": "Arrive and enjoy breakfast before the opening welcome.",
+      "description": "Arrive early and enjoy coffee and a variety of Ladybird tacos for breakfast before the opening welcome.",
       "room": "Fisher Center foyer",
       "production": false,
       "hold": false,
@@ -131,7 +131,7 @@
       "speakers": [
         "Jesse Posner (Vora)"
       ],
-      "abstract": "The cryptography engineer behind the first BIP-340-compatible implementation of FROST makes the case that self-custody is about to outgrow money. Threshold signatures let a group hold bitcoin keys with no single point of failure, and the same math extends to everything that matters: your data, your identity, your AI. After building key management and cold storage at Coinbase and Block, he is now building Vora on a simple conviction: the age of AI agents acting on your behalf only works if you, not a platform, hold the keys they answer to. Ten minutes on the primitive underneath digital sovereignty, and what becomes possible when we bring the principles of Bitcoin self-custody to personal AI.",
+      "abstract": "The cryptography engineer behind the first BIP-340-compatible implementation of FROST makes the case that self-custody is about to outgrow money. Threshold signatures let a group hold bitcoin keys with no single point of failure, and the same math extends to everything that matters: your data, your identity, your AI. After building key management and cold storage at Coinbase and Block, he is now building Vora on a simple conviction: the age of AI agents acting on your behalf only works if you, not a platform, hold the keys they answer to. An IF talk on the primitive underneath digital sovereignty, and what becomes possible when we bring the principles of Bitcoin self-custody to personal AI.",
       "room": "Theater",
       "production": false,
       "hold": false
@@ -268,10 +268,10 @@
       "room": "Fisher Center foyer",
       "production": false,
       "hold": false,
-      "description": "Boxed lunches: Tex Mex Beef Wrap, Nashville Summertime Cuban, Lemon Garlic Chicken Skewer, or Balsamic Harvest Salad (vegan).",
+      "description": "Lunch options: Tex Mex Beef Wrap, Nashville Summertime Cuban, Lemon Garlic Chicken Skewer, or Balsamic Harvest Salad (vegan).",
       "kind": "meal",
       "reviewOverride": true,
-      "menuTitle": "Boxed Lunches",
+      "menuTitle": "Lunch options:",
       "menu": [
         {
           "heading": "Sandwiches & Wraps",
@@ -532,7 +532,7 @@
       "title": "Doors open, breakfast served",
       "speakers": [],
       "abstract": "",
-      "description": "Arrive and enjoy breakfast before the opening session.",
+      "description": "Arrive early and enjoy coffee and a variety of Ladybird tacos for breakfast before the opening welcome.",
       "room": "Fisher Center foyer",
       "production": false,
       "hold": false,
@@ -722,10 +722,10 @@
       "room": "Fisher Center foyer",
       "production": false,
       "hold": false,
-      "description": "Boxed lunches: Baked Salmon Wrap, Ham & Brie, Soy Glazed Beef Yakitori Skewers, or Harvest Rice Power Bowl (vegan, gluten free).",
+      "description": "Lunch options: Baked Salmon Wrap, Ham & Brie, Soy Glazed Beef Yakitori Skewers, or Harvest Rice Power Bowl (vegan, gluten free).",
       "kind": "meal",
       "reviewOverride": true,
-      "menuTitle": "Boxed Lunches",
+      "menuTitle": "Lunch options:",
       "menu": [
         {
           "heading": "Sandwiches & Wraps",
