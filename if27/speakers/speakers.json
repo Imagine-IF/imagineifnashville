@@ -182,5 +182,13 @@
     "profile": "https://x.com/MeatMafiaBrett",
     "photo_position": "center 25%",
     "source": "https://themeatmafia.com/people/brett-ender; https://themeatmafia.com/217; user-confirmed Alt Health speaker"
+  },
+  {
+    "name": "Harry Gray",
+    "affiliation": "Noble Origins",
+    "photo": "photos/harry-gray.webp",
+    "profile": "https://x.com/MeatMafiaHarry",
+    "photo_position": "center 25%",
+    "source": "https://themeatmafia.com/people/harry-gray; user-confirmed Alt Health speaker"
   }
 ]

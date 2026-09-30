@@ -71,7 +71,7 @@ def build_agenda(slug, original):
 def render(slug, title, line, abstract, agenda):
     partner = '<p class="experience-partner">In partnership with <strong>Noble Origins</strong></p>' if slug == 'alt-health' else ''
     partner_name = 'Noble Origins' if slug == 'alt-health' else 'To be announced'
-    speaker = '<div><h2>Speaker</h2><p><a href="../../speakers/">Brett Ender · Noble Origins ↗</a></p></div>' if slug == 'alt-health' else ''
+    speaker = '<div><h2>Speakers</h2><p><a href="../../speakers/">Brett Ender &amp; Harry Gray · Noble Origins ↗</a></p></div>' if slug == 'alt-health' else ''
     source = ''
     if slug == 'custody-treasury':
         source = '<p class="agenda-source">Adapted into a one-day example from the <a href="https://bitcoinpark.com/custody-treasury/custody-treasury-summit.html">September 17–18, 2025 Custody &amp; Treasury Summit</a>. Prior speakers and supporters are not confirmed for 2027.</p>'
