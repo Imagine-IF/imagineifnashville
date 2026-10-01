@@ -198,5 +198,13 @@
     "profile": "https://www.linkedin.com/in/matthias-debernardini-a5317759/",
     "photo_position": "center center",
     "source": "https://nashvilleautomation.io/; https://github.com/matthiasdebernardini (profile avatar); user-confirmed 2027 addition"
+  },
+  {
+    "name": "Eliot Gattegno",
+    "affiliation": "Alpha School",
+    "photo": "photos/eliot-gattegno.png",
+    "profile": "https://www.linkedin.com/in/eliotgattegno",
+    "photo_position": "center 25%",
+    "source": "https://knowledge.insead.edu/author/eliot-gattegno; user-confirmed 2027 addition"
   }
 ]
