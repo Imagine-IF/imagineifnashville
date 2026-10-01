@@ -206,5 +206,13 @@
     "profile": "https://www.linkedin.com/in/eliotgattegno",
     "photo_position": "center 25%",
     "source": "https://knowledge.insead.edu/author/eliot-gattegno; user-confirmed 2027 addition"
+  },
+  {
+    "name": "Courtney Derr",
+    "affiliation": "IHS",
+    "photo": "photos/courtney-derr.jpg",
+    "profile": "https://www.linkedin.com/in/courtney-derr-3bb682a",
+    "photo_position": "center 25%",
+    "source": "https://theihs.org/about; user-requested speaker addition"
   }
 ]
