@@ -80,7 +80,7 @@ def render(slug, title, line, abstract, agenda):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)} — Frontier Days 2027</title><meta name="description" content="{escape(line, quote=True)}">
 <link rel="icon" href="../../assets/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../../styles.css?v=7"><link rel="stylesheet" href="../experience.css?v=4"></head>
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../../styles.css?v=nav-8"><link rel="stylesheet" href="../experience.css?v=4"></head>
 <body class="summit-page"><a class="skip" href="#about">Skip to experience</a>
 <header><a class="brand" href="../../" aria-label="Frontier Days home"><img src="../../assets/logo-white.png" alt="Imagine IF" width="160" height="54"></a><nav aria-label="Main navigation"><a href="../../#fp-summits">All experiences</a><a href="../../speakers/">Speakers</a><a href="#agenda">Example agenda</a><a href="../../#fp-tickets">Explore passes</a></nav><a class="header-date" href="../../">Frontier Days · 2027</a></header>
 <main><section class="experience-hero section"><p class="eyebrow">Summit Day / Friday, October 22, 2027</p><h1>{escape(title)}</h1>{partner}<p class="experience-line">{escape(line)}</p><p class="experience-hours">Doors &amp; coffee: 9 a.m. · Sessions: 10 a.m.–3 p.m. · Lunch included</p><div class="experience-access">Included with Imagine IF + Summit Day and Frontier All-Access</div></section>
@@ -100,6 +100,6 @@ for slug,title,line,abstract,agenda in EXPERIENCES:
     home = home.replace(heading, linked)
     pattern = r'('+re.escape(linked)+r'<p>.*?</p>)(?!<a class="experience-detail")'
     home = re.sub(pattern, lambda m:m[1]+f'<a class="experience-detail" href="experiences/{slug}/">Explore experience <span aria-hidden="true">↗</span></a>',home)
-home = home.replace('styles.css?v=6','styles.css?v=7')
+home = re.sub(r'styles\.css\?v=[^\"]+', 'styles.css?v=nav-8', home)
 HOME.write_text(home)
 print('Rendered 8 experience pages and linked their homepage cards.')
