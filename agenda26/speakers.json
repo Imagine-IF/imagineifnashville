@@ -391,5 +391,11 @@
     "org": "U.S. Department of Energy",
     "photo": "../uploads/speakers/james-danly.jpg",
     "officialProfile": "https://www.energy.gov/person/james-danly"
+  },
+  "Luke Pettit (Former Assistant Secretary of the Treasury)": {
+    "name": "Luke Pettit",
+    "role": "Former Assistant Secretary of the Treasury",
+    "org": "U.S. Department of the Treasury",
+    "photo": "../uploads/speakers/luke-pettit.jpg"
   }
 }
