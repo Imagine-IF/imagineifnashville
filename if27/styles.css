@@ -47,3 +47,10 @@ body>header .header-date span{margin-left:8px}
  body>header .header-date{font-size:11px}
  body>header nav{font-size:13px;gap:22px}
 }
+
+/* Center the three Beyond the Stage options. */
+.beyond>.eyebrow{text-align:center;max-width:none}
+.beyond .beyond-grid{display:block;max-width:760px;margin:0 auto}
+.beyond .experience-list>div{grid-template-columns:24px auto;justify-content:center;column-gap:10px;text-align:center}
+.beyond .experience-list>div>span{grid-row:1;align-self:center;padding:0}
+.beyond .experience-list>div>p,.beyond .experience-list>div>a{grid-column:1/-1;justify-self:center}
