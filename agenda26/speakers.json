@@ -333,12 +333,6 @@
     "photoPos": "center 20%",
     "officialProfile": "https://www.ornl.gov/staff-profile/shaun-s-gleason"
   },
-  "Dan Pratt (TVA)": {
-    "name": "Dan Pratt",
-    "org": "TVA",
-    "photo": "../uploads/speakers/dan-pratt.jpg",
-    "officialProfile": "https://www.tva.com/about-tva/our-leadership/our-executive-leadership/daniel-%28dan%29-pratt"
-  },
   "Stuart McWhorter (State of Tennessee - Deputy Governor & Commissioner, TNECD)": {
     "name": "Stuart McWhorter",
     "photo": "assets/stuart-mcwhorter.jpg",
