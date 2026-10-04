@@ -222,5 +222,13 @@
     "profile": "https://www.linkedin.com/in/marksuman",
     "photo_position": "center 25%",
     "source": "https://www.trymaple.ai/about; data.js (2025 speaker); user-requested addition"
+  },
+  {
+    "name": "Jeff Gardner",
+    "affiliation": "White Noise",
+    "photo": "photos/jeff-gardner.jpg",
+    "profile": "https://x.com/erskingardner",
+    "photo_position": "center 25%",
+    "source": "https://jeffg.fyi; https://nostr.com/nprofile1qqspwwwexlwgcrrnwz4zwkze8rq3ncjug8mvgsd96dxx6wzs8ccndmcpr9mhxue69uhhyetvv9ujuumwdae8gtnnda3kjctv9u7vappd; user-requested speaker addition"
   }
 ]
