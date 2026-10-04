@@ -237,6 +237,7 @@ window.IF_DATA = {
       bio: 'Executive Director of the Prime Mover Institute and Senior Advisor for Public Affairs and Defense Policy at Apex Path. Previously held roles at Stand Together Trust and, before that, CrossFit Inc.',
       talk: 'Imagine IF… freedom were built from the bottom up.' },
     // Profile verified against TVA's official executive biography.
+    {"id": "greg-henrich", "name": "Greg Henrich", "role": "SVP, Transmission", "org": "TVA", "tags": ["Humanity"], "photo": "uploads/speakers/greg-henrich.jpg", "photoPos": "center 20%", "bio": "Greg Henrich is Senior Vice President, Transmission at TVA, leading the planning, design, maintenance and real-time operation of the nation’s largest public power transmission system. He previously served as TVA’s Vice President of Transmission Operations and Power Supply, where he helped lead grid modernization. He holds a bachelor’s degree in computer engineering from Georgia Institute of Technology and an MBA from the University of Tennessee Chattanooga."},
     // Profile, portrait, and LinkedIn verified against Ohio State's School of Earth Sciences directory.
     { id: 'mario-gutierrez', name: 'Mario Gutierrez', role: 'Director of Energy Origination & Development', org: 'TeraWulf', tags: ['Humanity', 'Intelligence'],
       photo: 'uploads/speakers/mario-gutierrez.webp',
