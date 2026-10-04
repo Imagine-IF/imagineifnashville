@@ -391,5 +391,13 @@
     "role": "Former Assistant Secretary of the Treasury",
     "org": "U.S. Department of the Treasury",
     "photo": "../uploads/speakers/luke-pettit.jpg"
+  },
+  "Greg Henrich (TVA)": {
+    "name": "Greg Henrich",
+    "role": "SVP, Transmission",
+    "org": "TVA",
+    "photo": "../uploads/speakers/greg-henrich.jpg",
+    "photoPos": "center 20%",
+    "officialProfile": "https://www.tva.com/about-tva/our-leadership/our-executive-leadership/greg-henrich"
   }
 }
