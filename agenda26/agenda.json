@@ -344,10 +344,9 @@
       "speakers": [
         "Trey Sellers (Strike)",
         "Lorenzo Valente (ARK Invest - Director of Digital Assets)",
-        "Jasmine Burgess (Blockstream Capital Partners - COO & CRO)",
-        "Rory Murray (CleanSpark - VP, Digital Asset Management)"
+        "Jasmine Burgess (Blockstream Capital Partners - COO & CRO)"
       ],
-      "abstract": "Wall Street's plumbing was built for paper: transfer agents, clearing houses, T+2 settlement, and layers of intermediaries each holding a piece of the risk. Bitcoin and tokenized securities put the balance sheet, the security, and the settlement layer on open rails, and the first public vehicles built this way are already trading. This panel seats the rails, the research, the risk, and the balance sheet: Strike moving money at the speed of the internet, ARK's digital asset research mapping what open rails do to public markets, the Blockstream Capital Partners operator who has run risk from Brevan Howard to bitcoin asset management, and the CleanSpark digital asset lead, who runs the treasury desk inside a public miner holding nearly 14,000 bitcoin. What actually gets rewired: how capital forms, how risk is carried and by whom, and what disappears when settlement is instant and final. Public-market mechanics, not theory.",
+      "abstract": "Wall Street's plumbing was built for paper: transfer agents, clearing houses, T+2 settlement, and layers of intermediaries each holding a piece of the risk. Bitcoin and tokenized securities put the balance sheet, the security, and the settlement layer on open rails, and the first public vehicles built this way are already trading. This panel brings together three perspectives on open financial rails: Trey Sellers on Strike's work moving money at the speed of the internet, Lorenzo Valente on ARK's digital asset research and what open rails mean for public markets, and Jasmine Burgess on risk management at Blockstream Capital Partners. What actually gets rewired: how capital forms, how risk is carried and by whom, and what disappears when settlement is instant and final. Public-market mechanics, not theory.",
       "room": "Paisley Ballroom",
       "production": false,
       "hold": false
