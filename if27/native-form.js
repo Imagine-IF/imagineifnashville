@@ -16,7 +16,7 @@
   const result=event.data;
   if(!result||result.type!=='if27-submission'||result.requestId!==id.value)return;
   clearTimeout(timer);pending=false;button.disabled=false;button.innerHTML=original;
-  if(result.ok){form.reset();id.value=crypto.randomUUID();show(form.dataset.successMessage||'Thank you — your submission has been received. The Imagine IF team will review it and follow up by email.',false);}
+  if(result.ok){if(form.dataset.successUrl){const destination=new URL(form.dataset.successUrl,window.location.href);if(destination.origin===window.location.origin){window.location.assign(destination.href);return;}}form.reset();id.value=crypto.randomUUID();show(form.dataset.successMessage||'Thank you — your submission has been received. The Imagine IF team will review it and follow up by email.',false);}
   else show(result.message||'We couldn’t save your submission. Please try again.',true);
  });
 })();
