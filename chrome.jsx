@@ -199,7 +199,7 @@ window.IFChrome = (() => {
                 <li><a href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer">Bitcoin Park ↗</a></li>
                 <li><a href="https://aifreedomlab.org" target="_blank" rel="noopener noreferrer">AI Freedom Lab ↗</a></li>
                 <li><a href="https://tangentsdaily.substack.com" target="_blank" rel="noopener noreferrer">Tangents ↗</a></li>
-                <li><a href="/media/">Media kit</a></li>
+                <li><a href="/mediakit/">Media kit</a></li>
                 <li><a href="mailto:community@bitcoinpark.com?subject=Press%20Inquiry%20-%20Imagine%20IF">Press</a></li>
               </ul>
             </div>
