@@ -8,8 +8,7 @@ window.IFChrome = (() => {
   { id: 'speakers', label: 'Speakers', num: '02' },
   { id: 'agenda', label: 'Agenda', num: '03' },
   { id: 'tickets', label: 'Tickets', num: '04' },
-  { id: 'past', label: 'History', num: '05' },
-  { id: 'media', label: 'Media', num: '06', href: '/media/' }];
+  { id: 'past', label: 'History', num: '05' }];
 
   // Smooth-scroll to the sponsor strip (which is rendered globally on every page).
   function scrollToSponsors(e) {
@@ -38,7 +37,6 @@ window.IFChrome = (() => {
           )}
         </div>
         <div className="topbar__right">
-          <a href="/media/" style={{ color: 'inherit', fontWeight: 600 }}>Media</a>
           <button className="menu-btn" onClick={onMenu} aria-label="Open menu">
             <span className="lines"><i></i><i></i></span>
             Menu
