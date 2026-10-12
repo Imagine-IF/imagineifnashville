@@ -8,7 +8,8 @@ window.IFChrome = (() => {
   { id: 'speakers', label: 'Speakers', num: '02' },
   { id: 'agenda', label: 'Agenda', num: '03' },
   { id: 'tickets', label: 'Tickets', num: '04' },
-  { id: 'past', label: 'History', num: '05' }];
+  { id: 'past', label: 'History', num: '05' },
+  { id: 'media', label: 'Media', num: '06', href: '/media/' }];
 
   // Smooth-scroll to the sponsor strip (which is rendered globally on every page).
   function scrollToSponsors(e) {
@@ -37,6 +38,7 @@ window.IFChrome = (() => {
           )}
         </div>
         <div className="topbar__right">
+          <a href="/media/" style={{ color: 'inherit', fontWeight: 600 }}>Media</a>
           <button className="menu-btn" onClick={onMenu} aria-label="Open menu">
             <span className="lines"><i></i><i></i></span>
             Menu
@@ -71,8 +73,8 @@ window.IFChrome = (() => {
           </div>
           <nav className="drawer__nav" aria-label="Primary">
             {NAV.map((n) =>
-            <a key={n.id} href={'#' + n.id}
-            onClick={(e) => {e.preventDefault();onNav(n.id);}}
+            <a key={n.id} href={n.href || '#' + n.id}
+            onClick={(e) => {if (!n.href) {e.preventDefault();onNav(n.id);}}}
             className={page === n.id ? 'is-current' : ''}>
                 <span>{n.label}</span>
                 <span className="num">{n.num}</span>
@@ -199,6 +201,7 @@ window.IFChrome = (() => {
                 <li><a href="https://bitcoinpark.com" target="_blank" rel="noopener noreferrer">Bitcoin Park ↗</a></li>
                 <li><a href="https://aifreedomlab.org" target="_blank" rel="noopener noreferrer">AI Freedom Lab ↗</a></li>
                 <li><a href="https://tangentsdaily.substack.com" target="_blank" rel="noopener noreferrer">Tangents ↗</a></li>
+                <li><a href="/media/">Media kit</a></li>
                 <li><a href="mailto:rod@bitcoinpark.com?subject=Press%20Inquiry%20-%20Imagine%20IF">Press</a></li>
               </ul>
             </div>
