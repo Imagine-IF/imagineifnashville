@@ -68,3 +68,22 @@ body>header .header-date span{margin-left:8px}
  .beyond .experience-list>div>span{margin-bottom:12px}
  .beyond .experience-list h3{font-size:26px}
 }
+
+/* Compact 2027 layout and links to past editions. */
+body>header{display:grid;grid-template-columns:1fr auto;gap:4px 24px;padding:12px 4.5% 0;min-height:0}
+body>header .brand{grid-column:1;grid-row:1}
+body>header .header-date{display:block;grid-column:2;grid-row:1}
+body>header nav{grid-column:1/-1;grid-row:2;justify-content:flex-start;gap:clamp(16px,2.2vw,32px);padding:0 0 8px;overflow-x:auto;min-width:0}
+body>header nav a.archive-link{color:var(--coral)}
+body>header nav a.archive-link:nth-last-child(2){margin-left:auto}
+.section{padding-top:32px;padding-bottom:32px}
+.intro-copy p:last-child{margin-bottom:0}
+.section-heading{margin-bottom:24px}
+.day-card{padding:24px}
+.program-note{margin-top:16px}
+.ticket-experiences{padding-top:28px}
+.ticket-experiences .fp-section{padding-bottom:28px}
+.ticket-experiences .fp-lead{min-height:0}
+@media(max-width:760px){body>header{padding:10px 6% 0;gap:2px 16px}body>header nav{gap:20px;font-size:13px}.section{padding-top:24px;padding-bottom:24px}.day-card{padding:22px}.ticket-experiences{padding-top:24px}.ticket-experiences .fp-section{padding-bottom:24px}}
+
+.ticket-experiences .fp-section.fp-summits{padding-top:0}
