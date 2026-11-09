@@ -75,7 +75,7 @@ body>header .brand{grid-column:1;grid-row:1}
 body>header .header-date{display:block;grid-column:2;grid-row:1}
 body>header nav{grid-column:1/-1;grid-row:2;justify-content:flex-start;gap:clamp(16px,2.2vw,32px);padding:0 0 8px;overflow-x:auto;min-width:0}
 body>header nav a.archive-link{color:var(--coral)}
-body>header nav a.archive-link:nth-last-child(2){margin-left:auto}
+body>header nav a.archive-link:nth-last-child(2){margin-left:0}
 .section{padding-top:32px;padding-bottom:32px}
 .intro-copy p:last-child{margin-bottom:0}
 .section-heading{margin-bottom:24px}
@@ -89,3 +89,6 @@ body>header nav a.archive-link:nth-last-child(2){margin-left:auto}
 .ticket-experiences .fp-section.fp-summits{padding-top:0}
 
 body>header .attend-cta{background:var(--coral);color:var(--navy);padding:10px 16px;border-radius:3px;font-size:14px;font-weight:700}body>header .attend-cta:hover{background:white}@media(max-width:760px){body>header .attend-cta{display:block;font-size:12px;padding:9px 12px}}
+
+/* Align desktop navigation and the application button on one row. */
+@media(min-width:761px){body>header nav{grid-column:1;grid-row:2;padding-bottom:0}body>header .attend-cta{grid-column:2;grid-row:2;align-self:center}body>header{padding-bottom:12px}}
