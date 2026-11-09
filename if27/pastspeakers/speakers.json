@@ -863,17 +863,6 @@
     "source": "if26/data.js"
   },
   {
-    "name": "Robert Warren",
-    "affiliation": "Bitcoin Park",
-    "photo": "/2025/Rob-Warren.png",
-    "profile": "https://www.linkedin.com/in/robert-warren-bitcoin/",
-    "photo_position": "center 25%",
-    "years": [
-      2025
-    ],
-    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
-  },
-  {
     "name": "Rockstar Dev",
     "affiliation": "BTCPay Server",
     "photo": "/2025/r0ckstar-dev.png",
