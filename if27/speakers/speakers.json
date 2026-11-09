@@ -5,7 +5,8 @@
     "photo": "photos/alex-lewin.jpg",
     "profile": "https://x.com/ALewin",
     "source": "https://www.btcplusplus.dev/whois/alexlwn123",
-    "photo_position": "center 25%"
+    "photo_position": "center 25%",
+    "x": "https://x.com/ALewin"
   },
   {
     "name": "Cam Doody",
@@ -13,7 +14,8 @@
     "photo": "photos/cam-doody.jpg",
     "profile": "https://www.linkedin.com/in/cam-doody-b489a124",
     "source": "https://live.freightwaves.com/event-speakers/cam-doody; https://www.linkedin.com/in/cam-doody-b489a124",
-    "photo_position": "center 25%"
+    "photo_position": "center 25%",
+    "linkedin": "https://www.linkedin.com/in/cam-doody-b489a124"
   },
   {
     "name": "Brett Ender",
@@ -21,7 +23,8 @@
     "photo": "photos/brett-ender.webp",
     "profile": "https://x.com/MeatMafiaBrett",
     "photo_position": "center 25%",
-    "source": "https://themeatmafia.com/people/brett-ender; https://themeatmafia.com/217; user-confirmed Alt Health speaker"
+    "source": "https://themeatmafia.com/people/brett-ender; https://themeatmafia.com/217; user-confirmed Alt Health speaker",
+    "x": "https://x.com/MeatMafiaBrett"
   },
   {
     "name": "Harry Gray",
@@ -29,7 +32,8 @@
     "photo": "photos/harry-gray.webp",
     "profile": "https://x.com/MeatMafiaHarry",
     "photo_position": "center 25%",
-    "source": "https://themeatmafia.com/people/harry-gray; user-confirmed Alt Health speaker"
+    "source": "https://themeatmafia.com/people/harry-gray; user-confirmed Alt Health speaker",
+    "x": "https://x.com/MeatMafiaHarry"
   },
   {
     "name": "Matthias Debernardini",
@@ -37,7 +41,8 @@
     "photo": "photos/matthias-debernardini.jpg",
     "profile": "https://www.linkedin.com/in/matthias-debernardini-a5317759/",
     "photo_position": "center center",
-    "source": "https://nashvilleautomation.io/; https://github.com/matthiasdebernardini (profile avatar); user-confirmed 2027 addition"
+    "source": "https://nashvilleautomation.io/; https://github.com/matthiasdebernardini (profile avatar); user-confirmed 2027 addition",
+    "linkedin": "https://www.linkedin.com/in/matthias-debernardini-a5317759/"
   },
   {
     "name": "Eliot Gattegno",
@@ -45,7 +50,8 @@
     "photo": "photos/eliot-gattegno.png",
     "profile": "https://www.linkedin.com/in/eliotgattegno",
     "photo_position": "center 25%",
-    "source": "https://knowledge.insead.edu/author/eliot-gattegno; user-confirmed 2027 addition"
+    "source": "https://knowledge.insead.edu/author/eliot-gattegno; user-confirmed 2027 addition",
+    "linkedin": "https://www.linkedin.com/in/eliotgattegno"
   },
   {
     "name": "Courtney Derr",
@@ -53,7 +59,8 @@
     "photo": "photos/courtney-derr.jpg",
     "profile": "https://www.linkedin.com/in/courtney-derr-3bb682a",
     "photo_position": "center 25%",
-    "source": "https://theihs.org/about; user-requested speaker addition"
+    "source": "https://theihs.org/about; user-requested speaker addition",
+    "linkedin": "https://www.linkedin.com/in/courtney-derr-3bb682a"
   },
   {
     "name": "Jeff Gardner",
@@ -61,6 +68,62 @@
     "photo": "photos/jeff-gardner.jpg",
     "profile": "https://x.com/erskingardner",
     "photo_position": "center 25%",
-    "source": "https://jeffg.fyi; https://nostr.com/nprofile1qqspwwwexlwgcrrnwz4zwkze8rq3ncjug8mvgsd96dxx6wzs8ccndmcpr9mhxue69uhhyetvv9ujuumwdae8gtnnda3kjctv9u7vappd; user-requested speaker addition"
+    "source": "https://jeffg.fyi; https://nostr.com/nprofile1qqspwwwexlwgcrrnwz4zwkze8rq3ncjug8mvgsd96dxx6wzs8ccndmcpr9mhxue69uhhyetvv9ujuumwdae8gtnnda3kjctv9u7vappd; user-requested speaker addition",
+    "x": "https://x.com/erskingardner"
+  },
+  {
+    "name": "D++",
+    "affiliation": "Entropy",
+    "photo": "/2025/dplusplus.png",
+    "profile": "https://x.com/d_plus__plus",
+    "photo_position": "center 25%",
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html",
+    "x": "https://x.com/d_plus__plus"
+  },
+  {
+    "name": "Tyler Stevens",
+    "affiliation": "Bitcoin Infrastructure Acquisition Corp",
+    "photo": "/2025/Tyler-Stevens.png",
+    "profile": "https://x.com/tylerkstevens",
+    "photo_position": "center 25%",
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html",
+    "x": "https://x.com/tylerkstevens"
+  },
+  {
+    "name": "Skot9000",
+    "affiliation": "Bitaxe",
+    "photo": "/2025/Skot.png",
+    "profile": "https://x.com/skot9000",
+    "photo_position": "center 25%",
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html",
+    "x": "https://x.com/skot9000"
+  },
+  {
+    "name": "Econoalchemist",
+    "affiliation": "256 Foundation",
+    "photo": "/2025/Eco.png",
+    "profile": "https://x.com/econoalchemist",
+    "photo_position": "center 25%",
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js",
+    "x": "https://x.com/econoalchemist"
+  },
+  {
+    "name": "Harry Sudock",
+    "affiliation": "CleanSpark",
+    "photo": "/uploads/speakers/harry-sudock.jpg",
+    "profile": "https://www.linkedin.com/in/harrysudock/",
+    "photo_position": "center 25%",
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js",
+    "linkedin": "https://www.linkedin.com/in/harrysudock/",
+    "x": "https://x.com/harry_sudock"
+  },
+  {
+    "name": "Senator Bill Frist",
+    "affiliation": "Former U.S. Senate Majority Leader",
+    "photo": "photos/bill-frist.jpg",
+    "photo_position": "center 25%",
+    "profile": "https://www.linkedin.com/in/billfristmd/",
+    "linkedin": "https://www.linkedin.com/in/billfristmd/",
+    "source": "User-provided LinkedIn profile; existing portrait"
   }
 ]

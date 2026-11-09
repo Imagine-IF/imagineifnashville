@@ -18,9 +18,13 @@ for directory in ('speakers', 'pastspeakers'):
         photo = escape(speaker['photo'], quote=True)
         position = escape(speaker.get('photo_position', 'center 25%'), quote=True)
         content = f'<div class="speaker-photo"><img src="{photo}" alt="" width="400" height="400" loading="{"eager" if i < 4 else "lazy"}" decoding="async" style="object-position:{position}"></div><h2>{name}</h2>{affiliation}{years}'
-        if profile:
-            content = f'<a class="speaker-profile" href="{escape(profile, quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="{name} on {platform} (opens in a new tab)">{content}<span class="speaker-social">{platform} <span aria-hidden="true">↗</span></span></a>'
-        cards.append(f'<li class="speaker">{content}</li>')
+        links = []
+        for field, label in (('x', 'X'), ('linkedin', 'LinkedIn')):
+            url = speaker.get(field)
+            if url:
+                links.append(f'<a href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="{name} on {label} (opens in a new tab)">{label} <span aria-hidden="true">↗</span></a>')
+        socials = f'<div class="speaker-socials">{"".join(links)}</div>' if links else ''
+        cards.append(f'<li class="speaker">{content}{socials}</li>')
     page = base / 'index.html'
     html, count = re.subn(r'(<ul class="speaker-grid">).*?(</ul>)', lambda m: m[1] + '\n'.join(cards) + m[2], page.read_text(), count=1, flags=re.S)
     assert count == 1

@@ -31,3 +31,10 @@
 @media(max-width:1100px){.speaker-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}}
 @media(max-width:760px){.speaker-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.speaker{padding:16px 0 20px}.speaker-photo{margin-bottom:14px}.speaker h2{font-size:23px}.speaker p{font-size:15px}}
 @media(max-width:380px){.speaker-grid{grid-template-columns:1fr}}
+
+/* Independent social links sit at the bottom of each equal-height card. */
+.speaker{display:flex;flex-direction:column}
+.speaker-socials{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:auto;padding-top:18px}
+.speaker-socials a{display:inline-flex;align-items:center;gap:6px;min-height:36px;font-size:15px;font-weight:600;color:#ffc6c2;text-decoration:underline;text-underline-offset:4px}
+.speaker-socials a:hover{color:#fff}
+.speaker-socials a:focus-visible{outline:2px solid #b683ed;outline-offset:4px}
