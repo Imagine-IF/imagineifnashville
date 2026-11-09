@@ -1,61 +1,5 @@
 [
   {
-    "name": "Cathie Wood",
-    "affiliation": "ARK Invest",
-    "photo": "../../uploads/speakers/cathie-wood.png",
-    "profile": "https://x.com/CathieDWood",
-    "source": "agenda26/speakers.json; https://www.ark-invest.com/our-team",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Joe Liemandt",
-    "affiliation": "Alpha School",
-    "photo": "../../uploads/speakers/joe-liemandt.jpg",
-    "profile": "https://x.com/jliemandt",
-    "source": "agenda26/speakers.json; https://alpha.school/joe-liemandt-and-the-future-of-education/",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Dr. Art Laffer",
-    "affiliation": "Laffer Associates",
-    "photo": "../../uploads/speakers/art-laffer.jpg",
-    "profile": "https://x.com/realartlaffer",
-    "source": "agenda26/speakers.json; https://laffercenter.org/about/arthur-laffer/",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Senator Hagerty",
-    "affiliation": "U.S. Senate · Tennessee",
-    "photo": "../../uploads/speakers/bill-hagerty.png",
-    "profile": "https://x.com/SenatorHagerty",
-    "source": "agenda26/speakers.json; https://www.hagerty.senate.gov/about/",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Steve Myers",
-    "affiliation": "BDK",
-    "photo": "photos/steve-myers.webp",
-    "profile": "https://x.com/notmandatory",
-    "source": "https://pretalx.com/nems25/speaker/N3NYRJ/; https://notmandatory.org",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Rob Hamilton",
-    "affiliation": "Anchor Watch",
-    "photo": "../../uploads/speakers/rob-hamilton.jpg",
-    "profile": "https://x.com/Rob1Ham",
-    "source": "agenda26/speakers.json",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Joe Kelly",
-    "affiliation": "Unchained",
-    "photo": "../../2025/Joe-Kelly.jpg",
-    "profile": "https://x.com/josephkelly",
-    "source": "2025/if-schedule-2025.html",
-    "photo_position": "center 25%"
-  },
-  {
     "name": "Alex Lewin",
     "affiliation": "Finite Computer",
     "photo": "photos/alex-lewin.jpg",
@@ -70,102 +14,6 @@
     "profile": "https://www.linkedin.com/in/cam-doody-b489a124",
     "source": "https://live.freightwaves.com/event-speakers/cam-doody; https://www.linkedin.com/in/cam-doody-b489a124",
     "photo_position": "center 25%"
-  },
-  {
-    "name": "Harry Sudock",
-    "affiliation": "CleanSpark",
-    "photo": "../../uploads/speakers/harry-sudock.jpg",
-    "profile": "https://x.com/harry_sudock",
-    "source": "agenda26/speakers.json",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Parker Lewis",
-    "affiliation": "Zaprite",
-    "photo": "../../uploads/speakers/parker-lewis.jpg",
-    "profile": "https://x.com/parkeralewis",
-    "source": "agenda26/speakers.json",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Gideon Powell",
-    "affiliation": "Cholla",
-    "photo": "../../uploads/speakers/gideon-powell.webp",
-    "profile": "https://x.com/GideonOPowell",
-    "source": "agenda26/speakers.json",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Brad Cuddy",
-    "affiliation": "Cholla",
-    "photo": "../../uploads/speakers/brad-cuddy.webp",
-    "profile": "https://www.linkedin.com/in/bradleycuddy",
-    "source": "agenda26/speakers.json; https://www.linkedin.com/in/bradleycuddy",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Econoalchemist",
-    "affiliation": "256 Foundation",
-    "photo": "../../2025/Eco.png",
-    "profile": "https://x.com/econoalchemist",
-    "source": "agenda26/speakers.json",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Skot9000",
-    "affiliation": "256 Foundation",
-    "photo": "../../2025/Skot.png",
-    "profile": "https://x.com/skot9000",
-    "source": "2025/if-schedule-2025.html",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Tyler Stevens",
-    "affiliation": "Exergy",
-    "photo": "../../2025/Tyler-Stevens.png",
-    "profile": "https://x.com/tylerkstevens",
-    "source": "2025/if-schedule-2025.html",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Schnitzel",
-    "affiliation": "256 Foundation",
-    "photo": "photos/schnitzel.jpg",
-    "profile": "https://x.com/Schnitzel",
-    "source": "https://www.256foundation.org/projects/libre-board",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Rockstar Dev",
-    "affiliation": "BTCPay Server",
-    "photo": "../../2025/r0ckstar-dev.png",
-    "profile": "https://x.com/r0ckstardev",
-    "source": "2025/if-schedule-2025.html",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Rapha Zagury",
-    "affiliation": "Twenty One Capital",
-    "photo": "../../uploads/speakers/rapha-zagury.jpg?v=2",
-    "profile": "https://x.com/RaphaZagury",
-    "source": "agenda26/speakers.json",
-    "photo_position": "center 25%"
-  },
-  {
-    "name": "Erik Hersman",
-    "affiliation": "Gridless Compute",
-    "photo": "../../2025/Erik-Hersman.png",
-    "profile": "https://www.linkedin.com/in/erikhersman/",
-    "photo_position": "center 25%",
-    "source": "2025/if-schedule-2025.html; user-confirmed 2027 addition"
-  },
-  {
-    "name": "Alex Gladstein",
-    "affiliation": "Human Rights Foundation",
-    "photo": "../../uploads/speakers/alex-gladstein.jpg?v=2",
-    "profile": "https://x.com/gladstein",
-    "photo_position": "center 30%",
-    "source": "data.js; user-confirmed 2027 addition"
   },
   {
     "name": "Brett Ender",
@@ -206,14 +54,6 @@
     "profile": "https://www.linkedin.com/in/courtney-derr-3bb682a",
     "photo_position": "center 25%",
     "source": "https://theihs.org/about; user-requested speaker addition"
-  },
-  {
-    "name": "Mark Suman",
-    "affiliation": "Maple AI",
-    "photo": "photos/mark-suman.jpg",
-    "profile": "https://www.linkedin.com/in/marksuman",
-    "photo_position": "center 25%",
-    "source": "https://www.trymaple.ai/about; data.js (2025 speaker); user-requested addition"
   },
   {
     "name": "Jeff Gardner",

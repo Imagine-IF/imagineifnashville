@@ -1,0 +1,1064 @@
+[
+  {
+    "name": "Adam Back",
+    "affiliation": "Blockstream",
+    "photo": "/2025/adam-back.png",
+    "profile": "https://x.com/adam3us",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Adam Sullivan",
+    "affiliation": "Core Scientific",
+    "photo": "/uploads/speakers/adam-sullivan.webp",
+    "profile": "https://x.com/_Adam_Sullivan1",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Alex Gladstein",
+    "affiliation": "Human Rights Foundation",
+    "photo": "/uploads/speakers/alex-gladstein.jpg?v=2",
+    "profile": "https://www.linkedin.com/in/alexgladstein/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Andre Neves",
+    "affiliation": "ZBD",
+    "photo": "/uploads/speakers/andre-neves.jpg",
+    "profile": "https://www.linkedin.com/in/andrerfneves",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Andrew Hohns",
+    "affiliation": "Battery Finance",
+    "photo": "/2025/Andrew-Hohns.png",
+    "profile": "https://www.linkedin.com/in/andrew-hohns-6901226/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Bill Hagerty",
+    "affiliation": "Tennessee",
+    "photo": "/uploads/speakers/bill-hagerty.png",
+    "profile": "https://www.linkedin.com/in/bill-hagerty-363876b4/",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; if26/data.js"
+  },
+  {
+    "name": "Brad Cuddy",
+    "affiliation": "Cholla",
+    "photo": "/uploads/speakers/brad-cuddy.webp",
+    "profile": "https://www.linkedin.com/in/bradleycuddy",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Braden Stover",
+    "affiliation": "TNECD",
+    "photo": "/uploads/speakers/braden-stover.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Brandon Gibson",
+    "affiliation": "State of Tennessee",
+    "photo": "/2025/Brandon-Gibson.jpg",
+    "profile": "https://www.linkedin.com/in/brandon-gibson-tn/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Brandon Williams",
+    "affiliation": "National Nuclear Security Administration",
+    "photo": "/uploads/speakers/brandon-williams.png",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Brian Domitrovic",
+    "affiliation": "The Laffer Center",
+    "photo": "/2025/Brian-Dom.png",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Cathie Wood",
+    "affiliation": "ARK Invest",
+    "photo": "/uploads/speakers/cathie-wood.png",
+    "profile": "https://www.linkedin.com/in/catherinedwood/",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Chris Mowry",
+    "affiliation": "Type One Energy",
+    "photo": "/2025/Chris-Mowry.jpg",
+    "profile": "https://www.linkedin.com/in/chris-mowry-397108a/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Chuck Fleischmann",
+    "affiliation": "Tennessee's 3rd District",
+    "photo": "/uploads/speakers/chuck-fleischmann.png",
+    "profile": "https://x.com/RepChuck",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "D++",
+    "affiliation": "Entropy",
+    "photo": "/2025/dplusplus.png",
+    "profile": "https://x.com/d_plus__plus",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Dan Lawrence",
+    "affiliation": "OBM Inc.",
+    "photo": "/2025/Dan-Lawrence.png",
+    "profile": "https://www.linkedin.com/in/foreman-dan/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html"
+  },
+  {
+    "name": "David Puell",
+    "affiliation": "ARK Invest",
+    "photo": "/2025/David-Puell.png",
+    "profile": "https://x.com/dpuellARK",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html"
+  },
+  {
+    "name": "Derek Ross",
+    "affiliation": "Soapbox",
+    "photo": "/2025/Derek-Ross.jpg",
+    "profile": "https://soapbox.pub/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Dhruv Bansal",
+    "affiliation": "Unchained",
+    "photo": "/uploads/speakers/dhruv-bansal.jpg",
+    "profile": "https://www.linkedin.com/in/dhruvbansal/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Dr. Art Laffer",
+    "affiliation": "Laffer Associates",
+    "photo": "/uploads/speakers/art-laffer.jpg",
+    "profile": "https://x.com/realartlaffer",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Dr. Candice McQueen",
+    "affiliation": "Lipscomb University",
+    "photo": "/uploads/speakers/candice-mcqueen.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Dr. Shaun S. Gleason",
+    "affiliation": "Oak Ridge National Laboratory",
+    "photo": "/uploads/speakers/shaun-gleason.jpg?v=2",
+    "profile": "https://www.linkedin.com/in/shaun-gleason-503bb49/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Econoalchemist",
+    "affiliation": "256 Foundation",
+    "photo": "/2025/Eco.png",
+    "profile": "https://x.com/econoalchemist",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Erik Hersman",
+    "affiliation": "Gridless",
+    "photo": "/2025/Erik-Hersman.png",
+    "profile": "https://www.linkedin.com/in/erikhersman/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Evan Mawarire",
+    "affiliation": "#ThisFlag",
+    "photo": "/uploads/speakers/evan-mawarire.png",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Farida Nabourema",
+    "affiliation": "Katutu Civil Rights Center",
+    "photo": "/uploads/speakers/farida-nabourema.png",
+    "profile": "https://x.com/Farida_N",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Félix Maradiaga",
+    "affiliation": "Nicaragua",
+    "photo": "/uploads/speakers/felix-maradiaga.png",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Gen. Paul M. Nakasone (USA Ret.)",
+    "affiliation": "Vanderbilt University Institute of National Security",
+    "photo": "/agenda26/assets/general-paul-m-nakasone.jpeg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Gideon Powell",
+    "affiliation": "Cholla Inc.",
+    "photo": "/uploads/speakers/gideon-powell.webp",
+    "profile": "https://www.linkedin.com/in/gideon-o-powell-%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F-84615a50/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Grant Gilliam",
+    "affiliation": "Ten31",
+    "photo": "/2025/Grant-Gilliam.png",
+    "profile": "https://www.linkedin.com/in/grantgilliam/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Greg Henrich",
+    "affiliation": "TVA",
+    "photo": "/uploads/speakers/greg-henrich.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Harry Sudock",
+    "affiliation": "CleanSpark",
+    "photo": "/uploads/speakers/harry-sudock.jpg",
+    "profile": "https://www.linkedin.com/in/harrysudock/",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Hash Hashemian",
+    "affiliation": "American Nuclear Society",
+    "photo": "/uploads/speakers/hash-hashemian.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "James P. Danly",
+    "affiliation": "U.S. Department of Energy",
+    "photo": "/uploads/speakers/james-danly.jpg",
+    "profile": "https://www.energy.gov/person/james-danly",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Janet Rehberg",
+    "affiliation": "EPB in Chattanooga",
+    "photo": "/uploads/speakers/janet-rehberg.png",
+    "profile": "https://www.linkedin.com/in/janet-rehberg/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Jasmine Burgess",
+    "affiliation": "Blockstream Capital Partners",
+    "photo": "/uploads/speakers/jasmine-burgess.jpg",
+    "profile": "https://www.linkedin.com/in/jasmine-burgess-a3924412/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Jason Neal",
+    "affiliation": "Hyosung HICO",
+    "photo": "/2025/Jason-Neal.jpg",
+    "profile": "https://www.linkedin.com/in/jason-neal-52794613/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Javier El-Hage",
+    "affiliation": "Human Rights Foundation",
+    "photo": "/uploads/speakers/javier-el-hage.jpg",
+    "profile": "https://www.linkedin.com/in/carlos-javier-el-hage-guaristi/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Jay Beddict",
+    "affiliation": "Foundry",
+    "photo": "/2025/Jay-Beddict.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Jean-Luc Palayer",
+    "affiliation": "Orano USA",
+    "photo": "/2025/Jean-Luc-Payaler.jpg",
+    "profile": "https://www.linkedin.com/in/jean-luc-palayer-159a6349/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Jeff Booth",
+    "affiliation": "The Price of Tomorrow",
+    "photo": "/uploads/speakers/jeff-booth.jpg",
+    "profile": "https://www.linkedin.com/in/jeffdbooth/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Jesse Posner",
+    "affiliation": "Vora",
+    "photo": "/uploads/speakers/jesse-posner.jpg",
+    "profile": "https://www.linkedin.com/in/jesseposner/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Joe Kelly",
+    "affiliation": "Unchained",
+    "photo": "/2025/Joe-Kelly.jpg",
+    "profile": "https://x.com/josephkelly",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Joe Liemandt",
+    "affiliation": "Alpha School",
+    "photo": "/uploads/speakers/joe-liemandt.jpg",
+    "profile": "https://www.linkedin.com/in/liemandt/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "John Arnold",
+    "affiliation": "Ten31",
+    "photo": "/2025/John-Arnold.jpg",
+    "profile": "https://www.linkedin.com/in/john-arnold-75013549/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Jonathan Kirkwood",
+    "affiliation": "Ten31",
+    "photo": "/uploads/speakers/jonathan-kirkwood.png",
+    "profile": "https://www.linkedin.com/in/jonathan-kirkwood-md-mba-863497253/",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Jonathan Skrmetti",
+    "affiliation": "State of Tennessee",
+    "photo": "/2025/Jonathan-Skrmetti.jpg",
+    "profile": "https://www.linkedin.com/in/jonathan-skrmetti/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Justin Maierhofer",
+    "affiliation": "Tennessee Electric Cooperative Association",
+    "photo": "/uploads/speakers/justin-maierhofer.jpg",
+    "profile": "https://www.linkedin.com/in/jmaierhofer/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Kara Sutton",
+    "affiliation": "Meta AI",
+    "photo": "/2025/Kara-Sutton.png",
+    "profile": "https://www.linkedin.com/in/kasutton/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html"
+  },
+  {
+    "name": "Lorenzo Valente",
+    "affiliation": "ARK Invest",
+    "photo": "/uploads/speakers/lorenzo-valente.jpg?v=2",
+    "profile": "https://www.linkedin.com/in/lorenzo-valente-71308512a/",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Luke Pettit",
+    "affiliation": "U.S. Department of the Treasury",
+    "photo": "/uploads/speakers/luke-pettit.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Mario Gutierrez",
+    "affiliation": "TeraWulf",
+    "photo": "/uploads/speakers/mario-gutierrez.webp",
+    "profile": "https://www.linkedin.com/in/mario-andres-gutierrez/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Mark Suman",
+    "affiliation": "Maple AI",
+    "photo": "/2025/Marks.jpg",
+    "profile": "https://x.com/marks_ftw",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Marsha Blackburn",
+    "affiliation": "Tennessee",
+    "photo": "/uploads/speakers/marsha-blackburn.jpg?v=2",
+    "profile": "https://x.com/marshablackburn",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Marty Bent",
+    "affiliation": "Ten31 / TFTC",
+    "photo": "/2025/Marty-Bent.jpeg",
+    "profile": "https://x.com/MartyBent",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Matt Beasley",
+    "affiliation": "Silicon Ranch",
+    "photo": "/agenda26/assets/matt-beasley.png",
+    "profile": "https://www.linkedin.com/in/matt-beasley-7229154",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Matt McClintock",
+    "affiliation": "Bespoke Group",
+    "photo": "/2025/Matt-McClintock.png",
+    "profile": "https://www.linkedin.com/in/mattmcclintock/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html"
+  },
+  {
+    "name": "Matt Odell",
+    "affiliation": "Ten31",
+    "photo": "/2025/Odell.jpeg",
+    "profile": "https://primal.net/odell",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Matt Schultz",
+    "affiliation": "CleanSpark",
+    "photo": "/uploads/speakers/matt-schultz.jpg",
+    "profile": "https://www.linkedin.com/in/s-matthew-schultz-19400447/",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Matt Van Epps",
+    "affiliation": "U.S. Congress",
+    "photo": "/agenda26/assets/matt-van-epps.webp",
+    "profile": "https://x.com/repvanepps",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Matthew Pines",
+    "affiliation": "Bitcoin Policy Institute",
+    "photo": "/2025/Matthew-Pines.png",
+    "profile": "https://www.linkedin.com/in/matthew-pines-46377a8/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Matthew Rasmussen",
+    "affiliation": "Tennessee Valley Authority",
+    "photo": "/2025/Photo - Rasmussen.jpg",
+    "profile": "https://www.linkedin.com/in/matthew-rasmussen-0a10b384/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Max Kei",
+    "affiliation": "Debifi",
+    "photo": "/2025/Max-Keidun.png",
+    "profile": "https://www.linkedin.com/in/mkei/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Michael Goldstein",
+    "affiliation": "Satoshi Nakamoto Institute",
+    "photo": "/uploads/speakers/michael-goldstein.jpg",
+    "profile": "https://x.com/bitstein",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Mike Colyer",
+    "affiliation": "Foundry",
+    "photo": "/2025/Mike-Colyer.png",
+    "profile": "https://www.linkedin.com/in/colyermike/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html"
+  },
+  {
+    "name": "Nacho Pauls",
+    "affiliation": "OCEAN",
+    "photo": "/uploads/speakers/nacho-pauls.jpg",
+    "profile": "https://www.linkedin.com/in/nacho-pauls-67501b115/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Nick Elliot",
+    "affiliation": "Innovation Council Action",
+    "photo": "/uploads/speakers/nick-elliot.png",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Nick Mondrik",
+    "affiliation": "IonQ",
+    "photo": "/uploads/speakers/nick-mondrik.jpg",
+    "profile": "https://www.linkedin.com/in/nicholas-mondrik/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Nikki Hashemian Sizemore",
+    "affiliation": "Kairos Power",
+    "photo": "/2025/Nikki-Hashemian.jpeg",
+    "profile": "https://www.linkedin.com/in/nikki-hashemian-sizemore-19039258/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Obi Nwosu",
+    "affiliation": "Fedi",
+    "photo": "/uploads/speakers/obi-nwosu.webp",
+    "profile": "https://uk.linkedin.com/in/obinwosu",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Parker Lewis",
+    "affiliation": "Zaprite",
+    "photo": "/uploads/speakers/parker-lewis.jpg",
+    "profile": "https://www.linkedin.com/in/parker-lewis-ab904669/",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Patrick Brown",
+    "affiliation": "Centrus Energy",
+    "photo": "/2025/Profile pic_Patrick Brown.jpg",
+    "profile": "https://www.linkedin.com/in/patricksbrown/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Paul Itoi",
+    "affiliation": "Stakwork",
+    "photo": "/uploads/speakers/paul-itoi.png",
+    "profile": "https://x.com/paulitoi",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Philip Walton",
+    "affiliation": "Gridless",
+    "photo": "/2025/Philip-Walton.jpg",
+    "profile": "https://www.linkedin.com/in/philip-walton-gridless/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Rapha Zagury",
+    "affiliation": "Twenty One Capital",
+    "photo": "/uploads/speakers/rapha-zagury.jpg?v=2",
+    "profile": "https://www.linkedin.com/in/rzagury/",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "René Ángel",
+    "affiliation": "The Reynolds Foundation",
+    "photo": "/uploads/speakers/rene-angel.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Rob Hamilton",
+    "affiliation": "AnchorWatch",
+    "photo": "/uploads/speakers/rob-hamilton.jpg",
+    "profile": "https://www.linkedin.com/in/anchorwatch-rob/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Robert Warren",
+    "affiliation": "Bitcoin Park",
+    "photo": "/2025/Rob-Warren.png",
+    "profile": "https://www.linkedin.com/in/robert-warren-bitcoin/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Rockstar Dev",
+    "affiliation": "BTCPay Server",
+    "photo": "/2025/r0ckstar-dev.png",
+    "profile": "https://x.com/r0ckstardev",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Rod Roudi",
+    "affiliation": "Bitcoin Park",
+    "photo": "/uploads/speakers/rod-roudi-linkedin.jpg",
+    "profile": "https://www.linkedin.com/in/rodroudi/",
+    "photo_position": "center 25%",
+    "years": [
+      2025,
+      2026
+    ],
+    "source": "2025/if-schedule-2025.html; if26/data.js"
+  },
+  {
+    "name": "Rory Murray",
+    "affiliation": "CleanSpark",
+    "photo": "/2025/Rory-Murray.png",
+    "profile": "https://www.linkedin.com/in/r-c-murray/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Russ Greene",
+    "affiliation": "Prime Mover Institute",
+    "photo": "/uploads/speakers/russ-greene.webp",
+    "profile": "https://www.linkedin.com/in/russ-greene-b1703513/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Ryan Gentry",
+    "affiliation": "Bitcoin Infrastructure Acquisition Corp",
+    "photo": "/2025/Ryan-Gentry.jpeg",
+    "profile": "https://www.linkedin.com/in/ryan-gentry/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html"
+  },
+  {
+    "name": "Ryan Norris",
+    "affiliation": "Abundance Institute",
+    "photo": "/uploads/speakers/ryan-norris.jpg",
+    "profile": "https://www.linkedin.com/in/ryanwnorris/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Scott Harrison",
+    "affiliation": "charity: water",
+    "photo": "/uploads/speakers/scott-harrison.jpg",
+    "profile": "https://www.linkedin.com/in/scottharrison1/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Sean Bill",
+    "affiliation": "Blockstream",
+    "photo": "/2025/Sean-Bill.png",
+    "profile": "https://www.linkedin.com/in/seanbill/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Sean James",
+    "affiliation": "NVIDIA",
+    "photo": "/uploads/speakers/sean-james.jpg",
+    "profile": "https://www.linkedin.com/in/sean-james-6592524/",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Seb Sheng",
+    "affiliation": "Brick AI",
+    "photo": "/uploads/speakers/seb-sheng.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Shawn Yeager",
+    "affiliation": "Trust Revolution",
+    "photo": "/2025/Shawn-Yeager.png",
+    "profile": "https://primal.net/shawn",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Skot9000",
+    "affiliation": "Bitaxe",
+    "photo": "/2025/Skot.png",
+    "profile": "https://x.com/skot9000",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Stephan Livera",
+    "affiliation": "Stephan Livera Podcast",
+    "photo": "/2025/Stephan-Livera.png",
+    "profile": "https://x.com/stephanlivera",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Stuart McWhorter",
+    "affiliation": "State of Tennessee",
+    "photo": "/agenda26/assets/stuart-mcwhorter.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Trey Sellers",
+    "affiliation": "Strike",
+    "photo": "/agenda26/assets/trey-sellers.jpg",
+    "profile": "",
+    "photo_position": "center 25%",
+    "years": [
+      2026
+    ],
+    "source": "if26/data.js"
+  },
+  {
+    "name": "Troy Cross",
+    "affiliation": "Reed College",
+    "photo": "/2025/Troy-Cross.png",
+    "profile": "https://www.linkedin.com/in/troy-cross-88315818/",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  },
+  {
+    "name": "Tyler Stevens",
+    "affiliation": "Bitcoin Infrastructure Acquisition Corp",
+    "photo": "/2025/Tyler-Stevens.png",
+    "profile": "https://x.com/tylerkstevens",
+    "photo_position": "center 25%",
+    "years": [
+      2025
+    ],
+    "source": "2025/index_imagineif.html; 2025/if-schedule-2025.html"
+  }
+]
