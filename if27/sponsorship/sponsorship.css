@@ -40,7 +40,7 @@
 }
 
 .sheet-dates li + li {
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .sponsor-copy {
@@ -64,11 +64,15 @@
 .sponsor-lead,
 .ticket-lead {
   margin: 0;
-  max-width: 78ch;
+  max-width: 68ch;
   font-size: 17px;
-  line-height: 1.55;
+  line-height: 1.65;
   font-weight: 500;
   color: #3b3f7a;
+}
+
+.sponsor-lead + .sponsor-lead {
+  margin-top: 12px;
 }
 
 .sponsor-lead strong,
@@ -108,7 +112,7 @@
   border: 1px solid rgba(7, 12, 112, 0.1);
   border-radius: 3px;
   font-size: 15px;
-  line-height: 1.45;
+  line-height: 1.6;
   font-weight: 500;
   color: #3b3f7a;
 }
@@ -117,6 +121,11 @@
   display: block;
   margin-bottom: 6px;
   font-size: 16px;
+}
+
+.ticket-detail {
+  display: block;
+  margin-top: 6px;
 }
 
 .ticket-types .price {
@@ -363,7 +372,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   margin: 0;
   padding: 0;
 }
@@ -373,7 +382,7 @@
   margin: 0;
   padding-left: 16px;
   font-size: 15px;
-  line-height: 1.45;
+  line-height: 1.6;
   font-weight: 500;
   color: #3b3f7a;
 }
@@ -390,6 +399,8 @@
 }
 
 .block strong {
+  display: block;
+  margin-bottom: 4px;
   color: var(--navy);
   font-weight: 700;
 }
@@ -408,6 +419,10 @@
   line-height: 1.5;
   font-weight: 500;
   color: #3b3f7a;
+}
+
+.sponsor-build p + p {
+  margin-top: 8px;
 }
 
 .sponsor-build .build-lead {
