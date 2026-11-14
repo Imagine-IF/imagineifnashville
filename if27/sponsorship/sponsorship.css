@@ -39,8 +39,18 @@
   color: #3b3f7a;
 }
 
-.sheet-dates li + li {
-  margin-top: 8px;
+.sheet-dates > div + div {
+  margin-top: 12px;
+}
+
+.sheet-dates dt {
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.sheet-dates dd {
+  margin: 2px 0 0;
+  overflow-wrap: anywhere;
 }
 
 .sponsor-copy {
